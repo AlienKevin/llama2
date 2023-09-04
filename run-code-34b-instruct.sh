@@ -1,6 +1,7 @@
 cd llama.cpp
 
 ./main \
+    --grammar-file grammars/hazel.gbnf \
     -t 10 \
     -ngl 32 \
     -m models/codellama-34b-instruct.Q5_K_M.gguf \
