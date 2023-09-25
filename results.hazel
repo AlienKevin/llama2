@@ -1,0 +1,117 @@
+let List.equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
+  fun p, xs, ys ->
+    case xs, ys
+      | [], [] => true
+      | x::xs, y::ys => p(x, y) && List.equal(p, xs, ys)
+| _ => false end in
+test List.equal(fun a, b -> a == b, [0, 1, 2], [0, 1, 2]) end;
+
+let List.rev: [?] -> [?] =
+  fun l -> 
+    let go: ([?], [?]) -> [?] =
+      fun xs, acc -> 
+        case xs 
+          | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+#---- List.filter ----#
+#Code Llama#
+ let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+      | [] => []
+| x::xs => if p(x) then x :: List.filter(p, xs) else List.filter(p, xs) end in
+test List.equal(fun a, b -> a == b, List.filter(fun x -> x!= 2, [1, 2, 3]), [1, 3]) end;
+
+#GPT4#
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+      | [] => []
+| hd::tl => if p(hd) then hd::(List.filter(p, tl)) else List.filter(p, tl) end in
+test List.equal(fun a, b -> a == b, List.filter(fun x -> x!= 2, [1, 2, 3]), [1, 3]) end;
+
+#---- List.mapi ----#
+#Code Llama#
+let List.mapi: ((Int, Int) -> Int, [Int]) -> [Int] =  
+  fun f, xs ->
+    case xs
+      | [] => []
+    | x::xs => (f(0,x)) :: List.mapi((fun i, y -> f(i + 1, y)), xs) end
+in
+test List.equal(fun a, b -> a == b,
+List.mapi(fun i, x -> i, [1, 2, 3, 4]), [0, 1, 2, 3]) end;
+
+#GPT4#
+let List.mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    let go: (Int, [Int], [Int]) -> [Int] =
+      fun idx, xs, acc ->
+        case xs
+          | [] => List.rev(acc)
+    | hd::tl => go(idx + 1, tl, f(idx, hd)::acc) end in
+go(0, xs, []) in
+test List.equal(fun a, b -> a == b,
+List.mapi(fun i, x -> i * x, [1, 2, 3]), [0, 2, 6]) end;
+
+#---- List.find ----#
+#Code Llama#
+let List.find: (Int -> Bool, [Int]) -> Int =  
+  fun p, xs ->
+    case xs
+      | [] => ?
+| x::xs => if p(x) then 0 else 1 + List.find(p, xs) end in
+test List.find(fun x -> x == 2, [0, 1, 2]) == 2 end
+
+#GPT4#;
+let List.find: (Int -> Bool, [Int]) -> Int =
+  fun p, xs ->
+    case xs
+      | [] => -1
+| hd::tl => if p(hd) then hd else List.find(p, tl) end in
+test List.find(fun x -> x == 2, [0, 1, 2]) == 2 end;
+
+#---- List.filter_map ----#
+#Code Llama#
+let List.filter_map: (Int -> ?, [Int]) -> [Int] = fun p, xs ->
+  case xs
+    | [] => []
+    | x::xs => match p(x) with
+      | None -> List.filter_map(p, xs)
+      | Some y -> y :: List.filter_map(p, xs) end in 
+test List.equal(fun a, b -> a == b, List.filter_map(fun x -> if x == 2 then ? else x + 1, [1, 2, 3]), [2, 4]) end 
+
+#GPT4#
+let List.filter_map: (Int -> ?a option, [Int]) -> [Int] =
+fun p, xs ->
+    let rec go = fun l, acc ->
+    case l
+    | [] -> List.rev(acc)
+    | hd::tl =>
+        match p(hd) with
+        | None -> go(tl, acc)
+        | Some(x) -> go(tl, x::acc)
+end
+in go(xs, []) in
+test List.equal(fun a, b -> a == b, List.filter_map(fun x -> if x == 2 then None else Some(x + 1), [1, 2, 3]), [2, 4]) end
+
+#---- List.append ----#
+# Prompt with a purposefully wrong return type: let List.append: (([Int], [Int]) -> Int) = fun xs, ys ->#
+#Code Llama#
+#Everything is correct except the given wrong return type is nott changed#
+let List.append: (([Int], [Int]) -> Int) = fun xs, ys ->
+    case xs
+    | [] => ys
+| x::xs => x :: List.append(xs, ys) end in
+test List.equal(fun a, b -> a == b, List.append([1, 2], [3, 4]), [1, 2, 3, 4]) end;
+
+#GPT4#
+#Auto changed the return type to [Int]#
+let List.append: ([Int], [Int]) -> [Int] =
+    fun xs, ys ->
+    case xs
+        | [] => ys
+| hd::tl => hd::List.append(tl, ys) end in
+test List.equal(fun a, b -> a == b, List.append([1, 2], [3, 4]), [1, 2, 3, 4]) end 
+
