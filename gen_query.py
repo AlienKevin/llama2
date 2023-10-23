@@ -18,10 +18,4 @@ if i < 0 or i >= len(queries):
     print(f"Error: Index out of range. Valid range is 0-{len(queries)-1}.")
     sys.exit(1)
 
-prompt = [
-    "USER: ",
-    "ASSISTANT: ",
-]
-
-print(prompt[0] + queries[i].strip().replace("\n", "\\\n") + "\\")
-print(prompt[1], end="")
+print("<s>[INST] " + queries[i].strip().replace("\n", "\\\n") + " [/INST]")

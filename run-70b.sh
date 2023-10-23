@@ -1,7 +1,7 @@
 cd llama.cpp.70b
 
 # Run in interactive mode
-./main -m ./models/llama-2-70b-chat.ggmlv3.q4_0.bin \
+./main -m ../models/llama-2-70b-chat.ggmlv3.q4_0.bin \
   --color \
   --ctx_size 2048 \
   -n -1 \
