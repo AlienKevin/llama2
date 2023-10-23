@@ -1,15 +1,14 @@
 cd llama.cpp
 
-# --grammar-file grammars/hazel.gbnf \
-
 ./main \
+    --grammar-file grammars/hazel.gbnf \
     -t 10 \
-    -ngl 32 \
-    -b 256 \
+    -ngl 64 \
+    -b 512 \
     -m models/codellama-34b.Q5_K_M.gguf \
-    --color -c 2048 \
+    --color -c 3100 \
     --temp 0.7 \
     --repeat_penalty 1.1 \
     -n -1 \
     -i -ins\
-    -f ../prompt.txt
+    -f ../prompt_adt.txt

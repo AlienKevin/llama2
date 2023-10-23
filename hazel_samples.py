@@ -143,6 +143,60 @@ queries = [
 "let List.filter: (Int -> Bool, [Int]) -> [Int] = fun p, xs -> ?? in test List.equal(fun a, b -> a == b, List.filter(fun x -> x != 2, [1, 2, 3]), [1, 3]) end",
 "let List.append: (([Int], [Int]) -> Int) = fun xs, ys -> ?? in test List.equal(fun a, b -> a == b, List.append([1, 2], [3, 4]), [1, 2, 3, 4]) end",
 "let List.mapi: ((Int, Int) -> Int, [Int]) -> [Int] = fun f, xs -> ?? in test List.equal(fun a, b -> a == b, List.mapi(fun i, x -> i * x, [1, 2, 3]), [0, 2, 6]) end",
-"let List.find: (Int -> Bool, [Int]) -> Int = fun p, xs -> ?? in test List.find(fun x -> x == 2, [0, 1, 2]) == 3 end",
-"let List.filter_map: (Int -> ?, [Int]) -> [Int] = fun p, xs -> ?? in test List.equal(fun a, b -> a == b, List.filter_map(fun x -> if x == 2 then ? else x + 1, [1, 2, 3]), [2, 4]) end"
+"let List.find: (Int -> Bool, [Int]) -> OptionInt = fun p, xs -> ?? in test OptionInt.equal(List.find(fun x -> x == 2, [0, 1, 2]), Some(2)) end",
+"let List.filter_map: (Int -> ?, [Int]) -> [Int] = fun p, xs -> ?? in test List.equal(fun a, b -> a == b, List.filter_map(fun x -> if x == 2 then ? else x + 1, [1, 2, 3]), [2, 4]) end",
+"""\
+# An Expression is a variable, function, or application #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp) in
+# Syntatic Equality of Expressions #
+let exp_equal: (Exp, Exp) -> Bool =
+  fun es -> ??
+in
+test exp_equal(Ap(Lam("x", Var("x")), Var("y")), Ap(Lam("x", Var("x")), Var("y"))) end""",
+"""\
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp=
+  fun v, name, e ->
+  ??
+in
+test exp_equal(subst(Var("z"), "y", Ap(Lam("x", Var("x")), Var("y"))), Ap(Lam("x", Var("x")), Var("z"))) end;""",
+"""\
+# Evaluation can result in either an Exp or an Error #
+type Result =
+  + Error(String)
+  + Ok(Exp) 
+in
+let result_equal: (Result, Result) -> Bool =
+fun rs ->
+  case rs
+    | Ok(e1), Ok(e2) => exp_equal(e1, e2)
+    | Error(e1), Error(e2) => e1 $== e2
+    | _ => false
+  end
+in
+
+# Evaluation by substitution #
+let eval: Exp -> Result =
+  fun e ->
+    ??
+in
+test result_equal(
+  eval(Var("yo")),
+  Error("Free Variable")) end;
+
+test result_equal(
+  eval(Ap(Var("no"), Lam("bro", Var("bro")))),
+  Error("Not a Function")) end;
+
+test result_equal(
+  eval(Lam("yo", Var("yo"))),
+  Ok(Lam("yo", Var("yo")))) end;
+
+test result_equal(
+  eval(Ap(Lam("yo", Var("yo")), Lam("bro", Var("bro")))),
+  Ok(Lam("bro", Var("bro")))) end
+"""
 ]

@@ -1,0 +1,189 @@
+You are a coding assistant whose job is to complete the holes marked as ?? in a sketch and turn it into a full program.
+
+Here are some built-in types in the standard library:
+
+type OptionInt =
+  + Some(Int)
+  + None
+in
+
+type Result =
+  + Ok( )
+  + Err( ) 
+in
+
+type Value =
+  + Object([(String, Value)])
+  + Array([Value])
+  + Str(String)
+  + Number(Float)
+  + Boolean(Bool)
+  + Null 
+in
+
+Here are some example sketches and their corresponding programs:
+
+USER: let OptionInt.equal: (OptionInt, OptionInt) -> Bool = fun o -> ?? in test OptionInt.equal(Some(1), Some(1)) end
+ASSISTANT: let OptionInt.equal: (OptionInt, OptionInt) -> Bool =
+  fun o ->
+    case o
+      | (Some(x), Some(y)) => x == y
+      | (None, None) => true
+    end
+in
+test OptionInt.equal(Some(1), Some(1)) end
+
+USER: let result_equal : ((?, ?) -> Bool, (?, ?) -> Bool, Result, Result) -> Bool =
+  fun (ok_equal, err_equal, r1, r2) -> ?? in
+test !result_equal(fun a, b -> a == b, fun a, b -> a $== b, Ok(1), Ok(2)) end
+ASSISTANT: let result_equal : ((?, ?) -> Bool, (?, ?) -> Bool, Result, Result) -> Bool =
+fun (ok_equal, err_equal, r1, r2) ->
+  case r1, r2
+    | Ok(o1), Ok(o2) => ok_equal(o1, o2)
+    | Err(e1), Err(e2) => err_equal(e1, e2)
+    | _ => false 
+  end
+in
+test !result_equal(fun a, b -> a == b, fun a, b -> a $== b, Ok(1), Ok(2)) end
+
+USER: let result_map : ((? -> ?), Result) -> Result = fun (map, res) -> ?? in
+test result_equal(fun a, b -> a == b, fun a, b -> a $== b, result_map(fun x -> x + 1, Ok(1)), Ok(2)) end
+ASSISTANT: let result_map : ((? -> ?), Result) -> Result =
+  fun (map, res) ->
+    case res 
+      | Ok(o) => Ok(map(o))
+      | Err(_) => res 
+    end
+in
+test result_equal(fun a, b -> a == b, fun a, b -> a $== b, result_map(fun x -> x + 1, Ok(1)), Ok(2)) end
+
+USER: let result_map_err : ((? -> Result), Result) -> Result = fun (map, res) -> ?? in
+test result_equal(fun a, b -> a == b, fun a, b -> a $== b, result_map_err(fun _ -> Ok(2), Ok(1)), Ok(1)) end
+ASSISTANT: let result_map_err : ((? -> Result), Result) -> Result =
+  fun (map, res) ->
+    case res
+      | Ok(o) => Ok(o)
+      | Err(e) => map(e) 
+    end
+  in
+test result_equal(fun a, b -> a == b, fun a, b -> a $== b, result_map_err(fun _ -> Ok(2), Ok(1)), Ok(1)) end
+
+USER: let value_equal : (Value,Value) -> Bool =
+  fun a, b -> ??
+in
+test value_equal(Array([Number(1.)]), Array([Number(1.)])) end;
+test !value_equal(Array([Number(1.)]), Array([Number(2.)])) end;
+test value_equal(Object([("x", Str("s1"))]), Object([("x", Str("s1"))])) end;
+test !value_equal(Object([("x", Str("s1"))]), Array([Number(2.)])) end;
+test !value_equal(Object([("x", Str("s1"))]), Object([("y", Str("s1"))])) end;
+ASSISTANT: let value_equal : (Value,Value) -> Bool =
+  fun a, b ->
+    case (a, b)
+      | Object(o1), Object(o2) => list_equal(
+        fun (s1, v1), (s2, v2) ->
+            s1 $== s2 && value_equal(v1, v2), o1, o2)
+      | Array(a1), Array(a2) => list_equal(value_equal, a1, a2)
+      | Str(s1), Str(s2) => s1 $== s2
+      | Number(n1), Number(n2) => n1 ==. n2
+      | Boolean(b1), Boolean(b2) => if b1 then b2 else !b2
+      | Null, Null => true
+      | _ => false
+    end
+in
+test value_equal(Array([Number(1.)]), Array([Number(1.)])) end;
+test !value_equal(Array([Number(1.)]), Array([Number(2.)])) end;
+test value_equal(Object([("x", Str("s1"))]), Object([("x", Str("s1"))])) end;
+test !value_equal(Object([("x", Str("s1"))]), Array([Number(2.)])) end;
+test !value_equal(Object([("x", Str("s1"))]), Object([("y", Str("s1"))])) end;
+
+USER: let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> ?? in test List.cons(1, []) == [1] end
+ASSISTANT: let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in test List.cons(1, []) == [1] end
+
+USER: let List.length: [Int] -> Int = fun xs -> ?? in test List.length([1, 2]) == 2 end
+ASSISTANT: let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+      | [] => 0
+      | _::xs => 1 + List.length(xs) end in test List.length([1, 2]) == 2 end
+
+USER: let List.hd: [Int] -> OptionInt = fun l -> ?? in test OptionInt.equal(List.hd([1, 2]), Some(1)) end
+ASSISTANT: let List.hd: [Int] -> Int =
+  fun l ->
+    case l
+      | [] => None
+      | x::xs => Some(x) end in test OptionInt.equal(List.hd([1, 2]), Some(1)) end
+
+USER: let List.tl: [Int] -> [Int] = fun l -> ?? in test List.tl([1, 2]) == 2 end
+ASSISTANT: let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+      | [] => []
+      | x::xs => xs end in test List.tl([1, 2]) == 2 end
+
+USER: let List.is_empty: [Int] -> Bool = fun xs -> ?? in test List.is_empty([]) == true end
+ASSISTANT: let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+      | [] => true
+      | _::_ => false end in test List.is_empty([]) == true end
+
+USER: let List.nth: ([Int], Int) -> OptionInt = fun xs, n -> ?? in
+test OptionInt.equal(List.nth([7, 8, 9], 2), Some(9)) end
+ASSISTANT: let List.nth: ([Int], Int) -> Int =
+  fun xs, n ->
+    case xs, n
+      | x::_, 0 => x
+      | _::xs, n => List.nth(xs, n - 1)
+      | [], _ => None end in
+test OptionInt.equal(List.nth([7, 8, 9], 2), Some(9)) end
+
+USER: let List.rev: [Int] -> [Int] = fun l -> ?? in test List.rev([1, 2, 3]) == [3, 2, 1] end
+ASSISTANT: let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+      | [] => acc 
+      | x::xs => go(xs, x::acc) end in
+go(l, []) in test List.rev([1, 2, 3]) == [3, 2, 1] end
+
+USER: let List.equal: ((Int, Int) -> Bool, [Int], [Int]) -> Bool = fun p, xs, ys -> ?? in
+test List.equal(fun a, b -> a == b, [1, 2, 3], [1, 2, 3]) end
+ASSISTANT: let List.equal: ((Int, Int) -> Bool, [Int], [Int]) -> Bool =
+fun p, xs, ys ->
+case xs, ys
+  | [], [] => true
+  | x::xs, y::ys => p(x, y) && List.equal(p, xs, ys)
+  | _ => false end in
+test List.equal(fun a, b -> a == b, [1, 2, 3], [1, 2, 3]) end
+
+USER: let List.init: (Int, Int -> Int) -> [Int] = fun len, f -> ?? in
+test List.equal(fun a, b -> a == b, List.init(3, fun idx -> idx), [0, 1, 2]) end
+ASSISTANT: let List.init: (Int, Int -> Int) -> [Int] =
+fun len, f ->
+let go: (Int, [Int]) -> [Int] =
+fun idx, xs ->
+  if idx < len 
+    then go(idx + 1, xs @ [f(idx)])
+      else xs in
+        go(0, []) in
+test List.equal(fun a, b -> a == b, List.init(3, fun idx -> idx), [0, 1, 2]) end
+
+USER: let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int = ?? in
+test List.fold_left(fun x, acc -> x + acc, 0, [1, 2, 3]) == 6 end
+ASSISTANT: let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+      | [] => acc
+      | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+test List.fold_left(fun x, acc -> x + acc, 0, [1, 2, 3]) == 6 end
+
+USER: let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int = fun f, xs, acc -> ?? in
+test List.fold_right(fun (x, acc) -> x + acc, 0, [1, 2, 3]) == 6 end
+ASSISTANT: let List.fold_right: ((Int, Int)-> Int, [Int], Int)-> Int =
+  fun f, xs, acc ->
+    case xs
+      | [] => acc
+      | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+test List.fold_right(fun (x, acc) -> x + acc, 0, [1, 2, 3]) == 6 end
+

@@ -3,7 +3,7 @@ import sys
 
 # Check if an argument has been provided
 if len(sys.argv) < 2:
-    print("Usage: python script_name.py <index>")
+    print("Usage: python gen_query.py <index>")
     sys.exit(1)
 
 # Get the index 'i' from the command line
@@ -23,5 +23,5 @@ prompt = [
     "ASSISTANT: ",
 ]
 
-print(prompt[0] + queries[i].strip() + "\\")
+print(prompt[0] + queries[i].strip().replace("\n", "\\\n") + "\\")
 print(prompt[1], end="")
