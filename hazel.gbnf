@@ -50,7 +50,7 @@ fun ::= "fun" ws pat (w ":" ws typ)? ws "->" ws exp
 
 type-variable ::= [A-Z][A-Za-z0-9_]*
 constructor ::= [A-Z][A-Za-z0-9_]*
-variable ::= [a-z][A-Za-z0-9_]*
+variable ::= [a-z][A-Za-z0-9_.]*
 bool ::= "true" | "false"
 integer ::= [0-9]+
 float ::= [0-9]* "." [0-9]+
