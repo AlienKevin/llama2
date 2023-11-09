@@ -1,0 +1,317 @@
+### Option ###
+
+# Represent values that may or may not exist. #
+type Option =
+  + Some(?)
+  + None
+in
+
+let equal: ((?, ?) -> Bool) -> (Option, Option) -> Bool =
+    fun eq, os ->
+        case os
+        | Some(x), Some(y) => eq(x, y)
+        | None, None => True
+        | _, _ => False
+        end
+in
+
+### Result ###
+
+# A Result is either Ok meaning the computation succeeded, #
+# or it is an Err meaning that there was some failure. #
+type Result =
+  + Ok(?)
+  + Err(?)
+in
+
+let equal: ((?, ?) -> Bool) -> (Result, Result) -> Bool =
+    fun eq, rs ->
+        case rs
+        | Ok(e1), Ok(e2) => eq(e1, e2)
+        | Error(e1), Error(e2) => e1 $== e2
+        | _ => false
+        end
+in
+
+
+### JSON ###
+# This module helps you convert between Hazel values and JSON values. #
+
+# A JSON value type #
+type Value =
+  + Object([(String, Value)])
+  + Array([Value])
+  + Str(String)
+  + Number(Float)
+  + Boolean(Bool)
+  + Null 
+in
+
+# Check if two JSON values are equal #
+let equal : (Value,Value) -> Bool =
+fun a, b ->
+    case (a, b)
+    | Object(o1), Object(o2) => list.equal(
+        fun (s1, v1), (s2, v2) ->
+            s1 $== s2 && equal(v1, v2), o1, o2)
+    | Array(a1), Array(a2) => list.equal(equal, a1, a2)
+    | Str(s1), Str(s2) => s1 $== s2
+    | Number(n1), Number(n2) => n1 ==. n2
+    | Boolean(b1), Boolean(b2) => if b1 then b2 else !b2
+    | Null, Null => true
+    | _ => false
+  end 
+in
+
+# JSON Encoder #
+
+# Convert a string to a JSON string #
+let value_of_string : String -> Value =
+    fun s -> Str(s) 
+in
+# Convert an integer to a JSON integer #
+let value_of_int : Int -> Value =
+    fun i -> Number(float_of_int(i)) 
+in
+# Convert a float to a JSON float #
+let value_of_float : Float -> Value =
+    fun f -> Number(f) 
+in
+# Convert a boolean to a JSON boolean #
+let value_of_bool : Bool -> Value =
+    fun b -> if b then Boolean(true) else Boolean(false)
+in
+# Convert a null to a JSON null #
+let value_of_null : Value = Null in
+
+# Convert a list of JSON values to a JSON array #
+let value_of_list : (? -> Value, [?]) -> Value =
+  fun (func, entries) ->
+    Array(
+      list.rev(list.fold_left(
+        fun l, e-> func(e)::l, [], entries)))
+in
+
+# Convert a dictionary of JSON values to a JSON object #
+let value_of_object : [(String, Value)] -> Value =
+    fun entries -> Object(entries)
+in
+
+# JSON Decoder #
+# A Decoder decodes a JSON value into a Hazel value, or return an Err on failure. #
+type Decoder = Value -> Result in
+
+# Decodes a JSON string into a string #
+let string_of_value : Decoder =
+    fun v ->
+        case v
+        | Str(s) => Ok(s)
+        | _ => Err("Cannot unpack value as a String")
+        end
+in
+
+# Decodes a JSON boolean into a boolean #
+let bool_of_value : Decoder =
+  fun v ->
+    case v
+    | Boolean(b) => Ok(b)
+    | _ => Err("Cannot unpack value as a Bool")
+    end
+in
+
+# Decodes a JSON integer into an integer #
+let int_of_value : Decoder =
+    fun v ->
+        case v
+        | Number(n) =>
+            if floor(n) ==. n then
+                # n is a whole number #
+                Ok(floor(n))
+            else
+                # n is a floating point #
+                Err("Cannot unpack a float value as an Int")
+        | _ => Err("Cannot unpack value as an Int") 
+        end
+in
+
+# Decodes a JSON float into a float #
+let float_of_value : Decoder =
+fun v ->
+    case v
+    | Number(n) => Ok(floor(n))
+    | _ => Err("Cannot unpack value as a Float")
+    end
+in
+
+# Decodes a JSON null into a null #
+let null_of_value : Decoder =
+  fun v ->
+    case v
+    | Null => Ok(None)
+    | _ => Err("Cannot unpack value as a None")
+    end
+in
+
+# Parsers #
+# Try a bunch of different decoders. #
+# This can be useful if the JSON may come in a couple different formats. #
+let one_of : [Decoder] -> Decoder =
+    fun decoders -> fun v ->
+        case decoders
+        | decoder::decoders =>
+            result_map_err(fun _ -> one_of(decoders)(v), decoder(v))
+        | [] => Err("one_of failed to decode value")
+        end
+    in
+
+# Transform a decoder. #
+let map : ((? -> ?), Decoder) -> Decoder =
+    fun (func, decoder) -> fun v ->
+        decoder(v)
+in
+
+# Create decoders that depend on previous results. #
+let and_then: ((? ->Decoder), Decoder) -> Decoder =
+    fun (func, decoder) ->
+        fun v ->
+            case decoder(v) 
+            | Err(e) => Err(e)
+            | Ok(o)=> func(o)(v)
+            end
+in
+
+# Decode a nullable JSON value into a Hazel value. #
+let nullable : Decoder -> Decoder =
+    fun decoder ->
+        one_of([
+            map(fun s -> Some(s), decoder),
+            null_of_value
+        ])
+in
+
+# Decode a JSON array into a Hazel List. #
+let list : Decoder -> Decoder =
+    fun elem_decoder ->
+    fun v ->
+        case v 
+        | Array(arr) => 
+    case arr 
+    | head::tail =>
+    case elem_decoder(head) 
+    | Ok(hd) => map(fun tl -> hd::tl, list(elem_decoder))(Array(tail))
+    | Err(e) => Err(e)
+        end
+        | [] => Ok([])
+        end
+    | _ => Err("Cannot unpack value as a List")
+    end
+in
+
+# Decode a JSON object into a Hazel dictionary. #
+# For now, a dictionary is just a list of key-value pairs #
+let dict : Decoder -> Decoder =
+  fun value_decoder ->
+    fun v ->
+        case v 
+        | Object(pairs) =>
+            case pairs
+            | (key, value)::tail =>
+                case value_decoder(value) 
+                | Ok(hd)=> map(fun tl -> (key, hd)::tl, dict(value_decoder))(Object(tail))
+                | Err(e) => Err(e)
+                end
+            | [] => Ok([])
+            end
+        | _ => Err("Cannot unpack value as a dict")
+        end
+in
+
+
+### List ###
+
+# Add an element to the front of a list. #
+let cons: (?, [?]) -> [?] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let length: [?] -> ? =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + length(xs) end in
+
+# Extract the first element of a list. #
+let hd: [?] -> ? =
+  fun l ->
+    case l
+    | [] => -1
+    | x::xs => x end in
+
+# Extract the rest of the list. #
+let tl: [?] -> [?] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let is_empty: [?] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Return the element at the index. #
+let nth: ([?], Int) -> ? =
+  fun xs, n ->
+    case xs, n
+    | x::_, 0 => x
+    | _::xs, n => nth(xs, n - 1)
+    | [], _ => ? end in
+
+# Reverse a List. #
+let rev: [?] -> [?] =
+fun l -> 
+let go: ([?], [?]) -> [?] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
+    fun p, xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => p(x, y) && equal(p, xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let init: (Int, ? -> ?) -> [?] =
+    fun len, f ->
+        let go: (Int, [?]) -> [?] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let fold_left: ((?, ?) -> ?, ?, [?]) -> ? =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let fold_right: ((?, ?)-> ?, [?], ?) -> ? =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, fold_right(f, tl, acc)) end in
+
+# Keep elements that satisfy the test. #
+let List.filter: (? -> Bool, [?]) -> [?] = fun p, xs ->

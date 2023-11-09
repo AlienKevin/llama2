@@ -1,0 +1,17 @@
+### Result ###
+
+# A Result is either Ok meaning the computation succeeded, #
+# or it is an Err meaning that there was some failure. #
+type Result =
+  + Ok(?)
+  + Err(?)
+in
+
+let equal: ((?, ?) -> Bool) -> (Result, Result) -> Bool =
+    fun eq, rs ->
+        case rs
+        | Ok(e1), Ok(e2) => eq(e1, e2)
+        | Error(e1), Error(e2) => e1 $== e2
+        | _ => false
+        end
+in

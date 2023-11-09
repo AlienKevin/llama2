@@ -1,0 +1,85 @@
+### List ###
+
+# Add an element to the front of a list. #
+let cons: (?, [?]) -> [?] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let length: [?] -> ? =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + length(xs) end in
+
+# Extract the first element of a list. #
+let hd: [?] -> ? =
+  fun l ->
+    case l
+    | [] => -1
+    | x::xs => x end in
+
+# Extract the rest of the list. #
+let tl: [?] -> [?] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let is_empty: [?] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Return the element at the index. #
+let nth: ([?], Int) -> ? =
+  fun xs, n ->
+    case xs, n
+    | x::_, 0 => x
+    | _::xs, n => nth(xs, n - 1)
+    | [], _ => ? end in
+
+# Reverse a List. #
+let rev: [?] -> [?] =
+fun l -> 
+let go: ([?], [?]) -> [?] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
+    fun p, xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => p(x, y) && equal(p, xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let init: (Int, ? -> ?) -> [?] =
+    fun len, f ->
+        let go: (Int, [?]) -> [?] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let fold_left: ((?, ?) -> ?, ?, [?]) -> ? =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let fold_right: ((?, ?)-> ?, [?], ?) -> ? =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, fold_right(f, tl, acc)) end in

@@ -141,7 +141,7 @@ test List.fold_right(fun (x, acc) -> x + acc, 0, [1, 2, 3]) == 6 end
 
 queries = [
 "let List.filter: (Int -> Bool, [Int]) -> [Int] = fun p, xs -> ?? in test List.equal(fun a, b -> a == b, List.filter(fun x -> x != 2, [1, 2, 3]), [1, 3]) end",
-"let List.append: (([Int], [Int]) -> Int) = fun xs, ys -> ?? in test List.equal(fun a, b -> a == b, List.append([1, 2], [3, 4]), [1, 2, 3, 4]) end",
+"let List.append: (([Int], [Int]) -> [Int]) = fun xs, ys -> ?? in test List.equal(fun a, b -> a == b, List.append([1, 2], [3, 4]), [1, 2, 3, 4]) end",
 "let List.mapi: ((Int, Int) -> Int, [Int]) -> [Int] = fun f, xs -> ?? in test List.equal(fun a, b -> a == b, List.mapi(fun i, x -> i * x, [1, 2, 3]), [0, 2, 6]) end",
 "let List.find: (Int -> Bool, [Int]) -> OptionInt = fun p, xs -> ?? in test OptionInt.equal(List.find(fun x -> x == 2, [0, 1, 2]), Some(2)) end",
 "let List.filter_map: (Int -> ?, [Int]) -> [Int] = fun p, xs -> ?? in test List.equal(fun a, b -> a == b, List.filter_map(fun x -> if x == 2 then ? else x + 1, [1, 2, 3]), [2, 4]) end",

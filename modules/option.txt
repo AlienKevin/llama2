@@ -1,0 +1,16 @@
+### Option ###
+
+# Represent values that may or may not exist. #
+type Option =
+  + Some(?)
+  + None
+in
+
+let equal: ((?, ?) -> Bool) -> (Option, Option) -> Bool =
+    fun eq, os ->
+        case os
+        | Some(x), Some(y) => eq(x, y)
+        | None, None => True
+        | _, _ => False
+        end
+in
