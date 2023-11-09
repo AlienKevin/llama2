@@ -1,7 +1,8 @@
 root ::= exp
 
-ws ::= [ \t\n]+
-w ::= [ \t\n]*
+ws ::= [ \t]* [\n]?[\n]? [ \t]*
+w ::= [ \t]*
+wsr ::= [ \t]+ [\n]?[\n]? [ \t]*
 
 ### Expressions
 
@@ -13,7 +14,7 @@ tuple-exp ::= cons-exp (w "," ws cons-exp)*
 
 cons-exp ::= binary-exp (w "::" w binary-exp)*
 
-binary-exp ::= unary-exp (ws binary-op ws unary-exp)*
+binary-exp ::= unary-exp (wsr binary-op wsr unary-exp)*
 
 unary-exp ::= unary-op* function-app-exp
 
