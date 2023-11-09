@@ -1,0 +1,3 @@
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let List.mapi: ((Int, ?) -> ?, [?]) -> [?] = fun f, xs ->

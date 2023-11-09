@@ -1,0 +1,9 @@
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+  fun v, name, e ->

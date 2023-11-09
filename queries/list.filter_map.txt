@@ -1,0 +1,2 @@
+# Filter out certain values from a list. #
+let List.filter_map: (? -> ?, [?]) -> [?] = fun p, xs ->

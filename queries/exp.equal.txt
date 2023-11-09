@@ -1,0 +1,9 @@
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+# Check if two expressions are equal #
+let exp_equal: (Exp, Exp) -> Bool =
+  fun es ->fun ee ->

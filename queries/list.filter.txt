@@ -1,0 +1,2 @@
+# Keep elements that satisfy the test. #
+let List.filter: (? -> Bool, [?]) -> [?] = fun p, xs ->
