@@ -61,7 +61,8 @@ unary-op ::= "-" | "!"
 binary-op-int ::= "+" | "-" | "*" | "/" | "<" | ">" | "<=" | ">=" | "==" | "!="
 binary-op-float ::= "+." | "-." | "*." | "/." | "<." | ">." | "<=." | ">=." | "==." | "!=."
 binary-op-string ::= "$==" | "@"
-binary-op ::= binary-op-int | binary-op-float | binary-op-string
+binary-op-logic ::= "&&" | "||"
+binary-op ::= binary-op-int | binary-op-float | binary-op-string | binary-op-logic
 
 ### Patterns
 
