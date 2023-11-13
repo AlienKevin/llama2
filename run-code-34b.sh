@@ -1,6 +1,6 @@
-cd llama.cpp
+python expand_prompt.py autoregressive exp.subst
 
-python expand_prompt.py autoregressive list.filter
+cd llama.cpp
 
 ./main \
     --grammar-file ../hazel.gbnf \
