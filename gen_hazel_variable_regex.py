@@ -50,7 +50,7 @@ def generate_regex_forbidden_keywords(keywords):
 
     # Combine with the base pattern
     first_chars = {keyword[0] for keyword in keywords}
-    full_pattern = f"({get_regex_char_range(set(string.ascii_lowercase + string.digits + '_' + '.'), first_chars)}[A-Za-z0-9_.]*)|({full_pattern})"
+    full_pattern = f"({get_regex_char_range(set(string.ascii_lowercase + '_'), first_chars)}[A-Za-z0-9_.]*)|({full_pattern})"
 
     return full_pattern
 
