@@ -1,48 +1,48 @@
 ### List ###
 
 # Add an element to the front of a list. #
-let cons: (?, [?]) -> [?] = fun x, xs -> x::xs in
+let cons: (a, [a]) -> [a] = fun x, xs -> x::xs in
 
 # Determine the length of a list. #
-let length: [?] -> ? =
+let length: [a] -> Int =
   fun xs ->
     case xs
     | [] => 0
     | _::xs => 1 + length(xs) end in
 
 # Extract the first element of a list. #
-let hd: [?] -> ? =
+let hd: [a] -> Option =
   fun l ->
     case l
-    | [] => -1
-    | x::xs => x end in
+    | [] => None
+    | x::xs => Some(x) end in
 
 # Extract the rest of the list. #
-let tl: [?] -> [?] =
+let tl: [a] -> [a] =
   fun l ->
     case l
     | [] => []
     | x::xs => xs end in
 
 # Determine if a list is empty. #
-let is_empty: [?] -> Bool =
+let is_empty: [a] -> Bool =
   fun xs ->
     case xs
     | [] => true
     | _::_ => false end in
 
 # Return the element at the index. #
-let nth: ([?], Int) -> ? =
+let nth: ([a], Int) -> Option =
   fun xs, n ->
     case xs, n
-    | x::_, 0 => x
+    | x::_, 0 => Some(x)
     | _::xs, n => nth(xs, n - 1)
-    | [], _ => ? end in
+    | [], _ => None end in
 
 # Reverse a List. #
-let rev: [?] -> [?] =
+let rev: [a] -> [a] =
 fun l -> 
-let go: ([?], [?]) -> [?] =
+let go: ([a], [a]) -> [a] =
   fun xs, acc -> 
     case xs 
     | [] => acc 
@@ -50,7 +50,7 @@ let go: ([?], [?]) -> [?] =
 go(l, []) in
 
 # Check if two lists are equal #
-let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
+let equal: ((a, a) -> Bool, [a], [a]) -> Bool =
     fun p, xs, ys ->
     case xs, ys
     | [], [] => true
@@ -59,9 +59,9 @@ let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
 in
 
 # Initialize a list with a given length using an initializer function #
-let init: (Int, ? -> ?) -> [?] =
+let init: (Int, Int -> a) -> [a] =
     fun len, f ->
-        let go: (Int, [?]) -> [?] =
+        let go: (Int, [a]) -> [a] =
         fun idx, xs ->
             if idx < len 
             then go(idx + 1, xs @ [f(idx)])   
@@ -71,14 +71,14 @@ let init: (Int, ? -> ?) -> [?] =
 in
 
 # Reduce a list from the left. #
-let fold_left: ((?, ?) -> ?, ?, [?]) -> ? =
+let fold_left: ((b, a) -> b, b, [a]) -> b =
   fun f, acc, xs ->
     case xs 
     | [] => acc
     | hd::tl => fold_left(f, f(acc, hd), tl) end in
 
 # Reduce a list from the right. #
-let fold_right: ((?, ?)-> ?, [?], ?) -> ? =
+let fold_right: ((a, b) -> b, [a], b) -> b =
   fun f, xs, acc ->
     case xs
     | [] => acc

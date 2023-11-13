@@ -20,11 +20,11 @@ in
 # A Result is either Ok meaning the computation succeeded, #
 # or it is an Err meaning that there was some failure. #
 type Result =
-  + Ok(?)
-  + Err(?)
+  + Ok(a)
+  + Err(b)
 in
 
-let equal: ((?, ?) -> Bool) -> (Result, Result) -> Bool =
+let equal: ((a, a) -> Bool) -> (Result, Result) -> Bool =
     fun eq, rs ->
         case rs
         | Ok(e1), Ok(e2) => eq(e1, e2)
@@ -51,10 +51,10 @@ in
 let equal : (Value,Value) -> Bool =
 fun a, b ->
     case (a, b)
-    | Object(o1), Object(o2) => list.equal(
+    | Object(o1), Object(o2) => List.equal(
         fun (s1, v1), (s2, v2) ->
             s1 $== s2 && equal(v1, v2), o1, o2)
-    | Array(a1), Array(a2) => list.equal(equal, a1, a2)
+    | Array(a1), Array(a2) => List.equal(equal, a1, a2)
     | Str(s1), Str(s2) => s1 $== s2
     | Number(n1), Number(n2) => n1 ==. n2
     | Boolean(b1), Boolean(b2) => if b1 then b2 else !b2
@@ -85,10 +85,10 @@ in
 let value_of_null : Value = Null in
 
 # Convert a list of JSON values to a JSON array #
-let value_of_list : (? -> Value, [?]) -> Value =
+let value_of_list : (a -> Value, [a]) -> Value =
   fun (func, entries) ->
     Array(
-      list.rev(list.fold_left(
+      List.rev(List.fold_left(
         fun l, e-> func(e)::l, [], entries)))
 in
 
@@ -165,13 +165,15 @@ let one_of : [Decoder] -> Decoder =
     in
 
 # Transform a decoder. #
-let map : ((? -> ?), Decoder) -> Decoder =
+let map : ((a -> b), Decoder) -> Decoder =
     fun (func, decoder) -> fun v ->
-        decoder(v)
+        case decoder(v)
+        | Err(e) => Err(e)
+        | Ok(o) => func(o)
 in
 
 # Create decoders that depend on previous results. #
-let and_then: ((? ->Decoder), Decoder) -> Decoder =
+let and_then: ((a -> Decoder), Decoder) -> Decoder =
     fun (func, decoder) ->
         fun v ->
             case decoder(v) 
@@ -230,48 +232,48 @@ in
 ### List ###
 
 # Add an element to the front of a list. #
-let cons: (?, [?]) -> [?] = fun x, xs -> x::xs in
+let cons: (a, [a]) -> [a] = fun x, xs -> x::xs in
 
 # Determine the length of a list. #
-let length: [?] -> ? =
+let length: [a] -> Int =
   fun xs ->
     case xs
     | [] => 0
     | _::xs => 1 + length(xs) end in
 
 # Extract the first element of a list. #
-let hd: [?] -> ? =
+let hd: [a] -> Option =
   fun l ->
     case l
-    | [] => -1
-    | x::xs => x end in
+    | [] => None
+    | x::xs => Some(x) end in
 
 # Extract the rest of the list. #
-let tl: [?] -> [?] =
+let tl: [a] -> [a] =
   fun l ->
     case l
     | [] => []
     | x::xs => xs end in
 
 # Determine if a list is empty. #
-let is_empty: [?] -> Bool =
+let is_empty: [a] -> Bool =
   fun xs ->
     case xs
     | [] => true
     | _::_ => false end in
 
 # Return the element at the index. #
-let nth: ([?], Int) -> ? =
+let nth: ([a], Int) -> Option =
   fun xs, n ->
     case xs, n
-    | x::_, 0 => x
+    | x::_, 0 => Some(x)
     | _::xs, n => nth(xs, n - 1)
-    | [], _ => ? end in
+    | [], _ => None end in
 
 # Reverse a List. #
-let rev: [?] -> [?] =
+let rev: [a] -> [a] =
 fun l -> 
-let go: ([?], [?]) -> [?] =
+let go: ([a], [a]) -> [a] =
   fun xs, acc -> 
     case xs 
     | [] => acc 
@@ -279,7 +281,7 @@ let go: ([?], [?]) -> [?] =
 go(l, []) in
 
 # Check if two lists are equal #
-let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
+let equal: ((a, a) -> Bool, [a], [a]) -> Bool =
     fun p, xs, ys ->
     case xs, ys
     | [], [] => true
@@ -288,9 +290,9 @@ let equal: ((?, ?) -> Bool, [?], [?]) -> Bool =
 in
 
 # Initialize a list with a given length using an initializer function #
-let init: (Int, ? -> ?) -> [?] =
+let init: (Int, Int -> a) -> [a] =
     fun len, f ->
-        let go: (Int, [?]) -> [?] =
+        let go: (Int, [a]) -> [a] =
         fun idx, xs ->
             if idx < len 
             then go(idx + 1, xs @ [f(idx)])   
@@ -300,18 +302,25 @@ let init: (Int, ? -> ?) -> [?] =
 in
 
 # Reduce a list from the left. #
-let fold_left: ((?, ?) -> ?, ?, [?]) -> ? =
+let fold_left: ((b, a) -> b, b, [a]) -> b =
   fun f, acc, xs ->
     case xs 
     | [] => acc
     | hd::tl => fold_left(f, f(acc, hd), tl) end in
 
 # Reduce a list from the right. #
-let fold_right: ((?, ?)-> ?, [?], ?) -> ? =
+let fold_right: ((a, b) -> b, [a], b) -> b =
   fun f, xs, acc ->
     case xs
     | [] => acc
     | hd::tl => f(hd, fold_right(f, tl, acc)) end in
 
-# Keep elements that satisfy the test. #
-let List.filter: (? -> Bool, [?]) -> [?] = fun p, xs ->
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+  fun v, name, e ->

@@ -15,10 +15,10 @@ in
 let equal : (Value,Value) -> Bool =
 fun a, b ->
     case (a, b)
-    | Object(o1), Object(o2) => list.equal(
+    | Object(o1), Object(o2) => List.equal(
         fun (s1, v1), (s2, v2) ->
             s1 $== s2 && equal(v1, v2), o1, o2)
-    | Array(a1), Array(a2) => list.equal(equal, a1, a2)
+    | Array(a1), Array(a2) => List.equal(equal, a1, a2)
     | Str(s1), Str(s2) => s1 $== s2
     | Number(n1), Number(n2) => n1 ==. n2
     | Boolean(b1), Boolean(b2) => if b1 then b2 else !b2
@@ -49,10 +49,10 @@ in
 let value_of_null : Value = Null in
 
 # Convert a list of JSON values to a JSON array #
-let value_of_list : (? -> Value, [?]) -> Value =
+let value_of_list : (a -> Value, [a]) -> Value =
   fun (func, entries) ->
     Array(
-      list.rev(list.fold_left(
+      List.rev(List.fold_left(
         fun l, e-> func(e)::l, [], entries)))
 in
 
@@ -129,13 +129,15 @@ let one_of : [Decoder] -> Decoder =
     in
 
 # Transform a decoder. #
-let map : ((? -> ?), Decoder) -> Decoder =
+let map : ((a -> b), Decoder) -> Decoder =
     fun (func, decoder) -> fun v ->
-        decoder(v)
+        case decoder(v)
+        | Err(e) => Err(e)
+        | Ok(o) => func(o)
 in
 
 # Create decoders that depend on previous results. #
-let and_then: ((? ->Decoder), Decoder) -> Decoder =
+let and_then: ((a -> Decoder), Decoder) -> Decoder =
     fun (func, decoder) ->
         fun v ->
             case decoder(v) 

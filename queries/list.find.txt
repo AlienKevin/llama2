@@ -1,2 +1,2 @@
 # Find an element in the list satisfying a given predicate function #
-let List.find: (? -> Bool, [?]) -> Option = fun p, xs ->
+let List.find: (a -> Bool, [a]) -> Option = fun p, xs ->
