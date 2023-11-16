@@ -1,11 +1,13 @@
-root ::= exp
+root ::= ([ \t]* [\n]? [ \t]*) exp
 
 ws ::= [ \t]+ [\n]?[\n]? [ \t]*
 w ::= [ \t]*
 
+comment ::= "#" [^#]* "#" [ \t]+ [\n]? [ \t]*
+
 ### Expressions
 
-exp ::= sequence-exp
+exp ::= comment* sequence-exp
 
 sequence-exp ::= tuple-exp (w ";" ws tuple-exp)*
 
@@ -105,6 +107,7 @@ primary-typ ::=
     "Bool" |
     "String" |
     type-variable |
+    constructor |
     constructor-def (ws "+" ws constructor-def)+ |
     parenthesized-typ |
     list-typ
