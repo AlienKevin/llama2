@@ -8,7 +8,7 @@ cd llama.cpp
     -ngl 64 \
     -b 512 \
     -m ../models/codellama-34b.Q5_K_M.gguf \
-    --color -c 3000 \
+    --color -c 3400 \
     --temp 0.7 \
     --repeat_penalty 1.1 \
     -n -1 \

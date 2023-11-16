@@ -1,9 +1,11 @@
 ### List ###
 
 # Add an element to the front of a list. #
+# cons: (a, [a]) -> [a] #
 let cons: (a, [a]) -> [a] = fun x, xs -> x::xs in
 
 # Determine the length of a list. #
+# length: [a] -> Int #
 let length: [a] -> Int =
   fun xs ->
     case xs
@@ -11,6 +13,7 @@ let length: [a] -> Int =
     | _::xs => 1 + length(xs) end in
 
 # Extract the first element of a list. #
+# hd: [a] -> Option #
 let hd: [a] -> Option =
   fun l ->
     case l
@@ -18,6 +21,7 @@ let hd: [a] -> Option =
     | x::xs => Some(x) end in
 
 # Extract the rest of the list. #
+# tl: [a] -> [a] #
 let tl: [a] -> [a] =
   fun l ->
     case l
@@ -25,6 +29,7 @@ let tl: [a] -> [a] =
     | x::xs => xs end in
 
 # Determine if a list is empty. #
+# is_empty: [a] -> Bool #
 let is_empty: [a] -> Bool =
   fun xs ->
     case xs
@@ -32,6 +37,7 @@ let is_empty: [a] -> Bool =
     | _::_ => false end in
 
 # Return the element at the index. #
+# nth: ([a], Int) -> Option #
 let nth: ([a], Int) -> Option =
   fun xs, n ->
     case xs, n
@@ -40,6 +46,7 @@ let nth: ([a], Int) -> Option =
     | [], _ => None end in
 
 # Reverse a List. #
+# rev: [a] -> [a] #
 let rev: [a] -> [a] =
 fun l -> 
 let go: ([a], [a]) -> [a] =
@@ -50,6 +57,7 @@ let go: ([a], [a]) -> [a] =
 go(l, []) in
 
 # Check if two lists are equal #
+# equal: ((a, a) -> Bool, [a], [a]) -> Bool #
 let equal: ((a, a) -> Bool, [a], [a]) -> Bool =
     fun p, xs, ys ->
     case xs, ys
@@ -59,6 +67,7 @@ let equal: ((a, a) -> Bool, [a], [a]) -> Bool =
 in
 
 # Initialize a list with a given length using an initializer function #
+# init: (Int, Int -> a) -> [a] #
 let init: (Int, Int -> a) -> [a] =
     fun len, f ->
         let go: (Int, [a]) -> [a] =
@@ -71,6 +80,7 @@ let init: (Int, Int -> a) -> [a] =
 in
 
 # Reduce a list from the left. #
+# fold_left: ((b, a) -> b, b, [a]) -> b #
 let fold_left: ((b, a) -> b, b, [a]) -> b =
   fun f, acc, xs ->
     case xs 
@@ -78,6 +88,7 @@ let fold_left: ((b, a) -> b, b, [a]) -> b =
     | hd::tl => fold_left(f, f(acc, hd), tl) end in
 
 # Reduce a list from the right. #
+# fold_right: ((a, b) -> b, [a], b) -> b #
 let fold_right: ((a, b) -> b, [a], b) -> b =
   fun f, xs, acc ->
     case xs

@@ -7,6 +7,8 @@ type Result =
   + Err(b)
 in
 
+# Compare if two Results are equal #
+# equal: ((a, a) -> Bool) -> (Result, Result) -> Bool #
 let equal: ((a, a) -> Bool) -> (Result, Result) -> Bool =
     fun eq, rs ->
         case rs

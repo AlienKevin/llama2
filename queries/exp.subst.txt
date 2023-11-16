@@ -5,5 +5,4 @@ type Exp =
   + Ap(Exp, Exp)
 in
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
-  fun v, name, e ->
+# subst: (Exp, String, Exp) -> Exp #

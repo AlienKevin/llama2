@@ -1,4 +1,9 @@
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
-  fun e ->
+# eval: Exp -> Result #

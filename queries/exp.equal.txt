@@ -5,5 +5,4 @@ type Exp =
   + Ap(Exp, Exp)
 in
 # Check if two expressions are equal #
-let exp_equal: (Exp, Exp) -> Bool =
-  fun es ->fun ee ->
+# equal: (Exp, Exp) -> Bool #

@@ -1,2 +1,2 @@
 # Put two lists together. #
-let List.append: ([a], [a]) -> [a] = fun xs, ys ->
+# append: ([a], [a]) -> [a] #
