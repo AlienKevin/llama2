@@ -86,3 +86,18 @@ in
 test forecast_equal(set_weather_of_day((Cloudy, 46), Tue, [(Mon, (Sunny, 51))]), [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))]) end;
 test not(forecast_equal(set_weather_of_day((Cloudy, 99), Tue, [(Mon, (Sunny, 51))]), [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))])) end;
 test forecast_equal(set_weather_of_day((Cloudy, 46), Mon, [(Mon, (Sunny, 51))]), [(Mon, (Cloudy, 46))]) end; 
+
+# Return default Weather if not found #
+let get_weather_of_day : (DayOfWeek, Forecast, Weather) -> Weather =
+  fun d, f, w ->
+    fold_right(fun (d1, w1), w ->
+      if day_equal(d1, d) then
+        w1
+      else
+        w
+    , f, w)
+in
+test weather_equal(get_weather_of_day(Mon, [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))], (Sunny, 0)), (Sunny, 51)) end;
+test weather_equal(get_weather_of_day(Tue, [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))], (Sunny, 0)), (Cloudy, 46)) end;
+test weather_equal(get_weather_of_day(Wed, [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))], (Sunny, 0)), (Sunny, 0)) end;
+test not(weather_equal(get_weather_of_day(Mon, [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))], (Sunny, 0)), (Cloudy, 46))) end;
