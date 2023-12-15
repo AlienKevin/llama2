@@ -1,0 +1,88 @@
+# Reduce a list from the right. #
+let fold_right: ((a, b) -> b, [a], b) -> b =
+  fun f, xs, acc ->
+    case xs
+      | [] => acc
+| hd::tl => f(hd, fold_right(f, tl, acc)) end in
+
+type WeatherType = Sunny + Rainy + Cloudy + Snowy in
+type Weather = (WeatherType, Int) in
+type DayOfWeek = Mon + Tue + Wed + Thu + Fri + Sat + Sun in
+type Forecast = [(DayOfWeek, Weather)] in
+
+let day_equal : (DayOfWeek, DayOfWeek) -> Bool =
+  fun (d1, d2) ->
+    case d1, d2
+      | Mon, Mon => true 
+      | Tue, Tue => true
+      | Wed, Wed => true
+      | Thu, Thu => true
+      | Fri, Fri => true
+      | Sat, Sat => true
+      | Sun, Sun => true
+      | _ => false
+    end
+in
+test day_equal(Mon, Mon) end;
+test day_equal(Tue, Tue) end;
+test not(day_equal(Mon, Sun)) end;
+test not(day_equal(Sat, Sun)) end;
+
+let weather_type_equal : (WeatherType, WeatherType) -> Bool =
+  fun (w1, w2) ->
+    case w1, w2 
+      | Sunny, Sunny => true
+      | Rainy, Rainy => true
+      | Cloudy, Cloudy => true
+      | Snowy, Snowy => true
+      | _ => false
+    end
+in
+test weather_type_equal(Sunny, Sunny) end;
+test not(weather_type_equal(Sunny, Rainy)) end;
+test weather_type_equal(Snowy, Snowy) end;
+test not(weather_type_equal(Snowy, Sunny)) end;
+
+let weather_equal : (Weather, Weather) -> Bool =
+  fun (w1, w2) ->
+    let (type1, temp1) = w1 in
+    let (type2, temp2) = w2 in
+    weather_type_equal(type1, type2) && temp1 == temp2
+in
+test weather_equal((Sunny, 100), (Sunny, 100)) end;
+test not(weather_equal((Snowy, 100), (Sunny, 100))) end;
+test not(weather_equal((Sunny, 40), (Snowy, 40))) end;
+
+let forecast_equal : (Forecast, Forecast) -> Bool =
+  fun (f1, f2) ->
+    let subset = fun (f1, f2) ->
+      fold_right(fun f,eq -> eq && fold_right(
+        (fun f_, contains ->
+          let d,w =f in
+          let d_,w_=f_ in
+    if contains then true else  day_equal(d,d_) && weather_equal(w,w_)), f2, false), f1, true) in
+    subset(f1, f2) && subset(f2, f1)
+in
+test forecast_equal([(Mon, (Sunny, 51))], [(Mon, (Sunny, 51))]) end;
+test forecast_equal([(Mon, (Sunny, 51)), (Tue, (Cloudy, 42))], [(Mon, (Sunny, 51)), (Tue, (Cloudy, 42))]) end;
+test not(forecast_equal([(Tue, (Sunny, 51))], [(Mon, (Sunny, 51))])) end;
+test not(forecast_equal([(Mon, (Sunny, 51))], [(Mon, (Sunny, 51)), (Tue, (Sunny, 51))])) end;
+test not(forecast_equal([(Mon, (Sunny, 51)), (Tue, (Sunny, 51))], [(Mon, (Sunny, 51))])) end;
+
+let set_weather_of_day : (Weather, DayOfWeek, Forecast) -> Forecast =
+  fun w, d, f ->
+    let (new_f, found_day) = fold_right(fun (d1, w1), (f, found_day) -> 
+      if day_equal(d1, d) then
+        ((d, w)::f, true)
+      else
+        ((d1, w1)::f, found_day)
+    , f, ([], false)) 
+    in
+    if found_day then
+      new_f
+    else
+      (d, w)::f
+in
+test forecast_equal(set_weather_of_day((Cloudy, 46), Tue, [(Mon, (Sunny, 51))]), [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))]) end;
+test not(forecast_equal(set_weather_of_day((Cloudy, 99), Tue, [(Mon, (Sunny, 51))]), [(Mon, (Sunny, 51)), (Tue, (Cloudy, 46))])) end;
+test forecast_equal(set_weather_of_day((Cloudy, 46), Mon, [(Mon, (Sunny, 51))]), [(Mon, (Cloudy, 46))]) end; 
