@@ -1,2 +1,2 @@
 # Find an element in the list satisfying a given predicate function #
-# find: (a -> Bool, [a]) -> Option #
+let find: (a -> Bool, [a]) -> Option =

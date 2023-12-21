@@ -1,2 +1,2 @@
 # Put two lists together. #
-# append: ([a], [a]) -> [a] #
+let append: ([a], [a]) -> [a] =

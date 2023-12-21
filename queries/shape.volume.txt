@@ -1,0 +1,11 @@
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =

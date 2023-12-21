@@ -1,2 +1,2 @@
 # Keep elements that satisfy the test. #
-# filter: (a -> Bool, [a]) -> [a] #
+let filter: (a -> Bool, [a]) -> [a] =

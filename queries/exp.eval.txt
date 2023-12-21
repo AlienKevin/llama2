@@ -6,4 +6,4 @@ type Exp =
 in
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-# eval: Exp -> Result #
+let eval: Exp -> Result =

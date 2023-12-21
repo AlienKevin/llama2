@@ -7,7 +7,6 @@ type Option =
 in
 
 # Compare if two Options are equal #
-# equal: ((?, ?) -> Bool) -> (Option, Option) -> Bool #
 let equal: ((?, ?) -> Bool) -> (Option, Option) -> Bool =
     fun eq, os ->
         case os

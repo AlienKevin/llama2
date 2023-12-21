@@ -1,2 +1,2 @@
 # Filter out certain values from a list. #
-# filter_map: (a -> b, [a]) -> [b] #
+let filter_map: (a -> b, [a]) -> [b] =
