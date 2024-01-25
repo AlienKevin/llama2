@@ -5,7 +5,7 @@ cd llama.cpp
 rm log.txt
 
 ./main \
-    --dynamic-grammar \
+    --dynamic-grammar context \
     -t 10 \
     -ngl 64 \
     -b 512 \
