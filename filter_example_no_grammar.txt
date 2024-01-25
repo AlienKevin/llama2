@@ -1,0 +1,5 @@
+let filter: (a -> Bool, [a]) -> [a] =
+  fun pred, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if pred(hd) then cons(hd, filter(pred, tl)) else filter(pred, tl) end in

@@ -4,7 +4,7 @@ stack_sizes = []
 durations = []
 
 # Reading data from the file
-with open("stack_sizes.csv", "r") as f:
+with open("stack_sizes-dec-7.csv", "r") as f:
     for line in f.readlines():
         stack_size, duration = line.split(",")
         stack_sizes.append(int(stack_size))

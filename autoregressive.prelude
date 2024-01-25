@@ -1,0 +1,26 @@
+# Add an element to the front of a list. #
+let cons: (a, [a]) -> [a] = fun x, xs -> x::xs in
+
+# Reverse a List. #
+let rev: [a] -> [a] =
+fun l -> 
+let go: ([a], [a]) -> [a] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Reduce a list from the left. #
+let fold_left: ((b, a) -> b, b, [a]) -> b =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let fold_right: ((a, b) -> b, [a], b) -> b =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, fold_right(f, tl, acc)) end in
