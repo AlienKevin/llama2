@@ -1,4 +1,4 @@
-# python expand_prompt.py autoregressive list.filter
+python expand_prompt.py autoregressive list.filter_int
 
 cd llama.cpp
 
