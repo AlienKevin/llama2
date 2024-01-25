@@ -36,6 +36,8 @@ def main():
         module_content = read_file(f"modules/{module}.txt")
         prompt_content = prompt_content.replace(f"\\include {module}", module_content)
 
+    write_file(f"{template_name}.prelude", prompt_content)
+
     prompt_content += read_file(f"queries/{query_name}.txt")
 
     write_file(f"{template_name}.prompt", prompt_content)
