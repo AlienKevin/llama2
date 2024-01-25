@@ -2,6 +2,8 @@
 
 1. Download the code llama model from: https://huggingface.co/AlienKevin/codellama-34b.Q5_K_M.v3.gguf/blob/main/codellama-34b.Q5_K_M.v3.gguf
 
+Put the model under `models/`.
+
 2. Compile llama.cpp:
 ```
 cd llama.cpp
