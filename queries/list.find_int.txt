@@ -1,2 +1,2 @@
 # Find an element in the list satisfying a given predicate function #
-let find: (Int -> Bool, [Int]) -> Option =
+let find: (Int -> Bool, [Int]) -> ? =

@@ -11,7 +11,7 @@ let length: [Int] -> Int =
     | _::xs => 1 + length(xs) end in
 
 # Extract the first element of a list. #
-let hd: [Int] -> Option =
+let hd: [Int] -> ? =
   fun l ->
     case l
     | [] => None
@@ -32,7 +32,7 @@ let is_empty: [Int] -> Bool =
     | _::_ => false end in
 
 # Return the element at the index. #
-let nth: ([Int], Int) -> Option =
+let nth: ([Int], Int) -> ? =
   fun xs, n ->
     case xs, n
     | x::_, 0 => Some(x)
