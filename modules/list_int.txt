@@ -1,0 +1,85 @@
+### List ###
+
+# Add an element to the front of a list. #
+let cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + length(xs) end in
+
+# Extract the first element of a list. #
+let hd: [Int] -> Option =
+  fun l ->
+    case l
+    | [] => None
+    | x::xs => Some(x) end in
+
+# Extract the rest of the list. #
+let tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Return the element at the index. #
+let nth: ([Int], Int) -> Option =
+  fun xs, n ->
+    case xs, n
+    | x::_, 0 => Some(x)
+    | _::xs, n => nth(xs, n - 1)
+    | [], _ => None end in
+
+# Reverse a List. #
+let rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let equal: ([Int], [Int]) -> Bool =
+    fun p, xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && equal(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, fold_right(f, tl, acc)) end in
