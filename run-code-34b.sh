@@ -1,9 +1,8 @@
-python expand_prompt.py autoregressive list.filter_int
+python expand_prompt.py autoregressive list.find_int
 
 cd llama.cpp
 
 rm log.txt
-rm log-pieces.txt
 
 ./main \
     --dynamic-grammar \

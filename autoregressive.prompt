@@ -84,5 +84,5 @@ let fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
     | [] => acc
     | hd::tl => f(hd, fold_right(f, tl, acc)) end in
 
-# Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+# Find an element in the list satisfying a given predicate function #
+let find: (Int -> Bool, [Int]) -> Option =

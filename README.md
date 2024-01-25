@@ -5,10 +5,12 @@
 2. Compile llama.cpp:
 ```
 cd llama.cpp
-make
+make main
 ```
 
-3. Run model:
+3. Install node.js and copy the compiled `lsp.js` into the project root
+
+4. Run model:
 ```
 chmod +x run-code-34b.sh
 ./run-code-34b.sh
