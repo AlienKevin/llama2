@@ -1,4 +1,4 @@
-python expand_prompt.py autoregressive list.filter_int
+python expand_prompt.py autoregressive shape.volume
 
 cd llama.cpp
 
@@ -9,7 +9,7 @@ rm log.txt
     -t 10 \
     -ngl 64 \
     -b 512 \
-    -m ../models/codellama-34b.Q5_K_M.v3.gguf \
+    -m ../models/codellama-70b-hf.Q5_K_M.gguf \
     --color -c 3400 \
     --seed 1 \
     --temp 0 \
