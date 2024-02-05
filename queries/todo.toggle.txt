@@ -10,8 +10,6 @@ type Action =
   + ToggleTodo(Int)
 + UpdateBuffer(String) in
 
-type Update = (Model, Action) -> Model in
-
 let Todo.eq: (Todo, Todo) -> Bool =
   fun (d1, s1), (d2, s2) ->
 d1 $== d2 && bool_eq(s1, s2) in

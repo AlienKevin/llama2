@@ -1,0 +1,18 @@
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
