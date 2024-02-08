@@ -1,0 +1,532 @@
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+ 
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f,
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+   
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+   
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    |
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | []
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] =>
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+   
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    |
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | h
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0,
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, h
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd)
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) ::
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: m
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i,
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x ->
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i +
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1,
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)),
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), t
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), tl
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), tl)
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), tl) end
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), tl) end in
+
+
+================
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: mapi((fun i, x -> f(i + 1, x)), tl) end in
+
+

@@ -1,0 +1,1394 @@
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+   
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+       
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+       
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        |
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | S
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r)
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) =>
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 /
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 *
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi()
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() *
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r **
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+       
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        |
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | C
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s)
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) =>
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s **
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+       
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        |
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | C
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cyl
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r,
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h)
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) =>
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi()
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() *
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r **
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0 *
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0 * h
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0 * h end
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0 * h end in
+
+
+================
+type Radius = Float in
+type SideLength = Float in
+type Height = Float in
+
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+let volume : Shape -> Float =
+    fun shape ->
+        case shape
+        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+        | Cube(s) => s ** 3.0
+        | Cylinder(r, h) => pi() * r ** 2.0 * h end in
+
+

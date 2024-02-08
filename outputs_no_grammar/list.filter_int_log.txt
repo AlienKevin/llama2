@@ -1,0 +1,439 @@
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+ 
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p,
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+   
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+   
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    |
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | []
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] =>
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+   
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    |
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | h
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd)
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then h
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p,
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, t
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl)
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p,
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, t
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl)
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end in
+
+
+================
+# Keep elements that satisfy the test. #
+let filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end in
+
+

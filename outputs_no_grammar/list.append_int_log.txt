@@ -1,0 +1,340 @@
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+ 
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1,
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+   
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+   
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    |
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | []
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] =>
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+   
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    |
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | h
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl =>
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => h
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd ::
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl,
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l2
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l2)
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l2) end
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l2) end in
+
+
+================
+# Put two lists together. #
+let append: ([a], [a]) -> [a] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: append(tl, l2) end in
+
+

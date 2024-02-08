@@ -4,5 +4,6 @@ type Exp =
   + Lam(String, Exp)
   + Ap(Exp, Exp)
 in
+
 # Check if two expressions are equal #
 let equal: (Exp, Exp) -> Bool =

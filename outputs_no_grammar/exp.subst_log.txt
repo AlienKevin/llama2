@@ -1,0 +1,1388 @@
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x ==
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else Var(y)
+        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end in
+
+

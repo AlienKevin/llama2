@@ -1,0 +1,7391 @@
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+ 
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+   
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+   
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    |
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | Add
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddT
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $==
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== ""
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)])
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+   
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    |
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | Remove
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveT
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let h
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, t
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(tod
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, h
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+   
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    |
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | T
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | Toggle
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleT
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let h
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, t
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(tod
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, h
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl),
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))]
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+   
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    |
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | Update
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos =
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+       
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer,
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer, todos
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer, todos)
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer, todos) end
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer, todos) end in
+
+
+================
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
++ UpdateBuffer(String) in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if buffer $== "" then model else (buffer, todos @ [(buffer, false)]) end
+    | RemoveTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ List.tl(tl))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        let hd, tl = List.split_at(todos, idx) in
+        (buffer, hd @ [(List.hd(tl), not(List.hd(tl).1))] @ List.tl(tl))
+    | UpdateBuffer(buffer) =>
+        let _, todos = model in
+        (buffer, todos) end in
+
+

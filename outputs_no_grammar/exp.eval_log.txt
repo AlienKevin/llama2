@@ -1,0 +1,3149 @@
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go:
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, En
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) ->
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+           
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+               
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+               
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+               
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(C
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Clos
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+               
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(C
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Clos
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error")
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e, [
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e, [])
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e, [])
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e, [])
+in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, Env) -> Result =
+            fun e, env ->
+                case e 
+                | Var(x) => lookup(env, x)
+                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Ap(e1, e2) =>
+                    match go(e1, env), go(e2, env) with 
+                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                    | _ => Error("Error") end in
+        go(e, [])
+in
+
+

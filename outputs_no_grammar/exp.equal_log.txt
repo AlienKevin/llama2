@@ -1,0 +1,1738 @@
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x ==
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x ==
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y &&
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) &&
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+       
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _ =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _ => false
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _ => false end
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _ => false end in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let equal: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | _ => false end in
+
+

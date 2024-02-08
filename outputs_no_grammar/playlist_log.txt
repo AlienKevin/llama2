@@ -1,0 +1,4703 @@
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+ 
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    |
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | Add
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddS
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) =
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id],
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    |
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | Remove
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveS
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) =
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x ->
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x !=
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id),
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs),
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    |
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | Play
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlayS
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) =
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    |
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | P
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | Pause
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseS
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) =
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (song
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs,
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+   
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    |
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | Se
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | Seek
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekTo
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMill
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_)
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+       
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+        pl
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+        pl end
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+        pl end in
+
+
+================
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseSong(Id)
+  + RemoveSong(Id)
+  + AddSong(Id)
+  + SeekToMilliseconds(Int)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | AddSong(id) =>
+        let (songs, playing) = pl in
+        (songs @ [id], playing)
+    | RemoveSong(id) =>
+        let (songs, playing) = pl in
+        (filter((x -> x != id), songs), playing)
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseSong(_) =>
+        let (songs, playing) = pl in
+        (songs, -1)
+    | SeekToMilliseconds(_) =>
+        pl end in
+
+
