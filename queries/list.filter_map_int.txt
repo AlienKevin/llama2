@@ -1,2 +1,2 @@
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =

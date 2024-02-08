@@ -5,6 +5,11 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =

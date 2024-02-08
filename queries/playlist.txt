@@ -4,10 +4,9 @@ type Id = Int in
 # Actions user can do in a playlist #
 type PlayListAction =
   + PlaySong(Id)
-  + PauseSong(Id)
+  + PauseCurrentSong
   + RemoveSong(Id)
   + AddSong(Id)
-  + SeekToMilliseconds(Int)
 in
 
 # A playlist with a list of songs and the id for the currently playing/paused song #

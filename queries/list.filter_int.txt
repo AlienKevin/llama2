@@ -1,2 +1,2 @@
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =

@@ -8,15 +8,30 @@ type Action =
   + AddTodo
   + RemoveTodo(Int)
   + ToggleTodo(Int)
-+ UpdateBuffer(String) in
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
 
 let Todo.eq: (Todo, Todo) -> Bool =
   fun (d1, s1), (d2, s2) ->
-d1 $== d2 && bool_eq(s1, s2) in
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
 
 let Model.eq: (Model, Model) -> Bool =
   fun (b1, ts1), (b2, ts2) ->
-b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
 
 let Model.init: Model = ("", []) in
 

@@ -6,4 +6,4 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =

@@ -1,2 +1,2 @@
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =

@@ -6,4 +6,4 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
