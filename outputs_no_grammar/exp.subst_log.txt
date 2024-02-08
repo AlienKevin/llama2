@@ -8,7 +8,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
 
 
 ================
@@ -20,7 +20,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
 
 
 
@@ -33,7 +33,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
    
 
 
@@ -46,7 +46,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun
 
 
@@ -59,7 +59,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v
 
 
@@ -72,7 +72,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v,
 
 
@@ -85,7 +85,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x
 
 
@@ -98,7 +98,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x,
 
 
@@ -111,7 +111,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e
 
 
@@ -124,7 +124,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
 
 
@@ -137,7 +137,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
 
 
@@ -151,7 +151,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
        
 
@@ -165,7 +165,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case
 
@@ -179,7 +179,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
 
@@ -193,7 +193,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
 
@@ -208,7 +208,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
        
@@ -223,7 +223,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         |
@@ -238,7 +238,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var
@@ -253,7 +253,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y
@@ -268,7 +268,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y =>
@@ -283,7 +283,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if
@@ -298,7 +298,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x
@@ -313,7 +313,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x ==
@@ -328,7 +328,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x == y
@@ -343,7 +343,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x == y then
@@ -358,7 +358,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x == y then v
@@ -373,7 +373,7 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
         | Var y => if x == y then v else
@@ -388,10 +388,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var
+        | Var y => if x == y then v else e
 
 
 ================
@@ -403,55 +403,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
-    fun v, x, e ->
-        case e
-        | Var y => if x == y then v else Var(y
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
-    fun v, x, e ->
-        case e
-        | Var y => if x == y then v else Var(y)
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
-    fun v, x, e ->
-        case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
 
 
 
@@ -464,10 +419,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
        
 
 
@@ -480,10 +435,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         |
 
 
@@ -496,10 +451,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         | Lam
 
 
@@ -512,10 +467,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         | Lam(
 
 
@@ -528,10 +483,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         | Lam(y
 
 
@@ -544,10 +499,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         | Lam(y,
 
 
@@ -560,10 +515,10 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
+        | Var y => if x == y then v else e
         | Lam(y, e
 
 
@@ -576,11 +531,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e)
+        | Var y => if x == y then v else e
+        | Lam(y, e1
 
 
 ================
@@ -592,11 +547,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) =>
+        | Var y => if x == y then v else e
+        | Lam(y, e1)
 
 
 ================
@@ -608,11 +563,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam
+        | Var y => if x == y then v else e
+        | Lam(y, e1) =>
 
 
 ================
@@ -624,11 +579,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if
 
 
 ================
@@ -640,11 +595,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x
 
 
 ================
@@ -656,11 +611,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y,
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x ==
 
 
 ================
@@ -672,11 +627,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y
 
 
 ================
@@ -688,11 +643,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then
 
 
 ================
@@ -704,11 +659,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e
 
 
 ================
@@ -720,11 +675,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v,
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else
 
 
 ================
@@ -736,11 +691,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam
 
 
 ================
@@ -752,11 +707,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x,
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(
 
 
 ================
@@ -768,11 +723,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y
 
 
 ================
@@ -784,11 +739,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y,
 
 
 ================
@@ -800,11 +755,155 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
 
 
 
@@ -817,11 +916,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
        
 
 
@@ -834,11 +933,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         |
 
 
@@ -851,11 +950,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap
 
 
@@ -868,11 +967,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(
 
 
@@ -885,11 +984,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e
 
 
@@ -902,11 +1001,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1
 
 
@@ -919,11 +1018,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1,
 
 
@@ -936,11 +1035,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e
 
 
@@ -953,11 +1052,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2
 
 
@@ -970,11 +1069,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2)
 
 
@@ -987,11 +1086,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) =>
 
 
@@ -1004,11 +1103,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap
 
 
@@ -1021,11 +1120,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(
 
 
@@ -1038,11 +1137,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst
 
 
@@ -1055,11 +1154,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(
 
 
@@ -1072,11 +1171,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v
 
 
@@ -1089,11 +1188,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v,
 
 
@@ -1106,11 +1205,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x
 
 
@@ -1123,11 +1222,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x,
 
 
@@ -1140,11 +1239,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e
 
 
@@ -1157,11 +1256,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1
 
 
@@ -1174,11 +1273,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1),
 
 
@@ -1191,11 +1290,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst
 
 
@@ -1208,11 +1307,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(
 
 
@@ -1225,11 +1324,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v
 
 
@@ -1242,11 +1341,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v,
 
 
@@ -1259,11 +1358,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x
 
 
@@ -1276,11 +1375,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x,
 
 
@@ -1293,11 +1392,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e
 
 
@@ -1310,11 +1409,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2
 
 
@@ -1327,11 +1426,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2))
 
 
@@ -1344,11 +1443,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end
 
 
@@ -1361,11 +1460,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end in
 
 
@@ -1378,11 +1477,11 @@ type Exp =
 in
 
 # Substitute Exp v for variable name in Exp e #
-let subst: (Exp, String, Exp) -> Exp =
+let Exp.subst: (Exp, String, Exp) -> Exp =
     fun v, x, e ->
         case e
-        | Var y => if x == y then v else Var(y)
-        | Lam(y, e) => Lam(y, subst(v, x, e))
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
         | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end in
 
 

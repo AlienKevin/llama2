@@ -8,7 +8,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
 
 
 ================
@@ -20,7 +20,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
 
 
 
@@ -33,7 +33,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
    
 
 
@@ -46,7 +46,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun
 
 
@@ -59,7 +59,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e
 
 
@@ -72,7 +72,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1
 
 
@@ -85,7 +85,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1,
 
 
@@ -98,7 +98,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e
 
 
@@ -111,7 +111,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2
 
 
@@ -124,7 +124,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
 
 
@@ -137,7 +137,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
 
 
@@ -151,7 +151,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
        
 
@@ -165,7 +165,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case
 
@@ -179,7 +179,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e
 
@@ -193,7 +193,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1
 
@@ -207,7 +207,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1,
 
@@ -221,7 +221,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e
 
@@ -235,7 +235,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
 
@@ -249,7 +249,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
 
@@ -264,7 +264,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
        
@@ -279,7 +279,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         |
@@ -294,7 +294,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var
@@ -309,7 +309,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(
@@ -324,7 +324,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x
@@ -339,7 +339,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x),
@@ -354,7 +354,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var
@@ -369,7 +369,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(
@@ -384,7 +384,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y
@@ -399,7 +399,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y)
@@ -414,7 +414,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) =>
@@ -429,7 +429,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x
@@ -444,7 +444,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x ==
@@ -459,7 +459,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -474,7 +474,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -490,7 +490,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -506,7 +506,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -522,7 +522,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -538,7 +538,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -554,7 +554,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -570,7 +570,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -586,7 +586,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -602,7 +602,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -618,7 +618,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -634,7 +634,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -650,7 +650,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -666,7 +666,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -682,7 +682,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -698,7 +698,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -714,7 +714,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -730,7 +730,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -746,7 +746,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -762,7 +762,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -778,7 +778,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -794,7 +794,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -810,7 +810,7 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
@@ -826,11 +826,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp
 
 
 ================
@@ -842,11 +842,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.
 
 
 ================
@@ -858,11 +858,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq
 
 
 ================
@@ -874,11 +874,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(
 
 
 ================
@@ -890,11 +890,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1,
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e
 
 
 ================
@@ -906,11 +906,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1
 
 
 ================
@@ -922,11 +922,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1,
 
 
 ================
@@ -938,11 +938,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e
 
 
 ================
@@ -954,11 +954,43 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
 
 
 
@@ -971,11 +1003,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
        
 
 
@@ -988,11 +1020,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
         |
 
 
@@ -1005,11 +1037,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
         | Ap
 
 
@@ -1022,11 +1054,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
         | Ap(
 
 
@@ -1039,11 +1071,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
         | Ap(e
 
 
@@ -1056,11 +1088,11 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
         | Ap(e1
 
 
@@ -1073,12 +1105,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1,
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11
 
 
 ================
@@ -1090,12 +1122,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11,
 
 
 ================
@@ -1107,12 +1139,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e
 
 
 ================
@@ -1124,12 +1156,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2),
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e1
 
 
 ================
@@ -1141,12 +1173,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12
 
 
 ================
@@ -1158,12 +1190,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12),
 
 
 ================
@@ -1175,12 +1207,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap
 
 
 ================
@@ -1192,12 +1224,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(
 
 
 ================
@@ -1209,12 +1241,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1,
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e
 
 
 ================
@@ -1226,12 +1258,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e2
 
 
 ================
@@ -1243,12 +1275,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21
 
 
 ================
@@ -1260,12 +1292,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21,
 
 
 ================
@@ -1277,12 +1309,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) =>
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e
 
 
 ================
@@ -1294,12 +1326,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e2
 
 
 ================
@@ -1311,12 +1343,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22
 
 
 ================
@@ -1328,12 +1360,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22)
 
 
 ================
@@ -1345,12 +1377,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) =>
 
 
 ================
@@ -1362,12 +1394,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1,
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp
 
 
 ================
@@ -1379,12 +1411,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.
 
 
 ================
@@ -1396,12 +1428,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq
 
 
 ================
@@ -1413,12 +1445,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(
 
 
 ================
@@ -1430,12 +1462,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) &&
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e
 
 
 ================
@@ -1447,12 +1479,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e1
 
 
 ================
@@ -1464,12 +1496,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11
 
 
 ================
@@ -1481,12 +1513,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11,
 
 
 ================
@@ -1498,12 +1530,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e
 
 
 ================
@@ -1515,12 +1547,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2,
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e2
 
 
 ================
@@ -1532,12 +1564,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21
 
 
 ================
@@ -1549,12 +1581,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21)
 
 
 ================
@@ -1566,12 +1598,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) &&
 
 
 ================
@@ -1583,12 +1615,216 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e1
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e2
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
 
 
 
@@ -1601,12 +1837,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
        
 
 
@@ -1619,12 +1855,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         |
 
 
@@ -1637,12 +1873,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _
 
 
@@ -1655,12 +1891,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _ =>
 
 
@@ -1673,12 +1909,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _ => false
 
 
@@ -1691,12 +1927,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _ => false end
 
 
@@ -1709,12 +1945,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _ => false end in
 
 
@@ -1727,12 +1963,12 @@ type Exp =
 in
 
 # Check if two expressions are equal #
-let equal: (Exp, Exp) -> Bool =
+let Exp.eq: (Exp, Exp) -> Bool =
     fun e1, e2 ->
         case e1, e2
         | Var(x), Var(y) => x == y
-        | Lam(x, e1), Lam(y, e2) => x == y && equal(e1, e2)
-        | Ap(e1, e2), Ap(f1, f2) => equal(e1, f1) && equal(e2, f2)
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
         | _ => false end in
 
 

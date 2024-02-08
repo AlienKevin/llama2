@@ -1,1164 +1,1853 @@
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
    
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
     fun
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape
+    fun s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
+    fun s ->
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
+    fun s ->
         case
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | S
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l /
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cyl
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(r,
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(r, h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(r, h)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
         | Cylinder(r, h) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (
+        | Cylinder(r, h) => sq
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h
+        | Cylinder(r, h) => sqrt
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h +
+        | Cylinder(r, h) => sqrt(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 
+        | Cylinder(r, h) => sqrt(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2
+        | Cylinder(r, h) => sqrt(r *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.
+        | Cylinder(r, h) => sqrt(r * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0
+        | Cylinder(r, h) => sqrt(r * r +
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 *
+        | Cylinder(r, h) => sqrt(r * r + (
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r
+        | Cylinder(r, h) => sqrt(r * r + (h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r)
+        | Cylinder(r, h) => sqrt(r * r + (h /
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) /
+        | Cylinder(r, h) => sqrt(r * r + (h / 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 
+        | Cylinder(r, h) => sqrt(r * r + (h / 2
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4.
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4.0 end
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4.0 end in
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the radius of the circumscribed sphere of the input shape #
 let circumscribed_sphere_radius: Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => r
         | Cube(l) => l / 2.0
-        | Cylinder(r, h) => (h + 2.0 * r) / 4.0 end in
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h /
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0))
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0)) end
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0)) end in
+
+
+================
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0)) end in
 
 

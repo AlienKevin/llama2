@@ -1,0 +1,1553 @@
+Testing exp.eq
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Check if two expressions are equal #
+let Exp.eq: (Exp, Exp) -> Bool =
+    fun e1, e2 ->
+        case e1, e2
+        | Var(x), Var(y) => x == y
+        | Lam(x, e1), Lam(y, e2) => x == y && Exp.eq(e1, e2)
+        | Ap(e11, e12), Ap(e21, e22) => Exp.eq(e11, e21) && Exp.eq(e12, e22)
+        | _ => false end in
+
+Testing exp.eval
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
+        go(e, [])
+in
+
+Testing exp.subst
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+# Substitute Exp v for variable name in Exp e #
+let Exp.subst: (Exp, String, Exp) -> Exp =
+    fun v, x, e ->
+        case e
+        | Var y => if x == y then v else e
+        | Lam(y, e1) => if x == y then e else Lam(y, subst(v, x, e1))
+        | Ap(e1, e2) => Ap(subst(v, x, e1), subst(v, x, e2)) end in
+
+Testing list.append_int
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Put two lists together. #
+let List.append: ([Int], [Int]) -> [Int] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: List.append(tl, l2) end in
+
+Testing list.filter_int
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl) end in
+
+Testing list.filter_map_int
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Filter out certain values from a list. #
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+        let x = f(hd) in
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl) end in
+
+Testing list.find_int
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
+  fun p, xs ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
+        case xs
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
+    go(0, xs) in
+
+Testing list.mapi_int
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Apply a function to every element of a list. #
+# Function is also applied to the index of each element (starting at zero). #
+let List.mapi: ((Int, Int) -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => f(0, hd) :: List.mapi(fun i, x -> f(i + 1, x), tl) end in
+
+Testing playlist
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  + AddSong(Id)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun pl, a ->
+    case a
+    | PlaySong(id) =>
+        let (songs, _) = pl in
+        (songs, id)
+    | PauseCurrentSong =>
+        let (songs, current_song) = pl in
+        (songs, -1)
+    | RemoveSong(id) =>
+        let (songs, current_song) = pl in
+        (List.filter((fun x -> x != id), songs), current_song)
+    | AddSong(id) =>
+        let (songs, current_song) = pl in
+        (songs @ [id], current_song) end in
+
+Testing shape.circumscribed_sphere_radius
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the radius of the circumscribed sphere of the input shape #
+let circumscribed_sphere_radius: Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => r
+        | Cube(l) => l / 2.0
+        | Cylinder(r, h) => sqrt(r * r + (h / 2.0) * (h / 2.0)) end in
+
+Testing shape.surface_area
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the surface area of a shape #
+let surface_area : Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 * pi * r * r
+        | Cube(s) => 6.0 * s * s
+        | Cylinder(r, h) => 2.0 * pi * r * (r + h) end in
+
+Testing shape.volume
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Radius of a shape #
+type Radius = Float in
+
+# Side length of a shape #
+type SideLength = Float in
+
+# Height of a shape #
+type Height = Float in
+
+# Common 3D shapes #
+type Shape =
+  + Sphere(Radius)
+  + Cube(SideLength)
+  + Cylinder(Radius, Height)
+in
+
+# Calculate the volume of a shape #
+let volume : Shape -> Float =
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 * h end in
+
+Testing todo.add
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+# Add a todo item #
+let add: Model -> [Todo] = fun (buffer, _) -> [(buffer, false)] in
+
+Testing todo.remove
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+# Remove a todo item by its index #
+let remove: (Int, [Todo]) -> [Todo]=
+  fun idx, xs ->
+    case xs
+    | [] => []
+    | hd::tl when idx == 0 => tl
+    | hd::tl => hd :: remove(idx - 1, tl) end in
+
+Testing todo.toggle
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+# Toggle a todo item by its index #
+let toggle: (Int, [Todo]) -> [Todo]=
+  fun idx, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if idx == 0 then (hd.1 $== false, hd.0) :: tl else hd :: toggle(idx - 1, tl) end in
+
+Testing todo.update
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | AddTodo =>
+        let buffer, todos = model in
+        if String.length(buffer) > 0 then
+            ( "", List.cons((buffer, false), todos))
+        else
+            model
+        end
+    | RemoveTodo(idx) =>
+        let _, todos = model in
+        ( "", List.remove_at(idx, todos))
+    | ToggleTodo(idx) =>
+        let buffer, todos = model in
+        (buffer, List.update_at(idx, fun todo ->
+            case todo
+            | (desc, status) => (desc, !status) end), todos)
+    | UpdateBuffer(buffer) =>
+        (buffer, snd(model))
+    end
+in
+

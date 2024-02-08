@@ -1,82 +1,82 @@
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
 
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
  
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f,
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
 
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
    
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
 
@@ -84,7 +84,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
    
@@ -92,7 +92,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     |
@@ -100,7 +100,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | []
@@ -108,7 +108,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] =>
@@ -116,7 +116,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -124,7 +124,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -133,7 +133,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -142,7 +142,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -151,7 +151,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -160,7 +160,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -169,7 +169,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -178,7 +178,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -187,7 +187,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -196,7 +196,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -206,7 +206,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -216,7 +216,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -226,7 +226,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -236,7 +236,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -246,7 +246,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -256,7 +256,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -266,7 +266,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -276,7 +276,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -286,7 +286,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -296,7 +296,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -307,7 +307,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -318,7 +318,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -329,7 +329,7 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
@@ -340,466 +340,505 @@ let filter_map: (Int -> Int, [Int]) -> [Int] =
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-
-
-================
-# Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
-  fun f, xs ->
-    case xs
-    | [] => []
-    | hd::tl =>
-        let x = f(hd) in
-        match x with
+        match x
 
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
+        match x
        
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
+        match x
         |
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
+        match x
         | None
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
+        match x
         | None =>
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter
+        match x
+        | None => List
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_
+        match x
+        | None => List.
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map
+        match x
+        | None => List.filter
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(
+        match x
+        | None => List.filter_
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f
+        match x
+        | None => List.filter_map
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f,
+        match x
+        | None => List.filter_map(
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, t
+        match x
+        | None => List.filter_map(f
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl
+        match x
+        | None => List.filter_map(f,
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, t
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, tl
+
+
+================
+# Filter out certain values from a list. #
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+        let x = f(hd) in
+        match x
+        | None => List.filter_map(f, tl)
+
+
+================
+# Filter out certain values from a list. #
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+        let x = f(hd) in
+        match x
+        | None => List.filter_map(f, tl)
 
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, tl)
        
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, tl)
         |
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, tl)
         | Some
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
+        match x
+        | None => List.filter_map(f, tl)
         | Some(
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x)
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y)
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) =>
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) =>
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x ::
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y ::
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f,
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, t
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, ts
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f,
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, ts)
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, t
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, ts) end
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, ts) end in
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl)
 
 
 ================
 # Filter out certain values from a list. #
-let filter_map: (Int -> Int, [Int]) -> [Int] =
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
   fun f, xs ->
     case xs
     | [] => []
     | hd::tl =>
         let x = f(hd) in
-        match x with
-        | None => filter_map(f, tl)
-        | Some(x) => x :: filter_map(f, ts) end in
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl) end
+
+
+================
+# Filter out certain values from a list. #
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+        let x = f(hd) in
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl) end in
+
+
+================
+# Filter out certain values from a list. #
+let List.filter_map: (Int -> Int, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl =>
+        let x = f(hd) in
+        match x
+        | None => List.filter_map(f, tl)
+        | Some(y) => y :: List.filter_map(f, tl) end in
 
 

@@ -1,1394 +1,1897 @@
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
    
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
     fun
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape
+    fun s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
+    fun s ->
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
+    fun s ->
         case
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | S
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 /
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 3
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 3.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 3.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 3.0 *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 / 3.0 * pi
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi()
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() *
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r **
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r **
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-
-
-================
-type Radius = Float in
-type SideLength = Float in
-type Height = Float in
-
-type Shape =
-  + Sphere(Radius)
-  + Cube(SideLength)
-  + Cylinder(Radius, Height)
-in
-
-let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
         | Cube
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
         | Cube(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s)
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) =>
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s **
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l **
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cyl
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r,
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r, h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r, h)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r, h) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
         | Cylinder(r, h) => pi
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi()
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() *
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r **
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r **
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0 *
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 * h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0 * h
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 * h end
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0 * h end
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 * h end in
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the volume of a shape #
 let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0 * h end in
-
-
-================
-type Radius = Float in
-type SideLength = Float in
-type Height = Float in
-
-type Shape =
-  + Sphere(Radius)
-  + Cube(SideLength)
-  + Cylinder(Radius, Height)
-in
-
-let volume : Shape -> Float =
-    fun shape ->
-        case shape
-        | Sphere(r) => 4.0 / 3.0 * pi() * r ** 3.0
-        | Cube(s) => s ** 3.0
-        | Cylinder(r, h) => pi() * r ** 2.0 * h end in
+    fun s ->
+        case s
+        | Sphere(r) => 4.0 / 3.0 * pi * r ** 3.0
+        | Cube(l) => l ** 3.0
+        | Cylinder(r, h) => pi * r ** 2.0 * h end in
 
 

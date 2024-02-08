@@ -1,900 +1,814 @@
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
  
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p,
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
    
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go:
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go: (
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go: (Int
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go: (Int,
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go: (Int, [
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
     let go: (Int, [Int
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int],
+    let go: (Int, [Int])
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int
+    let go: (Int, [Int]) ->
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int)
+    let go: (Int, [Int]) -> Int
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) ->
+    let go: (Int, [Int]) -> Int =
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
      
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
       fun
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
       fun idx
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
       fun idx,
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
+    let go: (Int, [Int]) -> Int =
       fun idx, xs
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs,
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
        
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
        
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
         |
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
         | []
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
         | [] =>
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
+
+
+================
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
+  fun p, xs ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
+        case xs
+        | [] => -1
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
        
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         |
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | h
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl =>
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd)
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx +
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx + 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx + 1
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx + 1,
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx + 1, t
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
+        | [] => -1
         | hd::tl => if p(hd) then idx else go(idx + 1, tl
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl,
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl)
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc)
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-        case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-        case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
 
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
    
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
     go
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
     go(
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
     go(0
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
     go(0,
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
     go(0, xs
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs,
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
+    go(0, xs)
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs, -
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
+    go(0, xs) in
 
 
 ================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
+# Find the index of the element satisfying a given predicate function. #
+# Return -1 if not found #
+let List.find: (Int -> Bool, [Int]) -> Int =
   fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
+    let go: (Int, [Int]) -> Int =
+      fun idx, xs ->
         case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs, -1
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-        case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs, -1)
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-        case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs, -1) in
-
-
-================
-# Find the index of the element satisfying a given predicate function.
-Return -1 if not found #
-let find: (Int -> Bool, [Int]) -> Int =
-  fun p, xs ->
-    let go: (Int, [Int], Int) -> Int =
-      fun idx, xs, acc ->
-        case xs
-        | [] => acc
-        | hd::tl => if p(hd) then idx else go(idx + 1, tl, acc) end in
-    go(0, xs, -1) in
+        | [] => -1
+        | hd::tl => if p(hd) then idx else go(idx + 1, tl) end in
+    go(0, xs) in
 
 

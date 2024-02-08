@@ -7,9 +7,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
 
 
 ================
@@ -20,9 +25,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
 
 
 
@@ -34,9 +44,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
    
 
 
@@ -48,9 +63,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun
 
 
@@ -62,9 +82,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e
 
 
@@ -76,9 +101,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
 
 
@@ -90,9 +120,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
 
 
@@ -105,9 +140,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
        
 
@@ -120,9 +160,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let
 
@@ -135,9 +180,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec
 
@@ -150,9 +200,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec go
 
@@ -165,9 +220,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec go:
 
@@ -180,9 +240,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec go: (
 
@@ -195,9 +260,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec go: (Exp
 
@@ -210,9 +280,14 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
         let rec go: (Exp,
 
@@ -225,11 +300,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, En
+        let rec go: (Exp, [
 
 
 ================
@@ -240,11 +320,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env
+        let rec go: (Exp, [String
 
 
 ================
@@ -255,11 +340,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env)
+        let rec go: (Exp, [String])
 
 
 ================
@@ -270,11 +360,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) ->
+        let rec go: (Exp, [String]) ->
 
 
 ================
@@ -285,11 +380,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result
+        let rec go: (Exp, [String]) -> Result
 
 
 ================
@@ -300,11 +400,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
 
 
 ================
@@ -315,11 +420,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
 
 
 
@@ -331,11 +441,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
            
 
 
@@ -347,11 +462,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
             fun
 
 
@@ -363,11 +483,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
             fun e
 
 
@@ -379,11 +504,16 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
+        let rec go: (Exp, [String]) -> Result =
             fun e,
 
 
@@ -395,12 +525,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx
 
 
 ================
@@ -411,12 +546,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
 
 
 ================
@@ -427,12 +567,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
 
 
 
@@ -444,12 +589,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                
 
 
@@ -461,12 +611,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case
 
 
@@ -478,12 +633,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e
 
 
@@ -495,12 +655,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
 
 
@@ -512,12 +677,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
 
 
@@ -530,12 +700,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                
 
@@ -548,12 +723,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 |
 
@@ -566,12 +746,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 | Var
 
@@ -584,12 +769,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 | Var(
 
@@ -602,12 +792,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 | Var(x
 
@@ -620,12 +815,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 | Var(x)
 
@@ -638,12 +838,17 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
                 | Var(x) =>
 
@@ -656,122 +861,19 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
 in
 
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env,
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
 
 
 
@@ -783,14 +885,1609 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Un
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable")
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x'
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' =
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x ==
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x'
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x),
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                
 
 
@@ -802,14 +2499,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 |
 
 
@@ -821,14 +2526,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 | Lam
 
 
@@ -840,14 +2553,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 | Lam(
 
 
@@ -859,14 +2580,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 | Lam(x
 
 
@@ -878,14 +2607,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 | Lam(x,
 
 
@@ -897,14 +2634,22 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
                 | Lam(x, e
 
 
@@ -916,15 +2661,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e')
 
 
 ================
@@ -935,15 +2688,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') =>
 
 
 ================
@@ -954,15 +2715,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) =>
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp
 
 
 ================
@@ -973,15 +2742,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(
 
 
 ================
@@ -992,15 +2769,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(L
 
 
 ================
@@ -1011,15 +2796,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(C
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam
 
 
 ================
@@ -1030,15 +2823,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Clos
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(
 
 
 ================
@@ -1049,15 +2850,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x
 
 
 ================
@@ -1068,15 +2877,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x,
 
 
 ================
@@ -1087,15 +2904,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e
 
 
 ================
@@ -1106,15 +2931,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
 
 
 ================
@@ -1125,72 +2958,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1,
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
 in
 
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
 
 
 
@@ -1202,15 +2986,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                
 
 
@@ -1222,15 +3014,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 |
 
 
@@ -1242,15 +3042,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap
 
 
@@ -1262,15 +3070,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(
 
 
@@ -1282,15 +3098,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e
 
 
@@ -1302,15 +3126,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1
 
 
@@ -1322,15 +3154,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1,
 
 
@@ -1342,15 +3182,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1, e
 
 
@@ -1362,15 +3210,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1, e2
 
 
@@ -1382,15 +3238,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1, e2)
 
 
@@ -1402,15 +3266,23 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
                 | Ap(e1, e2) =>
 
 
@@ -1422,16 +3294,52 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
 
 
 
@@ -1443,16 +3351,24 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
                 
 
 
@@ -1464,16 +3380,24 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
                    
 
 
@@ -1485,17 +3409,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case
 
 
 ================
@@ -1506,17 +3438,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go
 
 
 ================
@@ -1527,17 +3467,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(
 
 
 ================
@@ -1548,17 +3496,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e
 
 
 ================
@@ -1569,17 +3525,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1
 
 
 ================
@@ -1590,17 +3554,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1,
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1,
 
 
 ================
@@ -1611,17 +3583,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx
 
 
 ================
@@ -1632,17 +3612,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env),
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
 
 
 ================
@@ -1653,206 +3641,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
 in
 
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2,
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env)
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
 
 
 
@@ -1864,17 +3671,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
                 
 
 
@@ -1886,17 +3701,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
                    
 
 
@@ -1908,17 +3731,25 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
                     |
 
 
@@ -1930,18 +3761,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error
 
 
 ================
@@ -1952,18 +3791,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(
 
 
 ================
@@ -1974,18 +3821,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(C
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg
 
 
 ================
@@ -1996,18 +3851,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Clos
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg)
 
 
 ================
@@ -2018,18 +3881,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) =>
 
 
 ================
@@ -2040,18 +3911,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error
 
 
 ================
@@ -2062,18 +3941,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(
 
 
 ================
@@ -2084,18 +3971,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg
 
 
 ================
@@ -2106,18 +4001,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1,
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
 
 
 ================
@@ -2128,502 +4031,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
 in
 
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)),
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2)
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) =>
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1,
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x,
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2),
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-
-
-================
-# A simplified lambda calculus expression containing variables, lambdas, and applications #
-type Exp =
-  + Var(String)
-  + Lam(String, Exp)
-  + Ap(Exp, Exp)
-in
-
-# Evaluation can result in either an Exp or an Error #
-# Evaluation by substitution #
-let eval: Exp -> Result =
-    fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
-                case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
 
 
 
@@ -2635,18 +4062,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
                 
 
 
@@ -2658,18 +4093,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
                    
 
 
@@ -2681,18 +4124,26 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
                     |
 
 
@@ -2704,18 +4155,713 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(L
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x,
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e'))
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) =>
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e',
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                   
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    |
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
                     | _
 
 
@@ -2727,18 +4873,27 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
                     | _ =>
 
 
@@ -2750,18 +4905,27 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
                     | _ => Error
 
 
@@ -2773,18 +4937,27 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
                     | _ => Error("
 
 
@@ -2796,19 +4969,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non
 
 
 ================
@@ -2819,19 +5001,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error")
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-
 
 
 ================
@@ -2842,19 +5033,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function
 
 
 ================
@@ -2865,19 +5065,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application
 
 
 ================
@@ -2888,19 +5097,124 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application")
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
+
+
+================
+# A simplified lambda calculus expression containing variables, lambdas, and applications #
+type Exp =
+  + Var(String)
+  + Lam(String, Exp)
+  + Ap(Exp, Exp)
+in
+
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
+# Evaluation can result in either an Exp or an Error #
+# Evaluation by substitution #
+let Exp.eval: Exp -> Result =
+    fun e ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
+                case e 
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
 
 
 
@@ -2912,19 +5226,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
        
 
 
@@ -2936,19 +5259,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go
 
 
@@ -2960,19 +5292,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(
 
 
@@ -2984,19 +5325,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e
 
 
@@ -3008,19 +5358,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e,
 
 
@@ -3032,19 +5391,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e, [
 
 
@@ -3056,19 +5424,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e, [])
 
 
@@ -3080,19 +5457,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e, [])
 
 
@@ -3105,19 +5491,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e, [])
 in
 
@@ -3130,19 +5525,28 @@ type Exp =
   + Ap(Exp, Exp)
 in
 
+type EvalResult =
+  + Exp(Exp)
+  + Error(String)
+in
+
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let eval: Exp -> Result =
+let Exp.eval: Exp -> Result =
     fun e ->
-        let rec go: (Exp, Env) -> Result =
-            fun e, env ->
+        let rec go: (Exp, [String]) -> Result =
+            fun e, ctx ->
                 case e 
-                | Var(x) => lookup(env, x)
-                | Lam(x, e1) => Ok(Closure(e1, env))
-                | Ap(e1, e2) =>
-                    match go(e1, env), go(e2, env) with 
-                    | Ok(Closure(e1, env)), Ok(v2) => go(subst(e1, x, v2), env)
-                    | _ => Error("Error") end in
+                | Var(x) =>
+                    if List.is_empty(ctx) then Error("Unbound variable") else
+                    let x' = List.hd(ctx) in
+                    if x == x' then Exp(Var(x)) else go(Var(x), List.tl(ctx)) end
+                | Lam(x, e') => Exp(Lam(x, e'))
+                | Ap(e1, e2) => 
+                    case go(e1, ctx)
+                    | Error(msg) => Error(msg)
+                    | Exp(Lam(x, e')) => go(e', x::ctx)
+                    | _ => Error("Non-function application") end in
         go(e, [])
 in
 

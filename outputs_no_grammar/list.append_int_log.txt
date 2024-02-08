@@ -1,101 +1,101 @@
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
 
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
  
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1,
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
 
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
    
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
 
@@ -103,7 +103,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
    
@@ -111,7 +111,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     |
@@ -119,7 +119,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | []
@@ -127,7 +127,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] =>
@@ -135,7 +135,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l
@@ -143,7 +143,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -151,7 +151,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -160,7 +160,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -169,7 +169,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -178,7 +178,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -187,7 +187,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -196,7 +196,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -205,7 +205,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -214,7 +214,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -223,7 +223,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -232,7 +232,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -241,7 +241,7 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
@@ -250,91 +250,109 @@ let append: ([a], [a]) -> [a] =
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append
+    | hd::tl => hd :: List
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(
+    | hd::tl => hd :: List.
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl
+    | hd::tl => hd :: List.append
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl,
+    | hd::tl => hd :: List.append(
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l
+    | hd::tl => hd :: List.append(tl
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l2
+    | hd::tl => hd :: List.append(tl,
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l2)
+    | hd::tl => hd :: List.append(tl, l
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l2) end
+    | hd::tl => hd :: List.append(tl, l2
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l2) end in
+    | hd::tl => hd :: List.append(tl, l2)
 
 
 ================
 # Put two lists together. #
-let append: ([a], [a]) -> [a] =
+let List.append: ([Int], [Int]) -> [Int] =
   fun l1, l2 ->
     case l1
     | [] => l2
-    | hd::tl => hd :: append(tl, l2) end in
+    | hd::tl => hd :: List.append(tl, l2) end
+
+
+================
+# Put two lists together. #
+let List.append: ([Int], [Int]) -> [Int] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: List.append(tl, l2) end in
+
+
+================
+# Put two lists together. #
+let List.append: ([Int], [Int]) -> [Int] =
+  fun l1, l2 ->
+    case l1
+    | [] => l2
+    | hd::tl => hd :: List.append(tl, l2) end in
 
 

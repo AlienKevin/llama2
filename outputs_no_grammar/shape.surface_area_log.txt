@@ -1,1334 +1,1859 @@
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
    
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
     fun
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape
+    fun s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
+    fun s ->
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
+    fun s ->
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
+    fun s ->
         case
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | S
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | Cube
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | Cube(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | Cube(s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | Cube(s)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
         | Cube(s) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s
+        | Cube(s) => 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s *
+        | Cube(s) => 6
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s
+        | Cube(s) => 6.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s *
+        | Cube(s) => 6.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 
+        | Cube(s) => 6.0 *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6
+        | Cube(s) => 6.0 * s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.
+        | Cube(s) => 6.0 * s *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
        
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         |
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | C
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cyl
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r,
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) =>
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r *
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r +
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r + h
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r + h)
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r + h) end
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r + h) end in
 
 
 ================
+# Radius of a shape #
 type Radius = Float in
+
+# Side length of a shape #
 type SideLength = Float in
+
+# Height of a shape #
 type Height = Float in
 
+# Common 3D shapes #
 type Shape =
   + Sphere(Radius)
   + Cube(SideLength)
   + Cylinder(Radius, Height)
 in
 
+# Calculate the surface area of a shape #
 let surface_area : Shape -> Float =
-    fun shape ->
-        case shape
+    fun s ->
+        case s
         | Sphere(r) => 4.0 * pi * r * r
-        | Cube(s) => s * s * 6.0
+        | Cube(s) => 6.0 * s * s
         | Cylinder(r, h) => 2.0 * pi * r * (r + h) end in
 
 

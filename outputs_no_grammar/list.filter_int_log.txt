@@ -1,82 +1,82 @@
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
 
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
  
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p,
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
 
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
    
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
 
@@ -84,7 +84,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
    
@@ -92,7 +92,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     |
@@ -100,7 +100,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | []
@@ -108,7 +108,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] =>
@@ -116,7 +116,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -124,7 +124,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -133,7 +133,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -142,7 +142,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -151,7 +151,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -160,7 +160,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -169,7 +169,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -178,7 +178,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -187,7 +187,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -196,7 +196,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -205,7 +205,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -214,7 +214,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -223,7 +223,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -232,7 +232,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -241,7 +241,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -250,7 +250,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -259,7 +259,7 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
@@ -268,172 +268,208 @@ let filter: (Int -> Bool, [Int]) -> [Int] =
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::
+    | hd::tl => if p(hd) then hd ::
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter
+    | hd::tl => if p(hd) then hd :: List
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(
+    | hd::tl => if p(hd) then hd :: List.
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p
+    | hd::tl => if p(hd) then hd :: List.filter
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p,
+    | hd::tl => if p(hd) then hd :: List.filter(
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, t
+    | hd::tl => if p(hd) then hd :: List.filter(p
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl
+    | hd::tl => if p(hd) then hd :: List.filter(p,
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl)
+    | hd::tl => if p(hd) then hd :: List.filter(p, t
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl)
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p,
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, t
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl)
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p,
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end in
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, t
 
 
 ================
 # Keep elements that satisfy the test. #
-let filter: (Int -> Bool, [Int]) -> [Int] =
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
   fun p, xs ->
     case xs
     | [] => []
-    | hd::tl => if p(hd) then hd::filter(p, tl) else filter(p, tl) end in
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl
+
+
+================
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl)
+
+
+================
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl) end
+
+
+================
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl) end in
+
+
+================
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if p(hd) then hd :: List.filter(p, tl) else List.filter(p, tl) end in
 
 
