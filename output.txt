@@ -1,0 +1,1084 @@
+Testing playlist
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let String.starts_with: (String, String) -> Bool =
+    fun string, prefix ->
+        if string_length(string) >= string_length(prefix) then
+            let string_prefix = string_sub(string, 0, string_length(prefix)) in
+            string_prefix $== prefix
+        else
+            false
+in
+
+let String.reverse: String -> String =
+    fun string ->
+        if string_length(string) <= 1 then
+            string
+        else
+            string_sub(string, string_length(string) - 1, 1) ++ String.reverse(string_sub(string, 0, string_length(string) - 1))
+in
+
+type StringTransform =
+    + Reverse
+    + Trim
+in
+
+let String.transform: (String, [StringTransform]) -> String =
+    fun string, transforms ->
+        case transforms
+        | [] => string
+        | transform::rest =>
+            let result =
+                case transform
+                | Reverse => String.reverse(string)
+                | Trim =>
+                    let starts_with_space = String.starts_with(string, " ") in
+                    let ends_with_space = String.starts_with(String.reverse(string), " ") in
+                    if starts_with_space && ends_with_space then
+                        string_sub(string, 1, string_length(string) - 2)
+                    else if starts_with_space then
+                        string_sub(string, 1, string_length(string) - 1)
+                    else if ends_with_space then
+                        string_sub(string, 0, string_length(string) - 2)  
+                    else
+                        string
+                end
+            in
+            String.transform(result, rest)
+    end
+in
+test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  + AddSong(Id)
+in
+
+# A playlist with a list of songs and the id for the currently playing/paused song #
+# -1 if none is playing #
+type PlayList = ([Id], Id) in
+
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
+
+# Get the id of the currently playing song #
+let get_current_song: PlayList -> Id =
+  fun playlist ->
+    let songs, current = playlist in
+    current
+in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+      | PlaySong(id) =>
+        let songs, _ = playlist in
+        (playlist)
+      | PauseCurrentSong =>
+        let songs, current = playlist in
+        (playlist)
+      | RemoveSong(id) =>
+        let songs, current = playlist in
+        (playlist)
+      | AddSong(id) =>
+        let songs, current = playlist in
+        (playlist)
+    end
+in
+
+Testing todo.add
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let String.starts_with: (String, String) -> Bool =
+    fun string, prefix ->
+        if string_length(string) >= string_length(prefix) then
+            let string_prefix = string_sub(string, 0, string_length(prefix)) in
+            string_prefix $== prefix
+        else
+            false
+in
+
+let String.reverse: String -> String =
+    fun string ->
+        if string_length(string) <= 1 then
+            string
+        else
+            string_sub(string, string_length(string) - 1, 1) ++ String.reverse(string_sub(string, 0, string_length(string) - 1))
+in
+
+type StringTransform =
+    + Reverse
+    + Trim
+in
+
+let String.transform: (String, [StringTransform]) -> String =
+    fun string, transforms ->
+        case transforms
+        | [] => string
+        | transform::rest =>
+            let result =
+                case transform
+                | Reverse => String.reverse(string)
+                | Trim =>
+                    let starts_with_space = String.starts_with(string, " ") in
+                    let ends_with_space = String.starts_with(String.reverse(string), " ") in
+                    if starts_with_space && ends_with_space then
+                        string_sub(string, 1, string_length(string) - 2)
+                    else if starts_with_space then
+                        string_sub(string, 1, string_length(string) - 1)
+                    else if ends_with_space then
+                        string_sub(string, 0, string_length(string) - 2)  
+                    else
+                        string
+                end
+            in
+            String.transform(result, rest)
+    end
+in
+test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
+# Add a todo item #
+let add: Model -> [Todo] =
+    fun model ->
+        let buffer, todo_list = model in
+        if string_length(buffer) > 0 then
+            todo_list @ [ (typeOfStringToInt32ToStringTypeStringTypeStringTypeStringTypeStringTypeTesting todo.remove
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let String.starts_with: (String, String) -> Bool =
+    fun string, prefix ->
+        if string_length(string) >= string_length(prefix) then
+            let string_prefix = string_sub(string, 0, string_length(prefix)) in
+            string_prefix $== prefix
+        else
+            false
+in
+
+let String.reverse: String -> String =
+    fun string ->
+        if string_length(string) <= 1 then
+            string
+        else
+            string_sub(string, string_length(string) - 1, 1) ++ String.reverse(string_sub(string, 0, string_length(string) - 1))
+in
+
+type StringTransform =
+    + Reverse
+    + Trim
+in
+
+let String.transform: (String, [StringTransform]) -> String =
+    fun string, transforms ->
+        case transforms
+        | [] => string
+        | transform::rest =>
+            let result =
+                case transform
+                | Reverse => String.reverse(string)
+                | Trim =>
+                    let starts_with_space = String.starts_with(string, " ") in
+                    let ends_with_space = String.starts_with(String.reverse(string), " ") in
+                    if starts_with_space && ends_with_space then
+                        string_sub(string, 1, string_length(string) - 2)
+                    else if starts_with_space then
+                        string_sub(string, 1, string_length(string) - 1)
+                    else if ends_with_space then
+                        string_sub(string, 0, string_length(string) - 2)  
+                    else
+                        string
+                end
+            in
+            String.transform(result, rest)
+    end
+in
+test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
+# Remove a todo item by its index #
+let remove: (Int, [Todo]) -> [Todo]=
+    fun idx, todos ->
+        let go: (Int, Int, [Todo] -> [Todo] ) =
+            if idx < 0 then
+                idx, idx + 1, fun xs -> xs
+            else
+                idx - 1
+                idx + 1
+                in
+        case todos
+        | [] => []
+        | hd::tl =>
+            if idx == 0 then
+                tl
+            else
+                hd :: (remove(idx - 1, tl)
+    )
+end
+in
+
+Testing todo.toggle
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let String.starts_with: (String, String) -> Bool =
+    fun string, prefix ->
+        if string_length(string) >= string_length(prefix) then
+            let string_prefix = string_sub(string, 0, string_length(prefix)) in
+            string_prefix $== prefix
+        else
+            false
+in
+
+let String.reverse: String -> String =
+    fun string ->
+        if string_length(string) <= 1 then
+            string
+        else
+            string_sub(string, string_length(string) - 1, 1) ++ String.reverse(string_sub(string, 0, string_length(string) - 1))
+in
+
+type StringTransform =
+    + Reverse
+    + Trim
+in
+
+let String.transform: (String, [StringTransform]) -> String =
+    fun string, transforms ->
+        case transforms
+        | [] => string
+        | transform::rest =>
+            let result =
+                case transform
+                | Reverse => String.reverse(string)
+                | Trim =>
+                    let starts_with_space = String.starts_with(string, " ") in
+                    let ends_with_space = String.starts_with(String.reverse(string), " ") in
+                    if starts_with_space && ends_with_space then
+                        string_sub(string, 1, string_length(string) - 2)
+                    else if starts_with_space then
+                        string_sub(string, 1, string_length(string) - 1)
+                    else if ends_with_space then
+                        string_sub(string, 0, string_length(string) - 2)  
+                    else
+                        string
+                end
+            in
+            String.transform(result, rest)
+    end
+in
+test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
+# Toggle a todo item by its index #
+let toggle: (Int, [Todo]) -> [Todo]=
+    fun idx, todos ->
+        case todos
+        | [] => []
+        | hd::tl => if idx == 0 then (hd::tl) else (hd::toggle(idx - 1, tl) ) end in
+
+Testing todo.update
+Processed prompt saved as autoregressive.prompt
+ truncate -s 0 log.txt
+ # Add an element to the front of a list. #
+let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [Int] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [Int] -> [Int] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [Int] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [Int] -> [Int] =
+fun l -> 
+let go: ([Int], [Int]) -> [Int] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([Int], [Int]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> Int) -> [Int] =
+    fun len, f ->
+        let go: (Int, [Int]) -> [Int] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let String.starts_with: (String, String) -> Bool =
+    fun string, prefix ->
+        if string_length(string) >= string_length(prefix) then
+            let string_prefix = string_sub(string, 0, string_length(prefix)) in
+            string_prefix $== prefix
+        else
+            false
+in
+
+let String.reverse: String -> String =
+    fun string ->
+        if string_length(string) <= 1 then
+            string
+        else
+            string_sub(string, string_length(string) - 1, 1) ++ String.reverse(string_sub(string, 0, string_length(string) - 1))
+in
+
+type StringTransform =
+    + Reverse
+    + Trim
+in
+
+let String.transform: (String, [StringTransform]) -> String =
+    fun string, transforms ->
+        case transforms
+        | [] => string
+        | transform::rest =>
+            let result =
+                case transform
+                | Reverse => String.reverse(string)
+                | Trim =>
+                    let starts_with_space = String.starts_with(string, " ") in
+                    let ends_with_space = String.starts_with(String.reverse(string), " ") in
+                    if starts_with_space && ends_with_space then
+                        string_sub(string, 1, string_length(string) - 2)
+                    else if starts_with_space then
+                        string_sub(string, 1, string_length(string) - 1)
+                    else if ends_with_space then
+                        string_sub(string, 0, string_length(string) - 2)  
+                    else
+                        string
+                end
+            in
+            String.transform(result, rest)
+    end
+in
+test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+    fun model, action ->
+        case action
+        | AddTodo =>
+            let buffer, todo_list = model in
+            if string_length(buffer) > 0 then
+                (
+                    (
+                        (
+                            (
+                                (
+                                    (
+                                        (
+                                            (
+                                                (
+                                                    (
+                                                        (
+                                                            (
+                                                                (
+                                                                    (
+                                                                        (
+                                                                            (
+                                                                                (
+                                                                                    (
+                                                                                        (
+                                                                                            (
+                                                                                                (

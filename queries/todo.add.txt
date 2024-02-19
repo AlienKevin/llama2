@@ -35,5 +35,13 @@ in
 
 let Model.init: Model = ("", []) in
 
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
 # Add a todo item #
 let add: Model -> [Todo] =

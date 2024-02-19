@@ -2274,7 +2274,7 @@ in
 
 # Evaluation can result in either an Exp or an Error #
 # Evaluation by substitution #
-let Exp.eval: Exp -> Result =
+let Exp.eval: Exp -> EvalResult =
     fun e ->
         let recgo: (Exp, String, Exp) -> Result
 LSP: Get Zipper: Found serialized zipper, deserializing
