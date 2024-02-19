@@ -1,0 +1,28 @@
+type AlignmentType =
+    + Center
+    + Start
+    + End
+in
+
+type TextAlignmentType =
+    + TextAlignCenter
+    + TextAlignLeft
+    + TextAlignRight
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+    + TextAlignment(TextAlignmentType)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] =
