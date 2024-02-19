@@ -1,0 +1,40 @@
+type Term =
+    + Var(String)
+    + Abs(String, Term)
+    + App(Term, Term)
+in
+
+let term_to_string: Term -> String =
+    fun term ->
+        case term
+            | Var(x) => x
+            | Abs(x, body) => "(lambda " ++ x ++ ". " ++ term_to_string(body) ++ ")"
+            | App(func, arg) => "(" ++ term_to_string(func) ++ " " ++ term_to_string(arg) ++ ")"
+        end
+in
+
+let parse_term: String -> (Term, String) =
+    fun string ->
+        if String.starts_with(string, "(lambda ") then
+            let keyword_length = string_length("(lambda ") in
+            let var = string_sub(string, keyword_length, 1) in
+            let body, rest_string = parse_term(string_sub(string, keyword_length + 3, string_length(string) - keyword_length - 3)) in
+            # Skip the closing ) #
+            let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+            (Abs(var, body), rest_string)
+        else
+            if String.starts_with(string, "(") then
+                let func, rest_string = parse_term(string_sub(string, 1, string_length(string) - 1)) in
+                # Skip the space between func and arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                let arg, rest_string = parse_term(rest_string) in
+                # Skip the closing ) after arg #
+                let rest_string = string_sub(rest_string, 1, string_length(rest_string) - 1) in
+                (App(func, arg), rest_string)
+            else
+                (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
+in
+
+let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
+let term2, _ = parse_term(term_to_string(term)) in
+test term_to_string(term) $== term_to_string(term2) end
