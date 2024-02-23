@@ -9,20 +9,11 @@ mkdir -p ../outputs
 # Define an array of file paths
 query_files=(../queries/playlist.txt ../queries/todo.add.txt ../queries/todo.remove.txt ../queries/todo.toggle.txt ../queries/todo.update.txt)
 
-skip_files=("list.filter_map_int", "list.find_int")
-
 # Loop through all .txt files in the queries directory
 for query_file in "${query_files[@]}"; do
 # for query_file in ../queries/*.txt; do
     # Extract the name of the query without the path and extension
     query_name=$(basename "$query_file" .txt)
-
-    for i in "${skip_files[@]}"; do
-        if [[ "$i" == "$query_name" ]]; then
-            echo "Skipping ${query_name}"
-            continue 2
-        fi
-    done
 
     echo "Testing ${query_name}"
 

@@ -34,7 +34,3 @@ let parse_term: String -> (Term, String) =
             else
                 (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
 in
-
-let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
-let term2, _ = parse_term(term_to_string(term)) in
-test term_to_string(term) $== term_to_string(term2) end

@@ -44,4 +44,3 @@ let String.transform: (String, [StringTransform]) -> String =
             String.transform(result, rest)
     end
 in
-test String.transform(" abc ", [Reverse, Trim]) $== "cba" end

@@ -1,2 +1,0 @@
-# Keep elements that satisfy the test. #
-let List.filter: (Int -> Bool, [Int]) -> [Int] =

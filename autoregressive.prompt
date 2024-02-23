@@ -67,6 +67,15 @@ let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
     | [] => acc
     | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
 
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if f(hd) then hd::List.filter(f, tl) else List.filter(f, tl)
+    end
+in
+
 let String.starts_with: (String, String) -> Bool =
     fun string, prefix ->
         if string_length(string) >= string_length(prefix) then
@@ -113,7 +122,7 @@ let String.transform: (String, [StringTransform]) -> String =
             String.transform(result, rest)
     end
 in
-test String.transform(" abc ", [Reverse, Trim]) $== "cba" end
+
 type Term =
     + Var(String)
     + Abs(String, Term)
@@ -150,10 +159,6 @@ let parse_term: String -> (Term, String) =
             else
                 (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
 in
-
-let term = App(Abs("x", App(Abs("x", Var("x")), Var("y"))), Var("z")) in 
-let term2, _ = parse_term(term_to_string(term)) in
-test term_to_string(term) $== term_to_string(term2) end
 # A todo has a description and a status #
 type Todo = (String, Bool) in
 

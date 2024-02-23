@@ -66,3 +66,12 @@ let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
     case xs
     | [] => acc
     | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Keep elements that satisfy the test. #
+let List.filter: (Int -> Bool, [Int]) -> [Int] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if f(hd) then hd::List.filter(f, tl) else List.filter(f, tl)
+    end
+in
