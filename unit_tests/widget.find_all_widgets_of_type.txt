@@ -44,3 +44,7 @@ test List.eq(Widget.eq, find_all_widgets_of_type(Row([Column([Text("a", [Alignme
     fun widget -> case widget | Text(_, attrs) => List.contains(fun attr -> Attribute.eq(attr, Alignment(End)), attrs) | _ => false end),
     [Text("b", [Alignment(End)])]
 ) end;
+test List.eq(Widget.eq, find_all_widgets_of_type(Row([Container(Column([Text("a", [Alignment(Start)]), Column([Container(Text("b", [Alignment(Center)]), [])], [])], []), []), Column([Container(Text("c", [Alignment(End)]), [])], [])], []),
+    fun widget -> case widget | Container(child, _) => case child | Text(_, attrs) => List.contains(fun attr -> !Attribute.eq(attr, Alignment(Start)), attrs) | _ => false end | _ => false end),
+    [Container(Text("b", [Alignment(Center)]),[]), Container(Text("c", [Alignment(End)]), [])]
+) end
