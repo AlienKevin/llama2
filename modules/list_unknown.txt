@@ -75,3 +75,12 @@ let List.filter: (? -> Bool, [?]) -> [?] =
     | hd::tl => if f(hd) then hd::List.filter(f, tl) else List.filter(f, tl)
     end
 in
+
+# Check if an element satisfying some predicate is contained in the list. #
+let List.contains: (? -> Bool, [?]) -> Bool =
+  fun f, xs ->
+    case xs
+    | [] => false
+    | hd::tl => if f(hd) then true else List.contains(f, tl)
+    end
+in
