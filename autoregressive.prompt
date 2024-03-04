@@ -1,81 +1,3 @@
-# Add an element to the front of a list. #
-let List.cons: (Int, [Int]) -> [Int] = fun x, xs -> x::xs in
-
-# Determine the length of a list. #
-let List.length: [Int] -> Int =
-  fun xs ->
-    case xs
-    | [] => 0
-    | _::xs => 1 + List.length(xs) end in
-
-# Extract the rest of the list. #
-let List.tl: [Int] -> [Int] =
-  fun l ->
-    case l
-    | [] => []
-    | x::xs => xs end in
-
-# Determine if a list is empty. #
-let List.is_empty: [Int] -> Bool =
-  fun xs ->
-    case xs
-    | [] => true
-    | _::_ => false end in
-
-# Reverse a List. #
-let List.rev: [Int] -> [Int] =
-fun l -> 
-let go: ([Int], [Int]) -> [Int] =
-  fun xs, acc -> 
-    case xs 
-    | [] => acc 
-    | x::xs => go(xs, x::acc) end in
-go(l, []) in
-
-# Check if two lists are equal #
-let List.eq: ([Int], [Int]) -> Bool =
-    fun xs, ys ->
-    case xs, ys
-    | [], [] => true
-    | x::xs, y::ys => x == y && List.eq(xs, ys)
-    | _ => false end
-in
-
-# Initialize a list with a given length using an initializer function #
-let List.init: (Int, Int -> Int) -> [Int] =
-    fun len, f ->
-        let go: (Int, [Int]) -> [Int] =
-        fun idx, xs ->
-            if idx < len 
-            then go(idx + 1, xs @ [f(idx)])   
-            else xs
-        in
-        go(0, [])
-in
-
-# Reduce a list from the left. #
-let List.fold_left: ((Int, Int) -> Int, Int, [Int]) -> Int =
-  fun f, acc, xs ->
-    case xs 
-    | [] => acc
-    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
-
-# Reduce a list from the right. #
-let List.fold_right: ((Int, Int) -> Int, [Int], Int) -> Int =
-  fun f, xs, acc ->
-    case xs
-    | [] => acc
-    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
-
-# Keep elements that satisfy the test. #
-let List.filter: (Int -> Bool, [Int]) -> [Int] =
-  fun f, xs ->
-    case xs
-    | [] => []
-    | hd::tl => if f(hd) then hd::List.filter(f, tl) else List.filter(f, tl)
-    end
-in
-
 let String.starts_with: (String, String) -> Bool =
     fun string, prefix ->
         if string_length(string) >= string_length(prefix) then
@@ -159,6 +81,85 @@ let parse_term: String -> (Term, String) =
             else
                 (Var(string_sub(string, 0, 1)), string_sub(string, 1, string_length(string) - 1))
 in
+
+# Add an element to the front of a list. #
+let List.cons: (?, [?]) -> [?] = fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [?] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the rest of the list. #
+let List.tl: [?] -> [?] =
+  fun l ->
+    case l
+    | [] => []
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [?] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+# Reverse a List. #
+let List.rev: [?] -> [?] =
+fun l -> 
+let go: ([?], [?]) -> [?] =
+  fun xs, acc -> 
+    case xs 
+    | [] => acc 
+    | x::xs => go(xs, x::acc) end in
+go(l, []) in
+
+# Check if two lists are equal #
+let List.eq: ([?], [?]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => x == y && List.eq(xs, ys)
+    | _ => false end
+in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> ?) -> [?] =
+    fun len, f ->
+        let go: (Int, [?]) -> [?] =
+        fun idx, xs ->
+            if idx < len 
+            then go(idx + 1, xs @ [f(idx)])   
+            else xs
+        in
+        go(0, [])
+in
+
+# Reduce a list from the left. #
+let List.fold_left: ((?, ?) -> ?, ?, [?]) -> ? =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((?, ?) -> ?, [?], ?) -> ? =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+# Keep elements that satisfy the test. #
+let List.filter: (? -> Bool, [?]) -> [?] =
+  fun f, xs ->
+    case xs
+    | [] => []
+    | hd::tl => if f(hd) then hd::List.filter(f, tl) else List.filter(f, tl)
+    end
+in
+
 # A todo has a description and a status #
 type Todo = (String, Bool) in
 
