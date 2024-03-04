@@ -1,13 +1,7 @@
 type AlignmentType =
-    + Center
     + Start
+    + Center
     + End
-in
-
-type TextAlignmentType =
-    + TextAlignCenter
-    + TextAlignLeft
-    + TextAlignRight
 in
 
 type Attribute =
@@ -15,7 +9,6 @@ type Attribute =
     + Margin(Int)
     + Alignment(AlignmentType)
     + Color(String)
-    + TextAlignment(TextAlignmentType)
 in
 
 type Widget =
@@ -31,13 +24,11 @@ let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = fun (widget
             case children
             | [] => []
             | hd::tl =>
-                if is_type(hd) then
-                    hd::find_children(tl)
-                else
-                    find_children(tl)
+                let results = find_all_widgets_of_type(hd, is_type) in
+                results @ find_children(tl)
             end
     in
-    let find_group =
+    let find_group: (Widget, [Widget]) -> [Widget] =
         fun widget, children ->
             if is_type(widget) then
                 widget :: find_children(children)
@@ -55,4 +46,3 @@ let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = fun (widget
         if is_type(widget) then [widget] else []
     end
 in
-find_all_widgets_of_type(Column([Column([Text("a",[])], [])], []), fun widget -> case widget | Column(_) => true | _ => false end)

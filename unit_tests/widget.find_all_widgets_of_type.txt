@@ -1,0 +1,46 @@
+let AlignmentType.eq: (AlignmentType, AlignmentType) -> Bool =
+    fun al1, al2 ->
+        case al1, al2
+        | (Start, Start) => true
+        | (Center, Center) => true
+        | (End, End) => true
+        | _ => false
+        end
+in
+
+let Attribute.eq: (Attribute, Attribute) -> Bool =
+    fun a1, a2 ->
+        case a1, a2
+        | (Padding(p1), Padding(p2)) => p1 == p2
+        | (Margin(m1), Margin(m2)) => m1 == m2
+        | (Alignment(al1), Alignment(al2)) => AlignmentType.eq(al1, al2)
+        | _ => false
+        end
+in
+
+let Widget.eq: (Widget, Widget) -> Bool =
+    fun w1, w2 ->
+        case w1, w2
+            | (Text(s1, attrs1), Text(s2, attrs2)) =>
+                s1 $== s2 && List.eq(Attribute.eq, attrs1, attrs2)
+            | (Column(ws1, attrs1), Column(ws2, attrs2)) =>
+                List.eq(Widget.eq, ws1, ws2) && List.eq(Attribute.eq, attrs1, attrs2)
+            | (Row(ws1, attrs1), Row(ws2, attrs2)) =>
+                List.eq(Widget.eq, ws1, ws2) && List.eq(Attribute.eq, attrs1, attrs2)
+            | (Container(w1, attrs1), Container(w2, attrs2)) =>
+                Widget.eq(w1, w2) && List.eq(Attribute.eq, attrs1, attrs2)
+            | _ =>
+                false
+        end
+in
+
+test List.eq(Widget.eq, find_all_widgets_of_type(Column([Column([Text("a",[])], [])], []), fun widget -> case widget | Column(_, _) => true | _ => false end),
+    [Column([Column([Text("a",[])], [])], []), Column([Text("a",[])], [])]
+) end;
+test List.eq(Widget.eq, find_all_widgets_of_type(Column([Column([Text("a",[])], [])], []), fun widget -> case widget | Text(_, _) => true | _ => false end),
+    [Text("a",[])]
+) end;
+test List.eq(Widget.eq, find_all_widgets_of_type(Row([Column([Text("a", [Alignment(Start)])], []), Column([Text("b", [Alignment(End)])], [])], []),
+    fun widget -> case widget | Text(_, attrs) => List.contains(fun attr -> Attribute.eq(attr, Alignment(End)), attrs) | _ => false end),
+    [Text("b", [Alignment(End)])]
+) end;
