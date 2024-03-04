@@ -11,8 +11,9 @@ in
 let PlayList.eq: (PlayList, PlayList) -> Bool =
   fun p1, p2 ->
     PlayListState.eq(get_state(p1), get_state(p2)) &&
-    List.eq(get_songs(p1), get_songs(p2))
+    List.eq(fun i1, i2 -> i1 == i2, get_songs(p1), get_songs(p2))
 in
+
 # Testing PlaySong #
 test PlayList.eq(update(([0, 1, 2], NoSongSelected), PlaySong(0)), ([0, 1, 2], Playing(0))) end;
 test PlayList.eq(update(([0, 1, 2], PausedOn(1)), PlaySong(1)), ([0, 1, 2], Playing(1))) end;
