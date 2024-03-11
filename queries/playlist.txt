@@ -6,12 +6,19 @@ type PlayListAction =
   + PlaySong(Id)
   + PauseCurrentSong
   + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
   + AddSong(Id)
 in
 
-# A playlist with a list of songs and the id for the currently playing/paused song #
-# -1 if none is playing #
-type PlayList = ([Id], Id) in
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
+
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
 
 # Get all the song ids in the playlist #
 let get_songs: PlayList -> [Id] =
@@ -21,10 +28,10 @@ let get_songs: PlayList -> [Id] =
 in
 
 # Get the id of the currently playing song #
-let get_current_song: PlayList -> Id =
+let get_state: PlayList -> PlayListState =
   fun playlist ->
-    let songs, current = playlist in
-    current
+    let songs, state = playlist in
+    state
 in
 
 # Update playlist based on action #

@@ -1,13 +1,7 @@
 type AlignmentType =
-    + Center
     + Start
+    + Center
     + End
-in
-
-type TextAlignmentType =
-    + TextAlignCenter
-    + TextAlignLeft
-    + TextAlignRight
 in
 
 type Attribute =
@@ -15,7 +9,6 @@ type Attribute =
     + Margin(Int)
     + Alignment(AlignmentType)
     + Color(String)
-    + TextAlignment(TextAlignmentType)
 in
 
 type Widget =

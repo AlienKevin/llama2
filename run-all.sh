@@ -7,7 +7,7 @@ cd llama.cpp
 mkdir -p ../outputs
 
 # Define an array of file paths
-query_files=(../queries/playlist.txt ../queries/todo.add.txt ../queries/todo.remove.txt ../queries/todo.toggle.txt ../queries/todo.update.txt)
+query_files=(../queries/playlist.txt ../queries/todo.add.txt ../queries/todo.remove.txt ../queries/todo.toggle.txt ../queries/todo.update.txt ../queries/widget.find_all_widgets_of_type.txt)
 
 # Loop through all .txt files in the queries directory
 for query_file in "${query_files[@]}"; do
@@ -31,7 +31,7 @@ for query_file in "${query_files[@]}"; do
         -t 10 \
         -ngl 64 \
         -b 512 \
-        -m ../models/codellama-34b.Q5_K_M.v3.gguf \
+        -m ../models/codellama-70b-hf.Q5_K_M.gguf \
         --color -c 3400 \
         --seed 1 \
         --temp 0 \
