@@ -31,7 +31,7 @@ for query_file in "${query_files[@]}"; do
         -t 10 \
         -ngl 64 \
         -b 512 \
-        -m ../models/codellama-70b-hf.Q5_K_M.gguf \
+        -m /Volumes/crucialx9/models/codellama-34b.Q5_K_M.v3.gguf \
         --color -c 3400 \
         --seed 1 \
         --temp 0 \
