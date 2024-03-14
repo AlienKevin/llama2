@@ -18,4 +18,6 @@ type Widget =
     + Container(Widget, [Attribute])
 in
 
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
 let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] =
