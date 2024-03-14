@@ -22,24 +22,26 @@ for query_file in "${query_files[@]}"; do
     cd llama.cpp
 
 
-    # Clears log
-    touch log.txt && echo "" truncate -s 0 log.txt
+    for i in {1..5}; do
+        # Clears log
+        touch log.txt && echo "" > log.txt
 
-    # Run the main command with modifications for each query
-    ./main \
-        --dynamic-grammar types \
-        -t 10 \
-        -ngl 64 \
-        -b 512 \
-        -m /Volumes/crucialx9/models/codellama-34b.Q5_K_M.v3.gguf \
-        --color -c 3400 \
-        --seed 1 \
-        --temp 0 \
-        --repeat_penalty 1.1 \
-        -n -1 \
-        -f "../autoregressive.prompt" \
-        --prelude "../autoregressive.prelude"
+        # Run the main command with modifications for each query
+        ./main \
+            --dynamic-grammar types \
+            -t 10 \
+            -ngl 64 \
+            -b 512 \
+            -m /Volumes/crucialx9/models/codellama-34b.Q5_K_M.v3.gguf \
+            --color -c 3400 \
+            --seed $i \
+            --temp 0.8 \
+            --repeat_penalty 1.1 \
+            -n -1 \
+            -f "../autoregressive.prompt" \
+            --prelude "../autoregressive.prelude"
 
-    # After running the command, move and rename log.txt to the outputs folder with a related name
-    mv log.txt "../outputs/${query_name}_log.txt"
+        # After running the command, move and rename log.txt to the outputs folder with a related name
+        mv log.txt "../outputs/${query_name}_log_${i}.txt"
+    done
 done
