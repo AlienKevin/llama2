@@ -28,7 +28,6 @@ for query_file in "${query_files[@]}"; do
 
         # Run the main command with modifications for each query
         ./main \
-            --dynamic-grammar types \
             -t 10 \
             -ngl 64 \
             -b 512 \

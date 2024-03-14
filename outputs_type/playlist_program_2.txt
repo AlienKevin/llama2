@@ -1,0 +1,71 @@
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
+  + AddSong(Id)
+in
+
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
+
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
+
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
+
+# Get the id of the currently playing song #
+let get_state: PlayList -> PlayListState =
+  fun playlist ->
+    let songs, state = playlist in
+    state
+in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+fun pl, action ->
+  case action 
+  | AddSong(id) =>
+      let songs, current_state = pl in
+      if List.contains(is_infinite, id) then 
+        (songs, NoSongSelected)  
+      else (songs @ [id] , current_state)
+      
+  | PauseCurrentSong => 
+      let songs, current = pl in
+      case current 
+      | Playing(songId) => (songs, PausedOn(songId) )
+      | NoSongSelected => pl
+      | PausedOn(songId) => pl
+      
+  | Playing(id) => 
+      let songs, current = pl in
+      case current 
+      | Playing(songId) => if songId == id then (songs, current) else (songs, PausedOn(songId) )
+      | NoSongSelected => (songs, PausedOn(id) )
+      | PausedOn(songId) => (songs, PausedOn(songId) )
+      
+  | Playing(id) => 
+      let songs, current = pl in
+      case current 
+      | Playing(songId) => if songId == id then (songs, current) else (songs, PausedOn(songId) )
+      | NoSongSelected => (songs, PausedOn(id) )
+      | PausedOn(songId) => (songs, PausedOn(songId) )
+      
+  end
+   
+  
+end
