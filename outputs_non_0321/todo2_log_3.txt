@@ -1,0 +1,883 @@
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+ 
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos),
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | Add
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddT
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(tod
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | Remove
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveT
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index)
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | T
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | Toggle
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleT
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index)
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | Update
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(new
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer)
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (new
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer, todos
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer, todos)
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer, todos) end
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer, todos) end in
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo(index) => (buffer, remove(index, todos))
+    | ToggleTodo(index) => (buffer, toggle(index, todos))
+    | UpdateBuffer(newBuffer) => (newBuffer, todos) end in
+
+

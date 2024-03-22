@@ -1,0 +1,72 @@
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String)
+in
+
+let Bool.eq: (Bool, Bool) -> Bool =
+  fun (b1, b2) -> if b1 then b2 else !b2
+in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+    d1 $== d2 && Bool.eq(s1, s2)
+in
+
+let todo_list_eq: ([Todo], [Todo]) -> Bool =
+    fun xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => Todo.eq(x, y) && todo_list_eq(xs, ys)
+    | _ => false end
+in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && todo_list_eq(ts1, ts2)
+in
+
+let Model.init: Model = ("", []) in
+
+let Model.get_buffer: Model -> String =
+  fun buffer, todo_list -> buffer
+in
+
+let Model.get_todo_list: Model -> [Todo] =
+  fun buffer, todo_list -> todo_list
+in
+
+# Update todo list #
+let update: (Model, Action) -> Model =
+  fun buffer, todo_list action ->
+    case action
+    | AddTodo =>
+        let description = buffer in
+        if String.length(description) == 0 then
+            buffer, todo_list
+        else
+            "", (description, false)::todo_list
+        end
+    | RemoveTodo(index) ->
+        if index >= 0 && index < List.length(todo_list) then
+            let tl = list_tl(todo_list, index) in
+            buffer, (list_take(todo_list, index)) @ tl
+        else
+            buffer, todo_list
+        end
+    | ToggleTodo(index) =>
+        if index >= 0 && index < List.length(todo_list) then
+            let hd = list_hd(todo_list, index) in
+            let tl = list_tl(todo_list, index) in
+            buffer, (hd.(1), !hd.$2)::tl
+        else
+            buffer, todo_list
+    | UpdateBuffer(buffer) => buffer, todo_list end
+in

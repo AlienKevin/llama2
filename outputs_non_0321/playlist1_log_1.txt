@@ -1,0 +1,4628 @@
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+ 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | Add
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | Remove
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filter
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | []
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([],
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlayS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | Pause
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrent
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, Paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ => play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ => playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ => playlist end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ => playlist end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if List.mem(Id.eq, song, songs) then playlist
+      else (song::songs, current) end
+    | RemoveSong(song) =>
+      let songs, current = playlist in
+      case List.filteri((fun i, x -> x <> song), songs) of
+      | [] => ([], NoSongSelected)
+      | _ as new_songs => 
+        if current = Playing(song) then (new_songs, NoSongSelected)
+        else (new_songs, current) end
+    # Update state to playing #
+    | PlaySong(id) => (get_songs(playlist), Playing(id))
+    # Update state to paused #
+    | PauseCurrentSong => 
+      let songs = get_songs(playlist) in
+      match get_state(playlist)
+      | Playing(id) => (songs, PausedOn(id))
+      | _ => playlist end
+in
+

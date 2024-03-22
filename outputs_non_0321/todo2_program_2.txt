@@ -1,0 +1,15 @@
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun (buffer, todos), action ->
+    case action
+    | AddTodo => (buffer, add(todos))
+    | RemoveTodo index => (buffer, remove(todos, index))
+    | ToggleTodo index => (buffer, toggle(index, todos))
+    | UpdateBuffer buffer => (buffer, todos) end in
+# TODO MVU: Handle view events to generate actions for the update function #
+let View.on_click: ((Int, Action) -> (Event, Model) -> (Event, Action)) =
+  fun index action (event, model) ->
+    case event
+    | Click => (event, action(index))
+    | _ => (event, ?) end in

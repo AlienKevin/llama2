@@ -1,0 +1,5836 @@
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] =
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+       
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go:
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget])
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) ->
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget]
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+           
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+               
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+               
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    |
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) =>
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    |
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) =>
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [],
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    |
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) =>
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [],
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widget
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    |
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) =>
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                   
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+           
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+       
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root,
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root, [
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root, [])
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root, [])
+
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root, [])
+in
+
+
+================
+type AlignmentType =
+    + Start
+    + Center
+    + End
+in
+
+type Attribute =
+    + Padding(Int)
+    + Margin(Int)
+    + Alignment(AlignmentType)
+    + Color(String)
+in
+
+type Widget =
+    + Text(String, [Attribute])
+    + Column([Widget], [Attribute])
+    + Row([Widget], [Attribute])
+    + Container(Widget, [Attribute])
+in
+
+# Find all widgets satisfying a given predicate function. #
+# All widgets, including the nested ones, will be tested. #
+let find_all_widgets_of_type: (Widget, Widget -> Bool) -> [Widget] = 
+    fun root, f ->
+        let rec go: (Widget, [Widget]) -> [Widget] =
+            fun w, found_so_far ->
+                if f(w) then
+                    w::found_so_far
+                else
+                    case w
+                    | Text(_, _) => found_so_far
+                    | Column(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Row(widgets, _) => List.fold_left(go, [], widgets) @ found_so_far
+                    | Container(w, _) => go(w, found_so_far)
+                    end
+            in
+        go(root, [])
+in
+
+

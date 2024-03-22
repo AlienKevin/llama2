@@ -1,0 +1,3551 @@
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+ 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlayS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | Pause
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrent
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+         
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, Paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+         
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+         
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | Remove
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | Add
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSongSelected)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSongSelected) end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSongSelected) end in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+      | PlaySong id =>
+        let songs, _ = playlist in
+        (songs, Playing(id))
+      | PauseCurrentSong =>
+        let songs, state = playlist in
+        begin match state with 
+          | Playing(i) => (songs, PausedOn(i))
+          | NoSongSelected => ?
+          | _ => playlist end
+      | RemoveSong id => 
+        let songs, state = playlist in
+        let songs = List.filter((fun x -> x <> id), songs) in
+        (songs, NoSongSelected)
+      | AddSong id =>
+        let songs, state = playlist in
+        if List.mem(Int.equal, songs, id) 
+        then playlist else (id::songs, NoSongSelected) end in
+
+

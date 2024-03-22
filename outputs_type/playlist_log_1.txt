@@ -20546,7 +20546,8 @@ Top 20 Logits:
 )[:11.6707	prefix accepted:)
  of:11.4979	prefix accepted: 
 )->:11.477	prefix accepted:)
-):11.3929	prefix accepted:)
+)
+:11.3929	prefix accepted:)
 
 ================
 # Non-negative ID for songs #
@@ -38574,7 +38575,8 @@ Top 20 Logits:
  ||:11.3467	prefix accepted: 
 ).:11.3139	prefix accepted:)
 )\:11.1758	prefix accepted:)
-):11.1404	prefix accepted:)
+)
+:11.1404	prefix accepted:)
 )::11.0444	prefix accepted:)
  and:10.9373	prefix accepted: 
 =:10.8565	rejected

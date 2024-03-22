@@ -1,0 +1,62 @@
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
+  + AddSong(Id)
+in
+
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
+
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
+
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
+
+# Get the id of the currently playing song #
+let get_state: PlayList -> PlayListState =
+  fun playlist ->
+    let songs, state = playlist in
+    state
+in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | AddSong(song_id) =>
+        let songs, state = playlist in
+        if List.contains((==), song_id, songs) then playlist else (songs @ [song_id], state)
+    | RemoveSong(song_id) =>
+        let songs, state = playlist in
+        # Can't remove a song not in the playlist #
+        if List.contains((==), song_id, songs) then ([], NoSongSelected) else (List.filter(((x: Id) -> x != song_id), songs), state)
+    | PauseCurrentSong => 
+        let songs, state = playlist in
+        case state
+        | NoSongSelected => playlist
+        | Playing(song_id) => (songs, PausedOn(song_id))
+        | PausedOn(song_id) => (songs, PausedOn(song_id))
+    | PlaySong(song_id) => 
+        let songs, state = playlist in
+        case state
+        | NoSongSelected => if List.contains((==), song_id, songs) then ([], Playing(song_id)) else (List.filter((x -> x != song_id), songs), NoSongSelected)
+        | PausedOn(_) => playlist
+        # If the song is already playing, ignore the request to play #
+        | Playing(playing_song_id) =>  if (playing_song_id == song_id) then playlist else ([], NoSongSelected)
+    end
+in

@@ -1,0 +1,11 @@
+type Foo = FooA + FooB + FooC in
+type Bar = BarA + BarB(Foo) in
+case BarB(FooB)
+| BarA => 0
+| BarB(foo) =>
+    case foo
+    | FooA => 1
+    | FooB => 2
+    | FooC => 3
+    end
+end

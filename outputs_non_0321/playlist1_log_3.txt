@@ -1,0 +1,3586 @@
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+ 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | Pause
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrent
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, Paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ?
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | Remove
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO:
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | Add
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO:
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ?
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlayS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | Paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ?
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ? end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ? end
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ? end
+end
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ? end
+end in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+    | PauseCurrentSong =>
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => (songs, PausedOn(song))
+      | _ => ? end
+    | RemoveSong(id) => 
+      # TODO: remove song from the list of songs
+      playlist
+    | AddSong(song) => 
+      let songs, current_state = playlist in
+      # TODO: add song to the list of songs
+      (songs, ? )
+    | PlaySong(song) => 
+      let songs, current_state = playlist in
+      case current_state
+      | Playing(song) => playlist
+      | PausedOn(_) => (songs, Playing(song))
+      | NoSongSelected => ? end
+end in
+
+

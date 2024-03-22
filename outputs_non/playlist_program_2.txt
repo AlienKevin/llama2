@@ -1,0 +1,61 @@
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
+  + AddSong(Id)
+in
+
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
+
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
+
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
+
+# Get the id of the currently playing song #
+let get_state: PlayList -> PlayListState =
+  fun playlist ->
+    let songs, state = playlist in
+    state
+in
+
+# Update playlist based on action #
+let update: (PlayList, PlayListAction) -> PlayList =
+fun pl, action ->
+  case action 
+  | AddSong(id) =>
+      let songs, current_state = pl in
+      if List.contains((fun id' -> id == id'), songs) then pl
+      else (songs @ [id], current_state)
+  
+  | PlaySong(id) =>
+      let songs, _ = pl in
+      if List.contains((fun id' -> id == id'), songs) then (songs, Playing(id)) else pl
+
+  | PauseCurrentSong =>
+      case get_state(pl)
+        | NoSongSelected => pl
+        | Playing(id) => (get_songs(pl), PausedOn(id))
+        | PausedOn(_) => pl
+      end
+
+  | RemoveSong(id) =>
+      let songs, current_state = pl in
+      if List.contains((fun id' -> id == id'), songs) then (List.filter((fun id -> not ((fun x -> x == id)(id))), songs), current_state) else pl
+  end
+in

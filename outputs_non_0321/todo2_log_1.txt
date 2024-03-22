@@ -1,0 +1,596 @@
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+ 
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+ 
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | Add
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddT
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("",
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(s
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+ 
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  |
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | Remove
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveT
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index)
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+   
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("",
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(s
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index,
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index, s
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index, snd
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index, snd(
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index, snd(m
+
+
+================
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model = fun m, action ->
+  case action
+  | AddTodo =>
+    (("", List.map(snd, add(m))))
+  | RemoveTodo(index) =>
+    (("", List.map(snd, remove(index, snd(m))
+

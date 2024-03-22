@@ -1,3 +1,2 @@
-\include string
-\include parser
+\include nested_case
 \include list_unknown

@@ -1,0 +1,14 @@
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList = 
+  fun playlist, action ->
+    case action
+    | AddSong(song) =>
+      let songs, current = playlist in
+      if (current == NoSongSelected) then
+        let new_playlist = (song::songs, PausedOn(song) ) in 
+          new_playlist
+      else 
+        let new_playlist = (song::songs, current ) in
+        new_playlist
+      end
