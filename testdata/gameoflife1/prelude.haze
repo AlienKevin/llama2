@@ -1,0 +1,12 @@
+# GAME OF LIFE MVU PRELUDE #
+
+type Cell = Bool in
+type Row = [Cell] in
+type Grid = [Row] in  
+type Index = (Int, Int) in
+type Model = (Grid, Int) in
+
+type Action =
+  + InitializeGrid(Grid)
+  + NextGeneration
+  + ToggleCell(Index) in

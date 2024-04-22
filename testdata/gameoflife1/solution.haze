@@ -1,0 +1,70 @@
+let Grid.empty: Grid =
+[
+    [false,false,false],
+    [false,false,false], 
+    [false,false,false]
+] in
+
+let Grid.set: (Grid, Index, Cell) -> Grid =
+fun grid, (i, j), cell ->
+List.mapi(
+  fun k, row ->
+    if k == i 
+      then List.mapi(fun l, c -> if l == j then cell else c, row) 
+        else row,
+        grid) in
+
+let Grid.at: (Grid, Index) -> Cell =
+fun grid, (i, j) ->
+List.nth(List.nth(grid, i), j) in
+
+let neighbors: (Grid, Index) -> [Index] =
+fun grid, (i, j) ->
+let rows = List.length(grid) in
+  let cols = List.length(List.hd(grid)) in
+    let indices = [
+        (i-1,j-1),(i-1,j),(i-1,j+1),
+        (i,j-1),          (i,j+1),
+        (i+1,j-1),(i+1,j),(i+1,j+1)
+    ] in
+    List.filter(
+    fun (r, c) -> 
+    r >= 0 && r < rows && c >= 0 && c < cols,
+      indices
+    ) in
+
+let neighbor_count: (Grid, Index) -> Int =
+fun grid, idx ->
+List.fold_right(
+  fun n, count ->
+    if Grid.at(grid, n) then count+1 else count,
+      neighbors(grid, idx),
+      0) in
+
+let next_cell: (Grid, Index) -> Cell =
+fun grid, idx ->
+let cell = Grid.at(grid, idx) in
+  let count = neighbor_count(grid, idx) in
+    if cell 
+    then 2 <= count && count <= 3 
+    else count == 3 in
+    
+let next_grid: Grid -> Grid =
+fun grid ->
+List.mapi(
+  fun i, row ->
+    List.mapi(
+      fun j, _ -> next_cell(grid, (i,j)),
+        row),
+          grid) in
+
+# GAME OF LIFE MVU: Update function handles actions to update the model #
+
+let update: (Model, Action) -> Model =
+fun (grid, generations), action ->
+    case action
+    | InitializeGrid(g) => (g, 0)
+    | NextGeneration => (next_grid(grid), generations + 1)
+    | ToggleCell(index) =>  
+      (Grid.set(grid, index, !Grid.at(grid, index)), generations)  
+      end in

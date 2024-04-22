@@ -1,0 +1,121 @@
+# GAME OF LIFE MVU TESTS #
+let grid_eq: (Grid, Grid) -> Bool = fun (a, b) -> List.equal(fun c, d -> List.equal(bool_eq, c, d), a, b) in
+
+test grid_eq(Grid.empty, Grid.empty) end;
+
+let empty_model = (Grid.empty, 0) in
+neighbor_count(Grid.empty, (0,0));
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let (grid, generations) = update(empty_model, NextGeneration) in
+  grid_eq(grid, Grid.empty) && generations == 1 
+end;
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let (grid, generations) = update(empty_model, ToggleCell((1,1))) in
+  Grid.at(grid, (1,1)) && generations == 0   
+end;
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let init_grid =
+    [[false,false,false],
+      [false,true,false],
+    [false,false,false]] in
+  let (grid, generations) = update(empty_model, InitializeGrid(init_grid)) in
+  grid_eq(grid, init_grid) && generations == 0 
+end;
+
+test
+  let init_grid = 
+    [[false,true,false],
+      [false,true,false], 
+    [false,true,false]] in
+  let expected_grid =
+    [[false,false,false],
+      [true,true,true],
+  [false,false,false]] in
+  let (grid, generations) = update((init_grid, 0), NextGeneration) in
+  grid_eq(grid, expected_grid) && generations == 1 
+end;
+
+test
+  let init_grid = 
+    [[false,true,false],
+      [true,true,true],
+  [false,true,false]] in
+  let expected_grid =
+    [[true,true,true],
+      [true,false,true],
+  [true,true,true]] in
+  let (grid, generations) = update((init_grid, 0), NextGeneration) in
+  grid_eq(grid, expected_grid) && generations == 1   
+end;
+
+test
+  let init_grid =
+    [[false,false,false,false],
+      [false,true,true,false],
+      [false,true,true,false],
+  [false,false,false,false]] in
+  let (grid, generations) = update((init_grid, 0), ToggleCell((1,0))) in
+  let (grid, generations) = update((grid, generations), NextGeneration) in
+  let expected_grid =
+    [[false,true,false,false],
+      [true,false,true,false],
+      [true,false,true,false],
+  [false,false,false,false]] in
+  grid_eq(grid, expected_grid) && generations == 1 
+end;
+
+test
+  let init_grid = 
+    [[false,false,false,false,false],
+      [false,false,true,false,false],
+      [false,false,true,false,false],
+      [false,false,true,false,false],
+  [false,false,false,false,false]] in
+  
+  let expected_grid_gen3 =
+    [[false,false,false,false,false],
+      [false,false,false,false,false],
+      [false,true,true,true,false],
+      [false,false,false,false,false],
+  [false,false,false,false,false]] in
+  
+  let (grid1, generations1) = update((init_grid, 0), NextGeneration) in
+  let (grid2, generations2) = update((grid1, generations1), NextGeneration) in
+  let (grid3, generations3) = update((grid2, generations2), NextGeneration) in
+  
+  grid_eq(grid3, expected_grid_gen3) &&
+  generations3 == 3 
+end;
+
+test
+  let complex_init_grid =
+    [[false,false,false,false,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,true,false,false,true,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,false,false,false,false,false],
+  [false,false,false,false,false,false,false]] in
+  
+  let expected_grid_gen3 =
+    [[false,false,false,false,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,true,false,false,true,false,false],
+      [false,true,false,false,true,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,false,false,false,false,false],
+  [false,false,false,false,false,false,false]] in
+  
+  let (grid1, generations1) = update((complex_init_grid, 0), NextGeneration) in
+  let (grid2, generations2) = update((grid1, generations1), NextGeneration) in
+  let (grid3, generations3) = update((grid2, generations2), NextGeneration) in
+  
+  grid_eq(grid3, expected_grid_gen3) &&
+  generations3 == 3 
+end; 
