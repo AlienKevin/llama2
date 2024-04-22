@@ -1,0 +1,5 @@
+# GAME OF LIFE MVU: Update function handles actions to update the model #
+
+let update: (Model, Action) -> Model =
+  ??
+in
