@@ -1,0 +1,1217 @@
+Hazel standard library:
+```
+# Basics #
+
+type Option = None + Some(?) in
+
+let fst: (?, ?) -> ? = fun a, b -> a in
+let snd: (?, ?) -> ? = fun a, b -> b in
+
+let not: Bool -> Bool = fun b -> !b in
+
+let bool_eq: (Bool, Bool) -> Bool =
+  fun a, b -> a && b \/ !a && !b in
+
+
+# Lists #
+
+# Add an element to the front of a list. #
+let List.cons: (?, [?]) -> [?] =
+  fun x, xs -> x::xs in
+
+# Determine the length of a list. #
+let List.length: [?] -> Int =
+  fun xs ->
+    case xs
+    | [] => 0
+    | _::xs => 1 + List.length(xs) end in
+
+# Extract the head of the list. #
+let List.hd: [?] -> ? =
+  fun l -> 
+    case l  
+    | [] => ?
+    | x::xs => x end in
+
+# Extract the rest of the list. #
+let List.tl: [?] -> [?] =
+  fun l ->
+    case l 
+    | [] => ?
+    | x::xs => xs end in
+
+# Determine if a list is empty. #
+let List.is_empty: [?] -> Bool =
+  fun xs ->
+    case xs
+    | [] => true
+    | _::_ => false end in
+
+let List.nth: ([?], Int) -> ? =
+  fun xs, n ->
+    case xs, n
+    | x::_, 0 => x
+    | _::xs, n => List.nth(xs, n - 1)
+    | [], _ => ? end in
+
+# Reverse a List. #
+let List.rev: [?] -> [?] =
+  fun l -> 
+    let go: ([?], [?]) -> [?] =
+      fun xs, acc -> 
+        case xs 
+        | [] => acc 
+        | x::xs => go(xs, x::acc) end in
+   go(l, []) in
+
+# Initialize a list with a given length using an initializer function #
+let List.init: (Int, Int -> ?) -> [?] =
+  fun len, f ->
+    let go: (Int, [?]) -> [?] =
+      fun idx, xs ->
+        if idx < len 
+        then go(idx+ 1, xs @ [f(idx)])   
+        else xs in
+    go(0, []) in
+
+# Check if two lists are equal #
+let List.equal: (? -> Bool, [?], [?]) -> Bool =
+  fun p, xs, ys ->
+    case xs, ys
+    | [], [] => true
+    | x::xs, y::ys => p(x, y) && List.equal(p, xs, ys)
+    | _ => false end in
+
+let List.eq = List.equal in
+
+# Reduce a list from the left. #
+let List.fold_left: ((?, ?)-> ?, ?, [?])-> ?   =
+  fun f, acc, xs ->
+    case xs 
+    | [] => acc
+    | hd::tl => List.fold_left(f, f(acc, hd), tl) end in
+
+# Reduce a list from the right. #
+let List.fold_right: ((?, ?)-> ?, [?], ?)-> ? =
+  fun f, xs, acc ->
+    case xs
+    | [] => acc
+    | hd::tl => f(hd, List.fold_right(f, tl, acc)) end in
+
+let List.fold_left2: ((?, ?, ?) -> ?, ?, [?], [?]) -> [?] = 
+  fun f, acc, xs, ys ->
+    case xs, ys
+    | [], [] => acc
+    | x::xs, y::ys =>
+      List.fold_left2(f, f(acc, x, y), xs, ys)
+    | _ => ? end in
+
+let List.fold_right2: ((?, ?, ?) -> ?, [?], [?], ?) -> [?] =
+  fun f, acc, xs, ys ->
+    case xs, ys
+    | [], [] => acc
+    | x::xs, y::ys =>
+       f(x, y, List.fold_right2(f, xs, ys, acc))
+    | _ => ? end in
+
+let List.map: (? -> ?, [?]) -> ? =
+  fun f, xs ->
+    List.fold_right(fun x, acc -> f(x)::acc, xs, []) in
+
+let List.map2: ((?,?) -> ?, [?], [?]) -> [?] =
+  fun f, xs, ys ->
+    List.fold_left2(
+      fun x, y, acc -> f(x, y)::acc, xs, ys, []) in
+
+# Keep elements that satisfy the test. #
+let List.filter: (? -> Bool, [?]) -> [?] =
+  fun p, xs ->
+    case xs
+    | [] => []
+    | x::xs =>
+      let xs = List.filter(p, xs) in 
+      if p(x) then x :: xs else xs end in
+
+let List.append: (([?], [?]) -> [?]) =
+  fun xs, ys -> List.fold_right(List.cons, xs, ys) in
+
+let List.concat: [[?]] -> [?] =
+  fun xss -> List.fold_right(List.append, xss, [])  in
+
+let List.flatten = List.concat in
+
+let List.mapi: ((Int, ?) -> ?, [?]) -> [?] =
+  fun f, xs ->
+    let go: ? -> ? = fun idx, xs ->
+      case xs
+      | [] => []
+      | hd::tl => f(idx, hd)::go(idx + 1, tl) end in
+    go(0, xs) in
+
+let List.filteri: ((Int, ?) -> Bool, [?]) -> [?] =
+  fun f, xs ->
+    List.concat(List.mapi(
+      fun i, x -> if f(i, x) then [x] else [], xs)) in
+
+let List.exists: (? -> Bool, [?]) -> Bool =
+  fun p, xs ->
+    case xs
+    | [] => false
+    | x::xs => p(x) \/ List.exists(p, xs) end in
+
+let List.for_all: (? -> Bool, [?]) -> Bool =
+  fun p, xs -> not(List.exists(fun x -> not(p(x)), xs)) in
+
+let List.mem = fun eq, xs, y ->
+  List.exists(fun x -> eq(x, y), xs) in
+```
+
+Room booking MVU in Hazel with unit tests for the update function:
+```
+# ROOM BOOKING MVU PRELUDE #
+
+type Weekday = M + T + W + R + F in
+type TimeOfDay = AM + PM in
+type Time = (Weekday, TimeOfDay) in
+type User = String in
+type BookingID = Int in
+type Booking = (Time, User, BookingID) in
+type BookingFormData = (Time, User) in
+type Model = (BookingFormData, [Booking], BookingID) in
+
+type Action =
+  + AddBooking(User, Weekday, TimeOfDay)
+  + CancelBooking(User, Int)
+  + ClearBookings
+  + ClearRange(Time, Time) 
+in
+    
+let initFormState = ((M, AM), "") in
+let Model.init: Model = (initFormState, [], 0) in
+
+let getBookings: Model -> [Booking] =
+  fun _, bs,_ -> bs in
+      
+let bookingExists: (Model, Booking) -> Bool =
+  fun model, booking ->
+    List.exists(fun b -> b == booking, getBookings(model))  
+in
+  
+let getUserBookings: (Model, User) -> [Booking] =
+  fun model, user ->
+    List.filter(fun (_, u:User,_) -> u == user, getBookings(model)) 
+in
+
+let getBookingById: (Model, BookingID) -> Booking =
+  fun model, id ->
+    case List.filter(fun (_, _, i:BookingID) -> i == id, getBookings(model))
+      | [booking] => booking
+      | _ => ?  
+    end  
+in
+
+let weekdayIndex: Weekday -> Int =
+  fun day ->
+    case day
+      | M => 0
+      | T => 1
+      | W => 2
+      | R => 3
+      | F => 4   
+    end   
+in
+
+let isBeforeOrEqual: (TimeOfDay, TimeOfDay) -> Bool =
+  fun t1, t2 ->
+    case t1, t2
+      | AM, _ => true
+      | PM, PM => true
+      | _ => false   
+    end 
+in
+  
+let compareTimeRange: (Time, Time, Time) -> Bool =
+  fun (weekday, timeOfDay), (startWeekday, startTime), (lastWeekday, lastTime) ->
+    let bookingIndex = weekdayIndex(weekday) in
+    let startIndex = weekdayIndex(startWeekday) in
+    let lastIndex = weekdayIndex(lastWeekday) in
+    if bookingIndex > startIndex && bookingIndex < lastIndex then
+      true   
+    else if bookingIndex == startIndex && bookingIndex == lastIndex then
+      isBeforeOrEqual(startTime, timeOfDay)
+      && isBeforeOrEqual(timeOfDay, lastTime)  
+    else if bookingIndex == startIndex then
+      isBeforeOrEqual(startTime, timeOfDay)  
+    else if bookingIndex == lastIndex then
+      isBeforeOrEqual(timeOfDay, lastTime)  
+    else
+      false   
+in
+
+# Update the Room Booking app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (formState, bookings, nextId), action ->
+    case action
+      | AddBooking(user, weekday, timeOfDay) =>
+        let newBooking = ((weekday, timeOfDay), user, nextId) in
+        (((weekday, timeOfDay), user), newBooking :: bookings, nextId + 1)
+      | CancelBooking(user, id) =>
+        let updatedBookings = List.filter(
+          fun (_, u: User, i: BookingID) -> (u != user) \/ (i != id), bookings) in
+        (formState, updatedBookings, nextId)
+      | ClearBookings =>
+        (formState, [], nextId)
+      | ClearRange(startTime, lastTime) =>
+        let updatedBookings = List.filter(
+          fun ((weekday, timeOfDay), _, _):Booking ->
+            !compareTimeRange((weekday,timeOfDay), startTime, lastTime), bookings) in
+        (formState, updatedBookings, nextId)  
+    end  
+in
+
+# ROOM BOOKING MVU TESTS #
+
+test
+  getBookings(update(Model.init, AddBooking("Charles",M, AM)))
+  == [((M, AM),"Charles",0)]  
+end;
+      
+test
+  let model = update(Model.init, AddBooking("Alice", T, PM)) in
+  getBookings(model) == [((T, PM), "Alice", 0)] 
+end;
+
+test
+  let model = update(Model.init, AddBooking("Bob", W, AM)) in
+  getUserBookings(model, "Bob") == [((W, AM), "Bob", 0)]  
+end;
+      
+test
+  let model = update(Model.init, AddBooking("Alice", R, PM)) in
+  let model = update(model, CancelBooking("Alice", 0)) in
+  getUserBookings(model, "Alice") == []  
+end;
+      
+test
+  let model = update(Model.init, AddBooking("Alice", F, AM)) in
+  let model = update(model, AddBooking("Bob", F, AM)) in
+  getBookingById(model, 1) == ((F, AM), "Bob", 1)   
+end;
+      
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", M, PM)) in
+  let model = update(model, AddBooking("Alice", T, AM)) in
+  let model = update(model, AddBooking("Bob", T, PM)) in
+  let model = update(model, AddBooking("Alice", W, AM)) in
+  let model = update(model, CancelBooking("Alice", 0)) in
+  let model = update(model, CancelBooking("Bob", 3)) in
+  getBookings(model) == [((W, AM), "Alice", 4), ((T, AM), "Alice", 2), ((M, PM), "Bob", 1)]  
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", M, AM)) in
+  let model = update(model, AddBooking("Charlie", M, AM)) in
+  let model = update(model, AddBooking("Dave", M, PM)) in
+  let model = update(model, AddBooking("Eve", M, PM)) in
+  let model = update(model, CancelBooking("Bob", 1)) in
+  let model = update(model, CancelBooking("Dave", 3)) in
+  let model = update(model, CancelBooking("Alice", 0)) in
+  getBookings(model) == [((M, PM), "Eve", 4), ((M, AM), "Charlie", 2)]  
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, ClearBookings) in
+  getBookings(model) == []  
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", M, PM)) in
+  let model = update(model, ClearRange((M, AM), (M, PM))) in
+  getBookings(model) == []   
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", T, PM)) in
+  let model = update(model, AddBooking("Charlie", W, AM)) in
+  let model = update(model, ClearRange((M, AM), (T, AM))) in
+  getBookings(model) == [((W, AM), "Charlie", 2),((T, PM), "Bob", 1) ]  
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", M, PM)) in
+  let model = update(model, AddBooking("Charlie", T, AM)) in
+  let model = update(model, ClearRange((M, PM), (T, PM))) in
+  getBookings(model) == [((M, AM), "Alice", 0)]  
+end;
+  
+test
+  let model = update(Model.init, AddBooking("Alice", M, AM)) in
+  let model = update(model, AddBooking("Bob", T, AM)) in
+  let model = update(model, AddBooking("Charlie", W, PM)) in
+  let model = update(model, AddBooking("Dave", R, AM)) in
+  let model = update(model, ClearRange((T, PM), (W, AM))) in
+  List.length(getBookings(model)) == 4   
+end;
+```
+
+Emojipaint MVU in Hazel with unit tests for the update function:
+```
+# EMOJIPAINT MVU PRELUDE #
+
+type Emoji = String in 
+type Row = Int in 
+type Col = Int in 
+type Grid = [[Emoji]] in
+
+type Model = (
+  Grid,     # The 2D grid of emojis #
+  Emoji,    # The currently selected emoji #
+  [Emoji]   # The list of available emojis #
+) in
+
+type Action =
+  + SelectEmoji(Emoji)    # Set the currently selected emoji #
+  + StampEmoji(Row, Col)  # Stamp the current emoji at the specified position #
+  + ClearCell(Row, Col)   # Clear the emoji at the specified position #
+  + ClearGrid             # Clear the entire grid #
+  + FillRow(Row)          # Fill the specified row with the current emoji #
+in
+
+let model_init: Model = (
+  [["","",""],["","",""],["","",""]], # Initial 3x3 empty grid #
+  "😄",                               # Initial selected emoji #
+  ["😄", "😅", "😆", "😉", "😊"]        # Available emojis #
+) in
+  
+let updateGrid: (Grid, Row, Col, Emoji) -> Grid =
+  fun grid, row, col, emoji ->
+    List.mapi(
+      fun i, r -> 
+        if i == row  
+        then List.mapi(fun j, c -> if j == col then emoji else c, r) 
+        else r, 
+      grid
+   ) in
+  
+let clearGrid: Grid -> Grid =
+  fun grid -> List.map(fun row -> List.map(fun _ -> "", row), grid) 
+in
+  
+let fillRowInGrid: (Grid, Row, Emoji) -> Grid =
+  fun grid, rowToFill, emoji ->
+    List.mapi(
+      fun i, row -> 
+        if i == rowToFill 
+        then List.map(fun _ -> emoji, row) 
+        else row,
+      grid  
+  ) in
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, emojiList), action ->
+    case action 
+    | SelectEmoji(emoji) =>
+      (grid, emoji, emojiList)
+    | StampEmoji(row, col) =>
+      (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, emojiList)
+    | ClearCell(row, col) =>
+      (updateGrid(grid, row, col, ""), selectedEmoji, emojiList)
+    | ClearGrid =>
+      (clearGrid(grid), selectedEmoji, emojiList)
+    | FillRow(row) =>
+      (fillRowInGrid(grid, row, selectedEmoji), selectedEmoji, emojiList) 
+    end in
+
+# EMOJIPAINT MVU TESTS #
+
+test 
+  let (grid, _, _) = update(model_init, StampEmoji(0, 0)) in
+  grid == [["😄","",""],["","",""],["","",""]] 
+end;
+
+test
+  let (grid, _, _) = update(model_init, FillRow(1)) in
+  grid == [["","",""],["😄","😄","😄"],["","",""]] 
+end;
+
+test
+  let model = update(model_init, SelectEmoji("😅")) in
+  let (grid, selectedEmoji, _) = update(model, StampEmoji(2, 2)) in
+  grid == [["","",""],["","",""],["","","😅"]] && selectedEmoji == "😅" 
+end;
+    
+test
+  let model = update(model_init, FillRow(0)) in
+  let (grid, _, _) = update(model, ClearCell(0, 1)) in
+  grid == [["😄","","😄"],["","",""],["","",""]] 
+end;
+
+test
+  let model = update(model_init, StampEmoji(1, 1)) in
+  let (grid, _, _) = update(model, ClearGrid) in
+  grid == [["","",""],["","",""],["","",""]] 
+end;
+
+test
+  let (_, selectedEmoji, _) = update(model_init, SelectEmoji("😊")) in
+  let (grid_init, _, emojiList_init) = model_init in
+  let (grid, _, _) = update((grid_init, selectedEmoji, emojiList_init), StampEmoji(1, 2)) in
+  grid == [["","",""],["","","😊"],["","",""]] 
+end;
+  
+test
+  let (_, selectedEmoji, emojiList) = model_init in
+  let model = update(model_init, FillRow(2)) in
+  let (grid, _, _) = update(model, ClearCell(2, 0)) in
+  grid == [["","",""],["","",""],["","😄","😄"]] 
+end;
+
+test
+  let model = update(model_init, StampEmoji(0, 0)) in
+  let model = update(model, StampEmoji(1, 1)) in
+  let model = update(model, StampEmoji(2, 2)) in
+  let (grid, _, _) = update(model, ClearGrid) in
+  grid == [["","",""],["","",""],["","",""]] 
+end;
+        
+test
+  let (grid_init, _, emojiList_init) = model_init in
+  let model = update(model_init, FillRow(0)) in
+  let (_, selectedEmoji, _) = update(model, SelectEmoji("😆")) in
+  let (grid,_,_) = model in
+  let (grid, _, _) = update((grid, selectedEmoji, emojiList_init), StampEmoji(1, 1)) in
+  grid == [["😄","😄","😄"],["","😆",""],["","",""]] 
+end;
+  
+test
+  let model = update(model_init, StampEmoji(0, 0)) in
+  let model = update(model, FillRow(2)) in
+  let (grid, _, emojiList) = model in
+  let model = update(model, SelectEmoji("😉")) in
+  let model = update(model, StampEmoji(1, 1)) in
+  let model = update(model, ClearCell(2, 2)) in
+  let (grid, selectedEmoji, _) = model in
+  grid == [["😄","",""],["","😉",""],["😄","😄",""]] && selectedEmoji == "😉" 
+end;
+```
+
+Password checker MVU in Hazel with unit tests for the update function:
+```
+# PASSWORD CHECKER MVU PRELUDE #
+
+type PasswordCriteria =
+  + RequireUppercase
+  + RequireLowercase
+  + MinimumLength(Int)
+  + RequireNumber
+  + RequireSpecialChar in
+
+type PasswordStrength =
+  + Weak
+  + Moderate
+  + Strong in
+      
+type Password = String in
+type Criteria = [PasswordCriteria] in
+type Strength = PasswordStrength in
+  
+type Model = (Password, Criteria, Strength) in
+  
+let initialModel: Model = (
+  "",
+  [
+    MinimumLength(8),
+    RequireUppercase,
+    RequireLowercase,
+    RequireNumber,
+    RequireSpecialChar
+  ],
+  Weak
+) in
+
+type Action =
+  + UpdatePassword(String)
+  + ClearCriteria
+  + AddCriterion(PasswordCriteria)
+  + RemoveCriterion(PasswordCriteria) in
+    
+let meetsMinLength: (String, Int) -> Bool =
+  fun password, len ->
+    string_length(password) >= len in
+  
+let hasFromSet: (String, String) -> Bool =
+  fun password: Password, set: String ->
+    let loop: String -> Bool =
+      fun s: String ->
+        if string_length(s) == 0 
+        then false 
+        else
+          let first = string_sub(s, 0, 1) in
+          if string_contains(set, first) 
+          then true 
+          else loop(string_sub(s, 1, string_length(s) - 1)) 
+  in loop(password)
+in
+
+let hasUppercase: String -> Bool =
+  fun password: Password ->
+    hasFromSet(password, "ABCDEFGHIJKLMNOPQRSTUVWXYZ") in
+    
+let hasLowercase: Password -> Bool =
+  fun password: Password ->
+    hasFromSet(password, "abcdefghijklmnopqrstuvwxyz") in
+        
+let hasNumber: Password -> Bool =
+  fun password: Password ->
+    hasFromSet(password, "0123456789") in
+          
+let hasSpecialChar: Password -> Bool =
+  fun password: Password ->
+    hasFromSet(password, "!@#$%^&*()-_=+[]{}|;:,.<>?") in
+  
+let meetsCriterion: (Password, PasswordCriteria) -> Bool =
+  fun password, criterion ->
+    case criterion
+    | RequireUppercase => hasUppercase(password)
+    | RequireLowercase => hasLowercase(password)
+    | MinimumLength(len) => meetsMinLength(password, len)
+    | RequireNumber => hasNumber(password)
+    | RequireSpecialChar => hasSpecialChar(password) 
+  end in
+
+let metCriteria: (Password, [PasswordCriteria]) -> [Bool] =
+  fun password, criteria ->
+    List.filter(
+      fun c: PasswordCriteria -> meetsCriterion(password, c),
+      criteria
+    ) in
+    
+let strength_of: Int -> PasswordStrength =
+  fun num_criteria_met ->
+    case num_criteria_met
+    | 0 => Weak
+    | 1 => Weak
+    | 2 => Weak
+    | 3 => Moderate
+    | 4 => Strong
+    | _ => Strong 
+    end in
+      
+let calculateStrength: (Password, [PasswordCriteria]) -> PasswordStrength =
+  fun password, criteria ->
+    strength_of(List.length(metCriteria(password, criteria))) in
+
+# Update Password Strength Checker app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case action
+    | ClearCriteria =>
+      let (password, criteria, strength) = model in
+      (password, [], strength)
+    | UpdatePassword(newPassword) =>
+      let (_, criteria, _) = model in
+      let newStrength = calculateStrength(newPassword, criteria) in
+      (newPassword, criteria, newStrength)
+    | AddCriterion(newCriterion) =>
+      let (password, criteria, _) = model in
+      let newCriteria = newCriterion :: criteria in
+      let newStrength = calculateStrength(password, newCriteria) in
+      (password, newCriteria, newStrength)
+    | RemoveCriterion(criterionToRemove) =>
+      let (password, criteria, _) = model in
+      let newCriteria = List.filter(
+        fun c: PasswordCriteria -> c!= criterionToRemove, criteria
+      ) in
+      let newStrength = calculateStrength(password, newCriteria) in
+      (password, newCriteria, newStrength) 
+    end in
+
+# PASSWORD CHECKER MVU TESTS #
+
+test
+  let model = update(initialModel, ClearCriteria) in
+  let (_, criteria, _) = model in
+  List.length(criteria) == 0   
+end;
+
+test
+  let model = update(initialModel, ClearCriteria) in
+  let model = update(model, AddCriterion(RequireUppercase)) in
+  let (password, criteria, strength) = model in
+  List.length(criteria) == 1  
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("pass")) in
+  let (password, _, strength) = model in
+  password == "pass" && strength == Weak 
+end;
+  
+test
+  let model = update(initialModel, UpdatePassword("password")) in
+  let (password, _, strength) = model in
+  password == "password" && strength == Weak 
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("Password123")) in
+  let (password, _, strength) = model in
+  password == "Password123" && strength == Strong 
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("Password123!")) in
+  let (password, _, strength) = model in
+  password == "Password123!" && strength == Strong 
+end;
+    
+test
+  let model = update(initialModel, UpdatePassword("password")) in
+  let model = update(model, AddCriterion(RequireUppercase)) in
+  let (password, criteria, strength) = model in
+  password == "password" && List.length(criteria) == 6 && strength == Weak 
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("Password123!")) in
+  let model = update(model, RemoveCriterion(RequireUppercase)) in
+  let (password, criteria, strength) = model in
+  password == "Password123!" && List.length(criteria) == 4 && strength == Strong 
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("pass")) in
+  let model = update(model, RemoveCriterion(MinimumLength(8))) in
+  let (password, criteria, strength) = model in
+  password == "pass" && List.length(criteria) == 4 && strength == Weak 
+end;
+      
+test
+  let model = update(initialModel, UpdatePassword("Passw0rd!")) in
+  let model = update(model, RemoveCriterion(RequireSpecialChar)) in
+  let (password, criteria, strength) = model in
+  password == "Passw0rd!" && List.length(criteria) == 4 && strength == Strong 
+end;
+          
+test
+  let model = update(initialModel, UpdatePassword("password123")) in
+  let model = update(model, AddCriterion(RequireSpecialChar)) in
+  let (password, criteria, strength) = model in
+  password == "password123" && List.length(criteria) == 6 && strength == Moderate 
+end;
+
+test
+  let model = update(initialModel, UpdatePassword("P@ssw0rd!")) in
+  let model = update(model, RemoveCriterion(RequireUppercase)) in
+  let model = update(model, RemoveCriterion(RequireSpecialChar)) in
+  let (password, criteria, strength) = model in
+  password == "P@ssw0rd!" && List.length(criteria) == 3 && strength == Moderate 
+end;
+```
+
+Playlist MVU in Hazel with unit tests for the update function:
+```
+# PLAYLIST MVU PRELUDE #
+
+# Non-negative ID for songs #
+type Id = Int in
+
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
+  + AddSong(Id)
+in
+
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
+
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
+
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
+
+# Get the id of the currently playing song #
+let get_state: PlayList -> PlayListState =
+  fun playlist ->
+    let songs, state = playlist in
+    state
+in
+
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    case action
+      | PlaySong(id) => (get_songs(playlist), Playing(id))
+      | PauseCurrentSong =>
+        case get_state(playlist)
+        | Playing(id) =>
+          (get_songs(playlist), PausedOn(id))
+        | state =>
+          (get_songs(playlist), state)
+        end
+      | RemoveSong(id) =>
+        let new_songs = 
+          List.filter((fun x -> x != id), get_songs(playlist))
+        in
+        let new_state =
+          case get_state(playlist)
+          | Playing(current_id) =>
+            if id == current_id then
+              NoSongSelected
+            else
+              Playing(current_id)
+          | PausedOn(current_id) =>
+            if id == current_id then
+              NoSongSelected
+            else
+              PausedOn(current_id)
+          | NoSongSelected =>
+            NoSongSelected
+          end
+        in
+        (new_songs, new_state)
+      | AddSong(id) => (id::get_songs(playlist), get_state(playlist))
+    end
+in
+
+# TODO MVU TESTS #
+
+let eq = Model.eq in
+let num_todos = fun m:Model -> List.length(snd(m)) in
+
+test  # Add adds #
+  num_todos(update(("Breath", []), AddTodo))
+  > num_todos(("Breath", [])) end;
+
+test  # Add uses name, initial status set #
+  eq(
+  update(("Breath", []), AddTodo),
+  ("", [("Breath", false)])) end;
+
+test  # Add nonempty (too impl spec? test add + remove eqs)#
+  eq(
+  update(("Chop wood", [("Carry water", false)]), AddTodo),
+    ("", [("Chop wood", false), ("Carry water", false)])) end;
+      
+test  # add then remove doesn't change todos #
+  let todos = [("Breath", false)] in
+  eq(
+    update(update(("Remove this", todos), AddTodo), RemoveTodo(0)),
+    ("", todos)) end;
+      
+test  # Toggle preserves length #
+  let model = ("", [("1", false), ("2", false)]) in
+  num_todos(update(model, ToggleTodo(1)))
+    == num_todos(model) end;
+    
+test  # Toggle toggles right index #
+  eq(
+    update(("", [("Chop", false), ("Carry", true)]), ToggleTodo(1)),
+    ("", [("Chop", false), ("Carry", false)])) end;
+  
+test  # Toggle out of bounds #
+  let model = ("", [("Chop", false), ("Carry", false)]) in
+  eq(
+    update(model, ToggleTodo(2)),
+    model) end;
+  
+test  # Remove removes #
+  let model = ("", [("1", false)]) in
+  num_todos(update(model, RemoveTodo(0)))
+  < num_todos(model) end;
+
+test  # Remove removes right index #
+  eq(
+    update(("", [("1", false), ("2", false)]), RemoveTodo(1)),
+    ("", [("1", false)])) end;
+  
+test  # Remove out of bounds #
+  let model = ("", [("1", false)]) in
+  eq(
+    update(model, RemoveTodo(2)),
+    model) end;
+
+test  # Update Input #
+eq(
+  update(("", []), UpdateBuffer("Breath")),
+  ("Breath", [])) end;
+      
+test  # Don't add blank description #
+  let model = ("", [("1", false)]) in
+  eq(
+    update(model, AddTodo),
+    model) end
+
+```
+
+Todo MVU in Hazel with unit tests for the update function:
+```
+# TODO MVU PRELUDE #
+
+# A todo has a description and a status #
+type Todo = (String, Bool) in
+
+# A description input buffer and a todo list #
+type Model = (String, [Todo]) in
+
+type Action =
+  + AddTodo
+  + RemoveTodo(Int)
+  + ToggleTodo(Int)
+  + UpdateBuffer(String) in
+
+type Update = (Model, Action) -> Model in
+
+let Todo.eq: (Todo, Todo) -> Bool =
+  fun (d1, s1), (d2, s2) ->
+  d1 $== d2 && bool_eq(s1, s2) in
+
+let Model.eq: (Model, Model) -> Bool =
+  fun (b1, ts1), (b2, ts2) ->
+    b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
+
+let Model.init: Model = ("", []) in
+
+let add: Model -> [Todo] =
+  fun (description, todos) ->
+    if description $== ""      
+    then todos     
+    else (description, false) :: todos in
+
+let remove: (Int, [Todo]) -> [Todo]=
+  fun (index, todos) ->
+    List.filteri(fun i, _ -> i!= index, todos) in
+
+let toggle: (Int, [Todo]) -> [Todo]=
+  fun (index, todos) ->
+    List.mapi(
+      fun i, (description, done) ->
+        (description, if i == index then !done else done),
+        todos) in
+
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  let add: Model -> [Todo] =
+    fun (description, todos) ->
+      if description $== ""      
+      then todos     
+      else (description, false) :: todos in
+  let remove: (Int, [Todo]) -> [Todo]=
+     fun (index, todos) ->
+      List.filteri(fun i, _ -> i!= index, todos) in
+  let toggle: (Int, [Todo]) -> [Todo]=
+    fun (index, todos) ->
+      List.mapi(
+        fun i, (description, done) ->
+          (description, if i == index then !done else done),
+          todos) in
+  fun ((input: String, todos: [Todo]), action) ->
+    case action
+    | AddTodo => ("", add(input, todos))
+    | ToggleTodo(idx) => (input, toggle(idx, todos))
+    | RemoveTodo(idx) => (input, remove(idx, todos))
+    | UpdateBuffer(description) => (description, todos) end in
+
+# TODO MVU TESTS #
+
+let eq = Model.eq in
+let num_todos = fun m:Model -> List.length(snd(m)) in
+
+test  # Add adds #
+  num_todos(update(("Breath", []), AddTodo))
+  > num_todos(("Breath", [])) end;
+
+test  # Add uses name, initial status set #
+  eq(
+  update(("Breath", []), AddTodo),
+  ("", [("Breath", false)])) end;
+
+test  # Add nonempty (too impl spec? test add + remove eqs)#
+  eq(
+  update(("Chop wood", [("Carry water", false)]), AddTodo),
+    ("", [("Chop wood", false), ("Carry water", false)])) end;
+      
+test  # add then remove doesn't change todos #
+  let todos = [("Breath", false)] in
+  eq(
+    update(update(("Remove this", todos), AddTodo), RemoveTodo(0)),
+    ("", todos)) end;
+      
+test  # Toggle preserves length #
+  let model = ("", [("1", false), ("2", false)]) in
+  num_todos(update(model, ToggleTodo(1)))
+    == num_todos(model) end;
+    
+test  # Toggle toggles right index #
+  eq(
+    update(("", [("Chop", false), ("Carry", true)]), ToggleTodo(1)),
+    ("", [("Chop", false), ("Carry", false)])) end;
+  
+test  # Toggle out of bounds #
+  let model = ("", [("Chop", false), ("Carry", false)]) in
+  eq(
+    update(model, ToggleTodo(2)),
+    model) end;
+  
+test  # Remove removes #
+  let model = ("", [("1", false)]) in
+  num_todos(update(model, RemoveTodo(0)))
+  < num_todos(model) end;
+
+test  # Remove removes right index #
+  eq(
+    update(("", [("1", false), ("2", false)]), RemoveTodo(1)),
+    ("", [("1", false)])) end;
+  
+test  # Remove out of bounds #
+  let model = ("", [("1", false)]) in
+  eq(
+    update(model, RemoveTodo(2)),
+    model) end;
+
+test  # Update Input #
+eq(
+  update(("", []), UpdateBuffer("Breath")),
+  ("Breath", [])) end;
+      
+test  # Don't add blank description #
+  let model = ("", [("1", false)]) in
+  eq(
+    update(model, AddTodo),
+    model) end
+```
+
+Game of Life MVU in Hazel with unit tests for the update function:
+```
+# GAME OF LIFE MVU PRELUDE #
+
+type Cell = Bool in
+type Row = [Cell] in
+type Grid = [Row] in  
+type Index = (Int, Int) in
+type Model = (Grid, Int) in
+
+type Action =
+  + InitializeGrid(Grid)
+  + NextGeneration
+  + ToggleCell(Index) in
+
+let Grid.empty: Grid =
+[
+    [false,false,false],
+    [false,false,false], 
+    [false,false,false]
+] in
+
+let Grid.set: (Grid, Index, Cell) -> Grid =
+fun grid, (i, j), cell ->
+List.mapi(
+  fun k, row ->
+    if k == i 
+      then List.mapi(fun l, c -> if l == j then cell else c, row) 
+        else row,
+        grid) in
+
+let Grid.at: (Grid, Index) -> Cell =
+fun grid, (i, j) ->
+List.nth(List.nth(grid, i), j) in
+
+let neighbors: (Grid, Index) -> [Index] =
+fun grid, (i, j) ->
+let rows = List.length(grid) in
+  let cols = List.length(List.hd(grid)) in
+    let indices = [
+        (i-1,j-1),(i-1,j),(i-1,j+1),
+        (i,j-1),          (i,j+1),
+        (i+1,j-1),(i+1,j),(i+1,j+1)
+    ] in
+    List.filter(
+    fun (r, c) -> 
+    r >= 0 && r < rows && c >= 0 && c < cols,
+      indices
+    ) in
+
+let neighbor_count: (Grid, Index) -> Int =
+fun grid, idx ->
+List.fold_right(
+  fun n, count ->
+    if Grid.at(grid, n) then count+1 else count,
+      neighbors(grid, idx),
+      0) in
+
+let next_cell: (Grid, Index) -> Cell =
+fun grid, idx ->
+let cell = Grid.at(grid, idx) in
+  let count = neighbor_count(grid, idx) in
+    if cell 
+    then 2 <= count && count <= 3 
+    else count == 3 in
+    
+let next_grid: Grid -> Grid =
+fun grid ->
+List.mapi(
+  fun i, row ->
+    List.mapi(
+      fun j, _ -> next_cell(grid, (i,j)),
+        row),
+          grid) in
+
+# GAME OF LIFE MVU: Update function handles actions to update the model #
+
+let update: (Model, Action) -> Model =
+fun (grid, generations), action ->
+    case action
+    | InitializeGrid(g) => (g, 0)
+    | NextGeneration => (next_grid(grid), generations + 1)
+    | ToggleCell(index) =>  
+      (Grid.set(grid, index, !Grid.at(grid, index)), generations)  
+      end in
+
+# GAME OF LIFE MVU TESTS #
+let grid_eq: (Grid, Grid) -> Bool = fun (a, b) -> List.equal(fun c, d -> List.equal(bool_eq, c, d), a, b) in
+
+test grid_eq(Grid.empty, Grid.empty) end;
+
+let empty_model = (Grid.empty, 0) in
+neighbor_count(Grid.empty, (0,0));
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let (grid, generations) = update(empty_model, NextGeneration) in
+  grid_eq(grid, Grid.empty) && generations == 1 
+end;
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let (grid, generations) = update(empty_model, ToggleCell((1,1))) in
+  Grid.at(grid, (1,1)) && generations == 0   
+end;
+
+test
+  let empty_model = (Grid.empty, 0) in
+  let init_grid =
+    [[false,false,false],
+      [false,true,false],
+    [false,false,false]] in
+  let (grid, generations) = update(empty_model, InitializeGrid(init_grid)) in
+  grid_eq(grid, init_grid) && generations == 0 
+end;
+
+test
+  let init_grid = 
+    [[false,true,false],
+      [false,true,false], 
+    [false,true,false]] in
+  let expected_grid =
+    [[false,false,false],
+      [true,true,true],
+  [false,false,false]] in
+  let (grid, generations) = update((init_grid, 0), NextGeneration) in
+  grid_eq(grid, expected_grid) && generations == 1 
+end;
+
+test
+  let init_grid = 
+    [[false,true,false],
+      [true,true,true],
+  [false,true,false]] in
+  let expected_grid =
+    [[true,true,true],
+      [true,false,true],
+  [true,true,true]] in
+  let (grid, generations) = update((init_grid, 0), NextGeneration) in
+  grid_eq(grid, expected_grid) && generations == 1   
+end;
+
+test
+  let init_grid =
+    [[false,false,false,false],
+      [false,true,true,false],
+      [false,true,true,false],
+  [false,false,false,false]] in
+  let (grid, generations) = update((init_grid, 0), ToggleCell((1,0))) in
+  let (grid, generations) = update((grid, generations), NextGeneration) in
+  let expected_grid =
+    [[false,true,false,false],
+      [true,false,true,false],
+      [true,false,true,false],
+  [false,false,false,false]] in
+  grid_eq(grid, expected_grid) && generations == 1 
+end;
+
+test
+  let init_grid = 
+    [[false,false,false,false,false],
+      [false,false,true,false,false],
+      [false,false,true,false,false],
+      [false,false,true,false,false],
+  [false,false,false,false,false]] in
+  
+  let expected_grid_gen3 =
+    [[false,false,false,false,false],
+      [false,false,false,false,false],
+      [false,true,true,true,false],
+      [false,false,false,false,false],
+  [false,false,false,false,false]] in
+  
+  let (grid1, generations1) = update((init_grid, 0), NextGeneration) in
+  let (grid2, generations2) = update((grid1, generations1), NextGeneration) in
+  let (grid3, generations3) = update((grid2, generations2), NextGeneration) in
+  
+  grid_eq(grid3, expected_grid_gen3) &&
+  generations3 == 3 
+end;
+
+test
+  let complex_init_grid =
+    [[false,false,false,false,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,true,false,false,true,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,false,false,false,false,false],
+  [false,false,false,false,false,false,false]] in
+  
+  let expected_grid_gen3 =
+    [[false,false,false,false,false,false,false],
+      [false,false,true,true,false,false,false],
+      [false,true,false,false,true,false,false],
+      [false,true,false,false,true,false,false],
+      [false,false,true,true,false,false,false],
+      [false,false,false,false,false,false,false],
+  [false,false,false,false,false,false,false]] in
+  
+  let (grid1, generations1) = update((complex_init_grid, 0), NextGeneration) in
+  let (grid2, generations2) = update((grid1, generations1), NextGeneration) in
+  let (grid3, generations3) = update((grid2, generations2), NextGeneration) in
+  
+  grid_eq(grid3, expected_grid_gen3) &&
+  generations3 == 3 
+end;
+```
+
+Snake Game MVU in Hazel with unit tests for the update function:
