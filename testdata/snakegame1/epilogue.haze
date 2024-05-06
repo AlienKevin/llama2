@@ -1,0 +1,90 @@
+# SNAKEGAME MVU TESTS #
+
+test
+  let m = Model.init in
+  Direction.eq(Model.direction(update(m, ChangeDirection(Left))), Left) 
+end;
+
+test
+  let m = ([(1,1),(1,0)], (5,5), Right, Running, 0)  in
+  List.eq(Position.eq, Model.snake(update(m, Tick)), [(2,1),(1,1)]) 
+end;
+
+test
+  let m = ([(1,1),(1,0)], (5,5), Down, Running, 0) in
+  List.eq(Position.eq, Model.snake(update(m, Tick)), [(1,2),(1,1)])   
+end;
+
+test  
+  let m = ([(9,9)], (5,5), Right, Running, 0) in
+  GameState.eq(Model.state(update(m, Tick)), GameOver) 
+end;
+
+test
+  let m = ([(5,4),(5,3)], (5,5), Down, Running, 0) in
+  let (snake, apple, dir, state, score) = update(m, Tick) in
+  score == 1 && Direction.eq(dir, Down) && List.eq(Position.eq, snake, [(5,5),(5,4)]) 
+end;
+
+test
+  let m = ([(0,0),(0,1),(1,1)], (1,0), Left, Running, 0) in
+  GameState.eq(Model.state(update(m, Tick)), GameOver)   
+end;
+
+test
+  let m = Model.init in
+  GameState.eq(Model.state(update(m, Start)), Running) &&
+  Model.score(update(m, Start)) == 0 
+end;
+
+# This test case checks the behavior when the snake is moving upwards and is about to collide with the top boundary. It ensures that the snake's position is updated correctly, the apple remains the same, the direction and state are unchanged, and the score is not incremented. #
+test
+  let snake = [(1,1),(1,2),(1,3),(1,4),(1,5)] in
+  let apple = (1,6) in
+  let m = (snake, apple, Up, Running, 0) in
+  let (new_snake, new_apple, new_dir, new_state, new_score) = update(m, Tick) in
+  List.eq(Position.eq, new_snake, [(1,0),(1,1),(1,2),(1,3),(1,4)]) &&
+  Position.eq(new_apple, apple) &&
+  Direction.eq(new_dir, Up) &&
+  GameState.eq(new_state, Running) &&
+  new_score == 0
+end;
+
+# This test case checks the behavior when the snake is moving leftwards and is about to eat the apple at the left boundary. It ensures that the snake's position is updated correctly, the apple is consumed (but remains the same since we haven't implemented apple repositioning), the direction is unchanged, the state changes to Won, and the score is incremented.#
+test
+  let snake = [(1,2),(2,2),(3,2),(4,2),(5,2),(6,2),(7,2)] in
+  let apple = (0,2) in
+  let m = (snake, apple, Left, Running, 0) in
+  let (new_snake, new_apple, new_dir, new_state, new_score) = update(m, Tick) in
+  List.eq(Position.eq, new_snake, [(0,2),(1,2),(2,2),(3,2),(4,2),(5,2),(6,2)]) &&
+  Position.eq(new_apple, apple) &&
+  Direction.eq(new_dir, Left) &&
+  GameState.eq(new_state, Won) &&
+  new_score == 1 
+end;
+
+# The snake forms a circle and shouldn't collide with itself when moving down#
+test
+  let snake = [(3,3),(4,3),(5,3),(5,4),(5,5),(4,5),(3,5),(3,4)] in
+  let apple = (6,6) in
+  let m = (snake, apple, Down, Running, 0) in
+  let (new_snake, new_apple, new_dir, new_state, new_score) = update(m, Tick) in
+  List.eq(Position.eq, new_snake, [(3,4),(3,3),(4,3),(5,3),(5,4),(5,5),(4,5),(3,5)]) &&
+  Position.eq(new_apple, apple) &&
+  Direction.eq(new_dir, Down) &&
+  GameState.eq(new_state, Running) &&
+  new_score == 0
+end;
+
+# The snake should collide with its tail#
+test
+  let snake = [(3,3),(4,3),(5,3),(5,4),(5,5),(4,5),(3,5),(3,4), (2, 4)] in
+  let apple = (6,6) in
+  let m = (snake, apple, Down, Running, 0) in
+  let (new_snake, new_apple, new_dir, new_state, new_score) = update(m, Tick) in
+  List.eq(Position.eq, new_snake, [(3,4),(3,3),(4,3),(5,3),(5,4),(5,5),(4,5),(3,5), (3,4)]) &&
+  Position.eq(new_apple, apple) &&
+  Direction.eq(new_dir, Down) &&
+  GameState.eq(new_state, GameOver) &&
+  new_score == 0
+end;

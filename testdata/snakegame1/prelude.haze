@@ -1,0 +1,112 @@
+# SNAKE GAME MVU PRELUDE #
+
+type Direction = Left + Right + Up + Down in
+type Position = (Int, Int) in
+type Snake = [Position] in
+type Apple = Position in
+type GameState = Running + GameOver + Won in
+
+type Model = (Snake, Apple, Direction, GameState, Int) in
+
+type Action =
+  + Start 
+  + ChangeDirection(Direction)
+  + Tick 
+in
+
+let Direction.eq: (Direction, Direction) -> Bool =
+  fun (d1, d2) ->
+    case d1, d2
+      | Left, Left => true
+      | Right, Right => true
+      | Up, Up => true
+      | Down, Down => true
+      | _ => false
+    end
+in
+
+let GameState.eq: (GameState, GameState) -> Bool =
+  fun (g1, g2) ->
+    case g1, g2
+      | Running, Running => true
+      | GameOver, GameOver => true
+      | Won, Won => true
+      | _ => false 
+    end
+in
+
+let Model.init: (Snake, Apple, Direction, GameState, Int) =
+  ([(0,0)], (5,5), Right, Running, 0)  
+in
+
+let Position.add: (Position, Position) -> Position =
+  fun (x1, y1), (x2, y2) -> (x1+x2, y1+y2)  
+in
+
+let Position.direction_vector: Direction -> Position =
+  fun direction ->
+    case direction
+      | Left  => (-1, 0)
+      | Right => ( 1, 0)  
+      | Up    => ( 0, -1)
+      | Down  => ( 0, 1) 
+    end 
+in
+
+let List.take: (Int, [?]) -> [?] =
+  fun n, xs ->
+    if n <= 0 then
+      [] 
+    else
+      case xs
+        | [] => []
+        | y::ys => y :: List.take(n - 1, ys) 
+      end
+in
+
+let Snake.slither: (Snake, Direction) -> Snake =
+  fun snake, direction ->
+    case snake
+      | head::tail =>
+      let new_head = Position.add(head, Position.direction_vector(direction)) in
+      new_head :: List.take(List.length(tail), snake)  
+      | _ => snake
+    end   
+in
+
+let Model.score: Model -> Int =
+  fun (snake, apple, direction, state, score) -> score 
+in
+
+let Model.state: Model -> GameState =
+  fun (snake, apple, direction, state, score) -> state   
+in
+
+let Model.snake: Model -> Snake =
+  fun (snake, apple, direction, state, score) -> snake 
+in
+
+let Model.apple: Model -> Apple =
+  fun (snake, apple, direction, state, score) -> apple 
+in
+
+let Model.direction: Model -> Direction =
+  fun (snake, apple, direction, state, score) -> direction   
+in
+
+let out_of_bounds: Position -> Bool =
+  fun (x, y) -> x < 0 \/ x >= 10 \/ y < 0 \/ y >= 10 
+in
+
+let Position.eq: (Position, Position) -> Bool =
+  fun ((p11, p12), (p21, p22)) ->
+    p11 == p21 && p12 == p22
+in
+
+let self_collision: Snake -> Bool = 
+  fun snake ->
+    case snake
+      | head::tail => List.exists(fun pos -> Position.eq(pos,head), tail)
+      | _ => false 
+    end
+in

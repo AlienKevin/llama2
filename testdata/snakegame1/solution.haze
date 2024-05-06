@@ -1,0 +1,24 @@
+# Snake Game MVU: Update the game model based on an action #
+
+let update: (Model, Action) -> Model = 
+fun model, action ->
+let (snake, apple, direction, state, score) = model in
+case action
+  | Start => Model.init
+    | ChangeDirection(new_direction) =>
+    (snake, apple, new_direction, state, score)
+      | Tick =>
+        case state 
+      | Running =>
+      let new_snake = Snake.slither(snake, direction) in
+      let head = List.hd(new_snake) in
+        if out_of_bounds(head) \/ self_collision(new_snake) then
+        (new_snake, apple, direction, GameOver, score) 
+        else if Position.eq(head, apple) then 
+        (new_snake, apple, direction, Won, score + 1) 
+          else
+        (new_snake, apple, direction, Running, score)
+          | _ => model 
+        end
+          end
+in
