@@ -1,0 +1,28 @@
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => 
+      (updateGrid(grid, row, col, selectedEmoji), 
+       selectedEmoji, 
+       availableEmojis)
+    | ClearCell(row, col) => 
+      (updateGrid(grid, row, col, ""), 
+       selectedEmoji, 
+       availableEmojis)
+    | ClearGrid => 
+      (clearGrid(grid), 
+       selectedEmoji, 
+       availableEmojis)
+    | FillRow(row) => 
+      (fillRowInGrid(grid, row, selectedEmoji), 
+       selectedEmoji, 
+       availableEmojis) end in
+  
+# Render the EmojiPaint app model as a virtual DOM #
+
+type Html =
+  + Text(String)
+  + Tag(String, [(String, String)], [Html]) in

@@ -1,0 +1,3829 @@
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+ 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+   
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), Add
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplic
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+         
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id]
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlayS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+      
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Play
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), Pause
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrent
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), P
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), Paused
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    |
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), Remove
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+     
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list =
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song ->
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(s
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id),
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+       
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list,
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, No
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoS
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSong
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected)
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected)
+
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected)
+in
+
+
+================
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected)
+in
+
+

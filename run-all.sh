@@ -7,7 +7,7 @@ cd llama.cpp
 mkdir -p ../outputs
 
 # Define an array of file paths
-query_files=(todo2)
+query_files=(emojipaint1)
 
 # Loop through all .txt files in the queries directory
 for query_file in "${query_files[@]}"; do
@@ -27,12 +27,13 @@ for query_file in "${query_files[@]}"; do
         touch log.txt && echo "" > log.txt
 
         # Run the main command with modifications for each query
+        # Debugging: lldb -o run ./main \
         ./main \
             --dynamic-grammar context \
             -t 10 \
             -ngl 64 \
             -b 512 \
-            -m /Volumes/crucialx9/models/codellama-34b.Q5_K_M.v3.gguf \
+            -m /Volumes/crucialx9/models/starcoder2-15b-Q5_K_M.gguf \
             --color -c 3400 \
             --seed $i \
             --temp 0.8 \

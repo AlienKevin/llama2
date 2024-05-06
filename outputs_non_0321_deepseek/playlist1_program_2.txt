@@ -1,0 +1,31 @@
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun playlist, action ->
+    match action with
+    | AddSong id =>
+      let songs = get_songs(playlist), current = get_state(playlist) in
+        if List.mem((fun a b -> a == b), songs, id) then
+          playlist
+        else 
+         (id::songs, current)
+    | PlaySong id =>
+      let songs = get_songs(playlist), current = get_state(playlist) in
+        if List.mem((fun a b -> a == b), songs, id) then
+          (songs, Playing(id))
+        else 
+         (songs, NoSongSelected)
+    | PauseCurrentSong =>
+      let songs = get_songs(playlist), current = get_state(playlist) in
+       match current with
+       | Playing id => 
+          (songs, PausedOn(id))
+       | _ => playlist
+    | RemoveSong id => 
+       let songs = get_songs(playlist), current = get_state(playlist) in
+        if List.mem((fun a b -> a == b), songs, id) then
+          (List.filter((fun i -> i != id), songs), NoSongSelected)
+        else 
+          playlist
+    | _ => playlist
+    end in

@@ -33,12 +33,12 @@ def main():
     prelude_content = read_file(f"testdata/{query_name}/prelude.haze")
     write_file(f"autoregressive.prelude", prelude_content)
 
-    write_file(f"autoregressive.common_prelude", common_content + prelude_content)
+    write_file(f"autoregressive.common_prelude", common_content + "\n" + prelude_content)
 
     sketch_content = read_file(f"testdata/{query_name}/sketch.haze").removesuffix("  ??\nin")
     write_file(f"autoregressive.sketch", sketch_content)
 
-    prompt_content = common_content + prelude_content + sketch_content
+    prompt_content = common_content + "\n" + prelude_content + "\n" + sketch_content
     write_file(f"autoregressive.prompt", prompt_content)
 
 if __name__ == "__main__":

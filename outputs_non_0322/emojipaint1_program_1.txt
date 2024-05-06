@@ -1,0 +1,37 @@
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model = 
+  fun model, action -> 
+    case action
+    | SelectEmoji(e) =>
+      (model.0, e, model.2)
+    | StampEmoji(row, col) => 
+      let grid = updateGrid(model.0, row, col, model.1) in
+      (grid, model.1, model.2)
+    | ClearCell(row, col) => 
+      let grid = updateGrid(model.0, row, col, "") in
+      (grid, model.1, model.2)
+    | ClearGrid =>
+      let grid = clearGrid(model.0) in
+      (grid, model.1, model.2)
+    | FillRow(rowToFill) => 
+      let grid = fillRowInGrid(model.0, rowToFill, model.1) in
+      (grid, model.1, model.2) end in
+  
+# Render a single emoji button #
+let EmojiButton: (Emoji, ? -> Action) -> ? = 
+  fun emoji, onClick ->
+    <button class="emoji-btn" onclick={onClick}>{emoji}</button> end in
+  
+# Render a single cell of the grid #
+let GridCell: (Grid, Row, Col, ? -> Action) -> ? = 
+  fun grid, row, col, onStamp ->
+    <div class="grid-cell">
+      {case List.nth(grid, row)
+        | Some(rowList) => 
+          case List.nth(rowList, col)  
+            | Some(emoji) => 
+              EmojiButton(emoji, fun _ -> onStamp(row, col)) 
+            | None => ? end
+        | None => ? end}
+    </div> end in

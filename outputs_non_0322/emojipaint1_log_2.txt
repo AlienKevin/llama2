@@ -1,0 +1,2128 @@
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+ 
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis),
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    |
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | Select
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) =>
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, em
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    |
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | St
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | Stamp
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) =>
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (update
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji),
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    |
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | Clear
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) =>
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (update
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, "
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""),
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    |
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | Clear
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid =>
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clear
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid),
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+   
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    |
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | F
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | Fill
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowTo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) =>
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fill
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRow
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowIn
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, row
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowTo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji),
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selected
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedE
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmo
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji,
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, available
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEm
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmoj
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmojis
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmojis)
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmojis) end
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmojis) end in
+
+
+================
+
+# Update the EmojiPaint app model based on an action #
+
+let update: (Model, Action) -> Model =
+  fun (grid, selectedEmoji, availableEmojis), action ->
+    case action
+    | SelectEmoji(emoji) => (grid, emoji, availableEmojis)
+    | StampEmoji(row, col) => (updateGrid(grid, row, col, selectedEmoji), selectedEmoji, availableEmojis)
+    | ClearCell(row, col) => (updateGrid(grid, row, col, ""), selectedEmoji, availableEmojis)
+    | ClearGrid => (clearGrid(grid), selectedEmoji, availableEmojis)
+    | FillRow(rowToFill) => (fillRowInGrid(grid, rowToFill, selectedEmoji), selectedEmoji, availableEmojis) end in
+
+

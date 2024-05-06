@@ -1,0 +1,27 @@
+# TODO MVU: Handle TODO actions to update the app model #
+
+let update: (Model, Action) -> Model =
+  fun model, action ->
+    case model, action
+    | description, buffer, AddTodo => ("", add(description, buffer))
+    | description, buffer, RemoveTodo(index) => ("", remove(index, buffer))
+    | description, buffer, ToggleTodo(index) => ("", toggle(index, buffer))
+    | _, todos, UpdateBuffer(text) => (text, todos) end in# TODO MVU: Create a view that takes the model and renders it as HTML #
+
+let View: Model -> Html =
+  fun (description, todos) -> 
+    let input_todo = Input.create(
+      "input",
+      ~onChange=(fun ev -> UpdateBuffer(ev.value)),
+      ~value=description, ~placeholder="Add Todo") in
+    let todo_list = List.mapi(
+      fun i, (desc, done_) =>
+        Div.create(
+          [Text.create(if !done_ then "DONE: " else "TODO: "); Text.create(desc)],
+          ~onClick=(fun _ -> ToggleTodo(i)),
+          ~style="background-color:" ++ if done_ then "lightgreen" else "white"), 
+        todos) in
+    let remove_all = Button.create("Remove All", ~onClick=(fun ev -> 0)) in
+    Div.create([input_todo; remove_all] @ todo_list, ~style="margin: 1em") in# TODO MVU: Create the app and pass the initial model #
+
+let App = App.create("TODO", Model.init, update, View) in

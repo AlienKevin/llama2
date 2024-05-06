@@ -1,0 +1,21 @@
+# Update Playlist app model based on an action #
+
+let update: (PlayList, PlayListAction) -> PlayList =
+  fun p, a -> 
+    case p, a
+    | (songs, current), AddSong(new_id) =>
+      if List.mem(Int.eq, songs, new_id) then
+        # ignore duplication #
+          p
+      else
+        ([new_id] @ songs, current)
+    | (songs, _), PlaySong(song_id) =>
+       let new_state = if List.mem(Int.eq, songs, song_id) then 
+                        Playing(song_id)
+                      else NoSongSelected in
+        (songs, new_state)
+    | (_, current), PauseCurrentSong => (get_songs(p), PausedOn(current))
+    | (songs, _), RemoveSong(song_id) =>
+      let new_list = List.filter(fun song -> !Int.eq(song, song_id), songs) in
+        (new_list, NoSongSelected)
+in

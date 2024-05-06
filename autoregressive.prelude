@@ -1,42 +1,37 @@
-# TODO MVU PRELUDE #
+# PLAYLIST MVU PRELUDE #
 
-# A todo has a description and a status #
-type Todo = (String, Bool) in
+# Non-negative ID for songs #
+type Id = Int in
 
-# A description input buffer and a todo list #
-type Model = (String, [Todo]) in
+# Actions user can do in a playlist #
+type PlayListAction =
+  + PlaySong(Id)
+  + PauseCurrentSong
+  + RemoveSong(Id)
+  # Add to the front of the playList, ignore duplication #
+  + AddSong(Id)
+in
 
-type Action =
-  + AddTodo
-  + RemoveTodo(Int)
-  + ToggleTodo(Int)
-  + UpdateBuffer(String) in
+# The state of the playlist #
+type PlayListState =
+  + Playing(Id)
+  + PausedOn(Id)
+  + NoSongSelected
+in
 
-type Update = (Model, Action) -> Model in
+# A playlist with a list of songs and the current state of the playlist #
+type PlayList = ([Id], PlayListState) in
 
-let Todo.eq: (Todo, Todo) -> Bool =
-  fun (d1, s1), (d2, s2) ->
-  d1 $== d2 && bool_eq(s1, s2) in
+# Get all the song ids in the playlist #
+let get_songs: PlayList -> [Id] =
+  fun playlist ->
+    let songs, current = playlist in
+    songs 
+in
 
-let Model.eq: (Model, Model) -> Bool =
-  fun (b1, ts1), (b2, ts2) ->
-    b1 $== b2 && List.equal(Todo.eq, ts1, ts2) in
-
-let Model.init: Model = ("", []) in
-
-let add: Model -> [Todo] =
-  fun (description, todos) ->
-    if description $== ""      
-    then todos     
-    else (description, false) :: todos in
-
-let remove: (Int, [Todo]) -> [Todo]=
-  fun (index, todos) ->
-    List.filteri(fun i, _ -> i!= index, todos) in
-
-let toggle: (Int, [Todo]) -> [Todo]=
-  fun (index, todos) ->
-    List.mapi(
-      fun i, (description, done) ->
-        (description, if i == index then !done else done),
-        todos) in
+# Get the id of the currently playing song #
+let get_state: PlayList -> PlayListState =
+  fun playlist ->
+    let songs, state = playlist in
+    state
+in
